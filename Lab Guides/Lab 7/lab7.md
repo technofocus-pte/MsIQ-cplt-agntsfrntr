@@ -1,4 +1,4 @@
-# Lab 7 - Optimize financial reporting and acquisition modeling with Microsoft 365 Copilot Finance Agent**
+# Lab 7 - Optimize financial analysis and reporting for Zava Retail finance operations with Microsoft 365 Copilot
 
 **Estimated Duration:** 40 minutes
 
