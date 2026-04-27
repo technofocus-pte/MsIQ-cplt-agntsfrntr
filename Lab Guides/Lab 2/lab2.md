@@ -1,4 +1,4 @@
-# Lab 2 - Use Researcher agent to surface insights, organize content, and produce quality outputs in Microsoft 365 Copilot
+# Elevate Zava Retail intelligence with a Researcher Agent for smarter insights and reporting
 
 **Estimated duration:** 40 minutes
 
