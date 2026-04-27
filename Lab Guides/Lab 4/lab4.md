@@ -52,7 +52,7 @@ plain language — the same way you would brief a colleague — and Copilot
 builds it. The more specific your description, the more accurate the
 first version will be.
 
-## Task 1: Access App Builder
+### Task 1: Access App Builder
 
 1.  In your browser, navigate to +++<https://m365.cloud.microsoft/>+++
     Sign in with your credentials.
@@ -69,7 +69,7 @@ first version will be.
 4.  The App Builder interface will open with a conversational input
     field — this is where you describe your app.
 
-## Task 2: Describe Your App in Natural Language
+### Task 2: Describe Your App in Natural Language
 
 1.  In the App Builder input field, paste the following prompt and click
     on **Execute** button.
