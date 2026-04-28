@@ -620,7 +620,7 @@ like **createRepair**, **updateRepair** and **deleteRepair.**
   }
   ```
 
-    ![](./media/image40.png)
+![](./media/image40.png)
 
 2.  Now, open **main.tsp** file and add these new operations into the
     agent's action. **Paste** the below snippet after the line **op
