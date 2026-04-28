@@ -44,7 +44,7 @@ intelligent and trustworthy.
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
     ![](./media/image1.png)
-    ![](./media/image102.png)
+    ![](./media/image101.png)
 
 4.  Click **Yes**, to stay signed in.
 
@@ -90,7 +90,7 @@ will now build the agent.
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
    ![](./media/image1.png)
-   ![](./media/image102.png)
+   ![](./media/image101.png)
 
 3. In the **left navigation**, select **New Agent.**
 
@@ -158,7 +158,7 @@ responds.
 
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++ 
     ![](./media/image1.png)
-    ![](./media/image102.png)
+    ![](./media/image101.png)
 
 3.  The Knowledge Assistant Agent opens. Click on ellipsis icon and
     Select **Edit.**  
@@ -330,10 +330,10 @@ appropriate team+++*
 
 ![](./media/image41.png)
 
-4.  In the Knowledge section, add the relevant +++[HR
-    document](https://lodsprodmca.sharepoint.com/:f:/s/ZavaSite83/IgDF9aJMDXKzQYNYGImaIZrhAU1-t5HrDkAplqqKRSRnX8k?e=nUlcXI).+++
-    You can download the file, save it on your **SharePoint** site, and
-    paste the **URL** here. You can also download the HR document and
+4.  In the Knowledge section, add the relevant HR
+    document form C:\Labfiles\Lab6-Lab files\HR Document
+    You save it on your **SharePoint** site, and
+    paste the **URL** here. Or you can also
     upload the file by using “**Add knowledge**” section.
 
     ![](./media/image42.png)
