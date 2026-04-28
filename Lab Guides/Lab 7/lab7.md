@@ -57,9 +57,7 @@ most relevant numbers.
 
 Complete the following steps in order:
 
-1.  Select the link to download the file +++[Zava Home COGS
-    Estimates.xlsx](https://lodsprodmca-my.sharepoint.com/:x:/g/personal/user1-60937628_lodsprodmca_onmicrosoft_com/IQBL70zVOJ3sQ6XBRs0_LNnnAcW0gU1fKYz-c2WQVjy93Cs?e=Td8yOB)+++
-    file and store it on your desktop. Or navigate to **C:\Labfiles\Lab7-Lab files** and open the **Zava Home COGS Estimates.xlsx** file.
+1.  Navigate to **C:\Labfiles\Lab7-Lab files** and open the **Zava Home COGS Estimates.xlsx** file.
     ![](./media/image1.png)
 
 2.  Open the excel sheet and Select the Copilot icon from the Home tab
