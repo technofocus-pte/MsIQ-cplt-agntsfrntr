@@ -36,89 +36,98 @@ intelligent and trustworthy.
 
 ### Task 1: Access the Agent Creation Tool 
 
-1.  Navigate to +++<https://m365.cloud.microsoft/>+++ to open Microsoft
+1.  Navigate to +++https://m365.cloud.microsoft/+++ to open Microsoft
     365 Copilot.
 
 2.  Sign in with your Microsoft 365 Copilot account.
+   
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
-    ![](./media/image1.png)
-    ![](./media/image101.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image1.png)
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image101.png)
 
 4.  Click **Yes**, to stay signed in.
 
-    ![](./media/image2.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image2.png)
 
 5.  In the left navigation bar, select **All Agents** and then select
-    **SharePoint**.  
-    ![](./media/image3.png)
+    **SharePoint**.
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image3.png)
 
-6.  On the SharePoint home page, create your organization’s site. Click
-    **Create site** in the top-left corner and follow the wizard.  
-    ![](./media/image4.png)
+7.  On the SharePoint home page, create your organization’s site. Click
+    **Create site** in the top-left corner and follow the wizard.
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image4.png)
 
-    ![](./media/image5.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image5.png)
 
-7.  Paste the site name as +++**ZavaSite**+++
+9.  Paste the site name as +++**ZavaSite**+++
 
-    ![](./media/image6.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image6.png)
 
-8.  Navigate to **C:\Labfiles\Lab6-Lab files** and **upload** the following folders in your SharePoint
+10.  Navigate to **C:\Labfiles\Lab6-Lab files** and **upload** the following folders in your SharePoint
     site:
-    - Product Specs Folder
-    - Project Updates
-    - Shift Handover notes
-    - SOP
-    library
-    ![](./media/image7.png)
 
-    > **Note:** *Before testing your Copilot Agent, ensure that all
-    required source documents (such as project updates, SOP files, product
-    specifications, shift handover notes, or any other referenced materials)
-    are uploaded to the appropriate SharePoint site libraries and folders.
-    The agent can only generate accurate, grounded responses from content
-    that exists in the site and is accessible through its configured
-    knowledge sources.*
+        - Product Specs Folder
+        - Project Updates
+        - Shift Handover notes
+        - SOP
+        - library
+         
+        ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image7.png)
+
+        >[!Note] *Before testing your Copilot Agent, ensure that all
+        required source documents (such as project updates, SOP files, product
+        specifications, shift handover notes, or any other referenced materials)
+        are uploaded to the appropriate SharePoint site libraries and folders.
+        The agent can only generate accurate, grounded responses from content
+        that exists in the site and is accessible through its configured
+        knowledge sources.*
 
 ### Task 2: Create a New Agent 
 
 With your SharePoint site open and your frontline scenario selected, you
 will now build the agent.  
   
-1. Log in to Microsoft Copilot with your Microsoft credentials. 
+1. Log in to Microsoft Copilot with your Microsoft credentials.
+
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
-   ![](./media/image1.png)
-   ![](./media/image101.png)
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image1.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image101.png)
 
 3. In the **left navigation**, select **New Agent.**
 
-    ![](./media/image8.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image8.png)
 
-4. Select **Create New Agent** from the top left corner.  
-    ![](./media/image9.png)
+4. Select **Create New Agent** from the top left corner.
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image9.png)
 
-5. When the **Create new agent panel** opens, paste the following
+6. When the **Create new agent panel** opens, paste the following
 information in the respective fields:
 
-    - **Agent Name**: +++Project Knowledge Assistant+++
+    - **Agent Name**: `Project Knowledge Assistant`
 
-    - **Description**: +++Helps users find project documents and summaries+++
+    - **Description**: `Helps users find project documents and summaries`
 
-    - **Instructions**: +++Provide concise answers using only verified information from included SharePoint sources+++ 
+    - **Instructions**: `Provide concise answers using only verified information from included SharePoint sources` 
 
-    ![](./media/image10.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image10.png)
 
 8.  Navigate to the **Knowledge tab** in the Create new agent panel.
     Enter the URL for your ZavaSite that lists all the required
     documents.
 
-    ![](./media/image11.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image11.png)
 
 9.  Click **Create** to finalize your agent configuration.  
 
-    ![](./media/image12.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image12.png)
 
 ### Task 3: Test Your Agent 
 
@@ -128,18 +137,18 @@ agents should only surface verified, relevant information.
 
 1.  Open **Agent Chat** on the right side of the ZavaSite page.
 
-    ![](./media/image13.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image13.png)
 
 2.  In the chat field, paste the following prompt and select **Execute
     button**.
 
     +++"Summarize the project plan” +++
     
-    ![](./media/image14.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image14.png)
 
 3.  Review the output:  
       
-    ![](./media/image15.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image15.png)
 
 ## Exercise 2: Advanced Instruction Authoring in Copilot Studio
 
@@ -151,50 +160,55 @@ responds.
 
 ### Task 1: Open Your Agent in Copilot Studio
 
-1.  In your browser, navigate directly to
-    +++https://copilotstudio.microsoft.com/+++
-    Sign in with your M365 lab credentials.
+1.  In your browser, navigate directly to +++https://copilotstudio.microsoft.com/+++ Sign in with your M365 lab credentials.
+   
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
-
-    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++ 
-    ![](./media/image1.png)
-    ![](./media/image101.png)
+    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
+      
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image1.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image101.png)
 
 3.  The Knowledge Assistant Agent opens. Click on ellipsis icon and
-    Select **Edit.**  
-    ![](./media/image16.png)
+    Select **Edit.**
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image16.png)
 
-4.  Select the ellipsis icon on the upper left corner. Select **Copy to
-    Copilot studio**.  
-    ![](./media/image17.png)
+5.  Select the ellipsis icon on the upper left corner. Select **Copy to
+    Copilot studio**.
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image17.png)
 
-5.  A confirmation prompt window will pop-up. Select **Get Started.**  
-    ![](./media/image18.png)
+7.  A confirmation prompt window will pop-up. Select **Get Started.**
+8.  
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image18.png)
 
-6.  Select your **Environment** and Click **Continue**.  
-    ![](./media/image19.png)
+9.  Select your **Environment** and Click **Continue**.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image19.png)
 
-7.  You will be redirected to the Copilot Studio page. Here you can edit
+11.  You will be redirected to the Copilot Studio page. Here you can edit
     the instructions, and paste the below given instructions:  
 
-    ```
-    You are the Store Operations Assistant for a retail
-    organization. Only answer questions using content from the connected
-    SharePoint sources. Always cite the document name and section. If a
-    question falls outside your knowledge sources, respond: "I don't
-    have that information — please check with your shift manager or
-    visit the intranet." Keep responses to 3–5 bullet points. Do not
-    speculate or summarize information that is not present in a
-    source
-    ```
+        ```
+        You are the Store Operations Assistant for a retail
+        organization. Only answer questions using content from the connected
+        SharePoint sources. Always cite the document name and section. If a
+        question falls outside your knowledge sources, respond: "I don't
+        have that information — please check with your shift manager or
+        visit the intranet." Keep responses to 3–5 bullet points. Do not
+        speculate or summarize information that is not present in a
+        source
+        ```
 
-    ![](./media/image20.png)
+        ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image20.png)
 
-8.  Click **Create**.  
-    ![](./media/image21.png)
+11.  Click **Create**.
+    
+        ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image21.png)
 
-9.  After reviewing your agent, Click **Publish**.  
-    ![](./media/image22.png)
+13.  After reviewing your agent, Click **Publish**.
+    
+        ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image22.png)
 
 ### Task 2: Add a Topic: Out-of-Scope Redirect
 
@@ -203,21 +217,22 @@ when specific phrases or conditions are detected. You will create a
 short topic that politely redirects users who ask questions outside the
 agent's domain.
 
-1.  In Copilot Studio, navigate to **Topics** in the upper menu bar.  
-    ![](./media/image23.png)
+1.  In Copilot Studio, navigate to **Topics** in the upper menu bar.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image23.png)
 
-2.  Select + **Add a topic \> From blank.**  
-    ![](./media/image24.png)
+3.  Select + **Add a topic \> From blank.**
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image24.png)
 
-3.  Paste the name of the topic:  
-    +++Out-of-Scope Redirect.+++  
-    ![](./media/image25.png)
+5.  Paste the name of the topic: +++Out-of-Scope Redirect.+++
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image25.png)
 
-4.  In the Trigger section, paste the following phrases as trigger
+7.  In the Trigger section, paste the following phrases as trigger
     phrases (one per line):
 
     ```
-
     - I need help with something else
 
     - Can you help me with HR?
@@ -227,15 +242,15 @@ agent's domain.
     - I have a different question
     ```
 
-    ![](./media/image26.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image26.png)
 
-5.  Click **+ icon** below the trigger node to add a Message node.
+8.  Click **+ icon** below the trigger node to add a Message node.
     Select **Send a Message**.
 
-    ![](./media/image27.png)  
-    ![](./media/image28.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image27.png)  
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image28.png)
 
-6.  Paste the following text in the message description box:
+9.  Paste the following text in the message description box:
 
     ```
     I am specialized for HR & Payroll Assistant questions. For other
@@ -243,24 +258,24 @@ agent's domain.
     there anything else I can help you with in my area?
     ```
     
-    ![](./media/image29.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image29.png)
 
-7.  Click **Save** to save the topic and then, select **Publish** to
+10.  Click **Save** to save the topic and then, select **Publish** to
     publish the agent again.  
-    ![](./media/image30.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image30.png)
 
 ### Task 3: Test the agent
 
 1.  Select **Test** from the upper navigation bar.  
-    ![](./media/image31.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image31.png)
 
 2.  Paste the following prompt, and select the **Execute** button:  
     +++Can you help me with HR?+++
     
-    ![](./media/image32.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image32.png)
 
 3.  Review the output:  
-    ![](./media/image33.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image33.png)
 
 ## Exercise 3: Designing a Multi-Agent Orchestration Pattern
 
@@ -279,32 +294,36 @@ whenever a user asks a question outside the primary scope. This topic
 will surface a handoff message and when the license supports, it
 redirects the user to the second agent.
 
-1.  In Copilot Studio, navigate to **Topics**. Select **+Add a New topic
-    > From blank**.  
-    ![](./media/image24.png)
+1.  In Copilot Studio, navigate to **Topics**. Select **+Add a New topic > From blank**.  
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image24.png)
 
 2.  Paste the following information in the topic:  
-    **Name**- +++Handoff to Secondary Agent+++
 
-    **Trigger phrases**: +++payroll", "leave request", "HR policy", "annual leave", "employee record"+++
+    **Name**- `Handoff to Secondary Agent`
 
-    ![](./media/image34.png)
+    **Trigger phrases**: `payroll", "leave request", "HR policy", "annual leave", "employee record"`
 
-3.  Click **+** to add a new node.  
-    ![](./media/image35.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image34.png)
 
-4.  Select **Send a Message** to add a message node.  
-    ![](./media/image36.png)
+4.  Click **+** to add a new node.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image35.png)
 
-5.  In the Message description box, paste the following information:  
-    +++That question is outside my area. I'm connecting you to the HR &
-    Payroll Agent who can help with that — one moment please+++
+6.  Select **Send a Message** to add a message node.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image36.png)
 
-    ![](./media/image37.png)
+8.  In the Message description box, paste the following information:
+   
+    `That question is outside my area. I'm connecting you to the HR &
+    Payroll Agent who can help with that — one moment please`
 
-6.  Click Save and **Publish** to save the node and publish the setting
-    again.  
-    ![](./media/image38.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image37.png)
+
+10.  Click Save and **Publish** to save the node and publish the setting
+    again.
+
+![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image38.png)
 
 ### Task 2: Configure the Secondary Agent
 
@@ -312,23 +331,25 @@ Now, we will create a lightweight secondary agent to handles the
 out-of-scope queries using multi-agent connections.
 
 1.  In Copilot Studio, select **New Agent** from the left navigation
-    bar.  
-    ![](./media/image39.png)
+    bar.
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image39.png)
 
-2.  In the name section, paste the following name of the agent as below:
+3.  In the name section, paste the following name of the agent as below:
 
-    +++**HR & Payroll Assistant**+++  
-    ![](./media/image40.png)
+    +++HR & Payroll Assistant+++
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image40.png)
 
-3.  In the Instructions field, paste the following instructions:
+5.  In the Instructions field, paste the following instructions:
 
-*+++You are the HR & Payroll Assistant. You handle queries specifically
-related to store operations. Use only verified content from your
-connected sources. Always cite source and section. If a query falls
-outside your scope, say: "That's outside my remit. Please contact the
-appropriate team+++*
-
-![](./media/image41.png)
+    +++You are the HR & Payroll Assistant. You handle queries specifically
+    related to store operations. Use only verified content from your
+    connected sources. Always cite source and section. If a query falls
+    outside your scope, say: "That's outside my remit. Please contact the
+    appropriate team+++
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image41.png)
 
 4.  In the Knowledge section, add the relevant HR
     document form C:\Labfiles\Lab6-Lab files\HR Document
@@ -336,23 +357,27 @@ appropriate team+++*
     paste the **URL** here. Or you can also
     upload the file by using “**Add knowledge**” section.
 
-    ![](./media/image42.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image42.png)
 
 5.  Select **Publish** to publish the secondary
-    agent.![](./media/image43.png)
+    agent.![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image43.png)
 
 ### Task 3: Add the Secondary Agent to the Primary Agent. 
 
-1. Go to the **Project Knowledge Assistant** Agent.  
-    ![](./media/image44.png)
+1. Go to the **Project Knowledge Assistant** Agent.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image44.png)
 
-2. In the Agent section, select **+Add**. 
-    ![](./media/image45.png)
+3. In the Agent section, select **+Add**.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image45.png)
 
-3. Select the **HR & Payroll Assistant** from the list.  
-    ![](./media/image46.png)
+5. Select the **HR & Payroll Assistant** from the list.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image46.png)
 
-4. Paste the following description in the description box:  
+7. Paste the following description in the description box:
+   
     ```
     Use this agent when users ask about HR or payroll matters, including
     payslips, leave balances, salary deductions, attendance, tax forms,
@@ -360,35 +385,40 @@ appropriate team+++*
     workforce support queries to the HR & Payroll Assistant for accurate
     resolution
     ```
-    ![](./media/image47.png)
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image47.png)
 
-5. In the completion step, paste the following message to display:  
+9. In the completion step, paste the following message to display:  
   
-    +++Your request relates to HR and payroll support. Transferring you now to the HR & Payroll Assistant for accurate assistance*+++  
-    ![](./media/image48.png)
+    `Your request relates to HR and payroll support. Transferring you now to the HR & Payroll Assistant for accurate assistance`
 
-6. Select **Publish** to publish the agent.  
-    ![](./media/image49.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image48.png)
+
+11. Select **Publish** to publish the agent.  
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image49.png)
 
 ### Task 4: Test the End-to-End Orchestration
 
 With both agents published, validate the complete handoff flow using the
 test scenarios below.
 
-1.  Navigate to **Project Knowledge Assistant** agent.  
-    ![](./media/image50.png)
+1.  Navigate to **Project Knowledge Assistant** agent.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image50.png)
 
-2.  Select **Test** in the upper menu bar.  
-    ![](./media/image51.png)
+3.  Select **Test** in the upper menu bar.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image51.png)
 
-3.  Paste the following prompt in the chat interface:  
+5.  Paste the following prompt in the chat interface:  
       
-    +++What is my leave balance?+++
-    ![](./media/image52.png)
+    `What is my leave balance?`
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image52.png)
 
-4.  Review the output:  
-    ![](./media/image53.png)
-    ![](./media/image53.png)
+7.  Review the output:  
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image53.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image53.png)
 
 ## Summary 
 
