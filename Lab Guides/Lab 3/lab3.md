@@ -74,22 +74,23 @@ and configure it inside Microsoft 365 Copilot.
 
 ### Task 1: Open Agent Builder
 
-1.  Navigate to +++<https://m365copilot.com/>+++ to open Microsoft 365
+1.  Navigate to +++https://m365copilot.com/+++ to open Microsoft 365
     copilot page. Sign in with your credentials.
+    
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
-
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
-    ![](./media/image100.png)
-    ![](./media/image101.png)
-    ![](./media/image102.png)
+      
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image100.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image101.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image102.png)
 
 3.  From the left navigation panel, click **Create Agent**.
 
-    ![](./media/image2.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image2.png)
 
 4.  The **New Agent** page will be opened.
 
-    ![](./media/image3.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image3.png)
 
 ## Task 2: Define and Configure Agent 
 
@@ -102,10 +103,11 @@ and configure it inside Microsoft 365 Copilot.
     assisting leaders with workforce readiness decisions during digital
     transformation+++  
     
-    ![](./media/image4.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image4.png)
 
 2.  Paste the below given prompt in the field and then click on
-    the **Execute** button. 
+    the **Execute** button.
+    
     ```
     You are Zava Retail’s Workforce Coach.
 
@@ -136,11 +138,11 @@ and configure it inside Microsoft 365 Copilot.
     - Retail store cluster context
     ```
 
-3.  Review the output:
+4.  Review the output:
 
-    ![](./media/image5.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image5.png)
 
-4. In the Knowledge Sources, upload or connect the below mentioned
+5. In the Knowledge Sources, upload or connect the below mentioned
 organizational resources. Select **Upload from device** icon to upload
 the files.
 
@@ -154,13 +156,13 @@ the files.
 
     - ERP migration training documentation
 
-    ![](./media/image6.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image6.png)
 
-    ![](./media/image7.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image7.png)
 
 4.  Click **Create** and then, select **Go to Agent**.
 
-    ![](./media/image8.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image8.png)
 
 ## Exercise 2: Grounding the Agent in Organizational Context
 
@@ -171,6 +173,7 @@ Retail.
 
 1.  Paste the following prompt in the chat panel and click on the
     **Execute** button.
+    
     ```
     I am the COO of Zava Retail, a mid-sized retail chain specializing
     in consumer electronics and home goods, with 4 regional store clusters
@@ -187,11 +190,11 @@ Retail.
     3. Supply chain risk management for mid-career analysts
     ```
 
-    ![](./media/image9.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image9.png)
 
-2.  Review the output:
+3.  Review the output:
 
-    ![](./media/image10.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image10.png)
 
 ### Task 2: Validate Agent Understanding**
 
@@ -199,11 +202,11 @@ Retail.
     **Execute** button.  
     +++What are the most critical workforce skill domains I should prioritize during this retail digital transformation? +++
 
-    ![](./media/image11.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image11.png)
 
 2. Review the output:
 
-    ![](./media/image12.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image12.png)
 
 ## Exercise 3: Diagnosing Workforce Skill Gaps
 
@@ -220,11 +223,11 @@ diagnose workforce skills gaps:
     and what targeted learning plan should I create? 
     ```
 
-    ![](./media/image13.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image13.png)
 
 2.  Review the output:
 
-    ![](./media/image14.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image14.png)
 
 ### Task 2: Diagnose Maria Santos
 
@@ -238,11 +241,11 @@ diagnose workforce skills gaps:
     What urgent learning and knowledge transfer plan should I implement?
     ```
 
-    ![](./media/image15.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image15.png)
 
 2.  Review the output:
 
-    ![](./media/image16.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image16.png)
 
 ### Task 3: Diagnose Derek Okonkwo
 
@@ -255,18 +258,19 @@ diagnose workforce skills gaps:
     *What resistance patterns and skill gaps should I address?
     ``` 
     
-    ![](./media/image17.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image17.png)
 
 2.  Review the output:
 
-    ![](./media/image18.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image18.png)
 
 ## Exercise 4: Generating Personalized Learning Plans
 
 ### Task 1: Generate Alex’s 6-Week Plan
 
 1.  To generate plan for Alex, paste the following prompt and click on
-    the **Execute** button.  
+    the **Execute** button.
+    
     ```  
     Generate a structured 6-week learning plan for Alex with:*  
     - Learning objectives*  
@@ -275,11 +279,12 @@ diagnose workforce skills gaps:
     - Checkpoints
     - Success metrics
     ```
-    ![](./media/image19.png)
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image19.png)
 
-2.  Review the output:
+3.  Review the output:
 
-    ![](./media/image20.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image20.png)
 
 ### Task 2: Maria’s 60-Day Transition Plan
 
@@ -293,11 +298,11 @@ diagnose workforce skills gaps:
     2. Analyst upskilling
     ```
 
-    ![](./media/image21.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image21.png)
 
 2.  Review the output:
 
-    ![](./media/image22.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image22.png)
 
 ### Task 3: Derek’s RMS Adoption Plan
 
@@ -305,13 +310,13 @@ diagnose workforce skills gaps:
     **Execute** button.
 
     +++Create an 8-week adoption-focused learning plan for Derek that
-    positions RMS mastery as a career growth opportunity. +++
+    positions RMS mastery as a career growth opportunity.+++
 
-    ![](./media/image23.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image23.png)
 
 2.  Review the output:
 
-    ![](./media/image24.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image24.png)
 
 ## Exercise 5: Workforce Readiness Briefing
 
@@ -327,11 +332,12 @@ diagnose workforce skills gaps:
     3. What I need from Store Managers
     4. 30-day watch list
     ```
-    ![](./media/image25.png)
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image25.png)
 
 2.  Review the output:
 
-    ![](./media/image26.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image26.png)
 
 ### Task 2: Tailor for VP of HR
 
@@ -339,11 +345,12 @@ diagnose workforce skills gaps:
     paste the below prompt and click on the **Execute** button.
 
     +++Condense this into a 5-bullet summary for my VP of HR focused only on HR action items.+++
-    ![](./media/image27.png)
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image27.png)
 
-2.  Review the output:
+3.  Review the output:
 
-    ![](./media/image28.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image28.png)
 
 ## Summary
 
