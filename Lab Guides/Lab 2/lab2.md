@@ -70,52 +70,54 @@ challenges include:
 
 Patricia logs into Copilot to review Festive Campaign readiness.
 
-1.  Navigate to +++<https://m365copilot.com/>+++ Microsoft 365 copilot
+1.  Navigate to +++https://m365copilot.com/+++ Microsoft 365 copilot
     page. 
 
-2.  Enter the **Username - +++@lab.CloudPortalCredential(User1).Username+++** in the field and then click on
+2.  Enter the **Username - +++@lab.CloudPortalCredential(User1).Username+++* in the field and then click on
     the **Next** button to proceed. 
 
-     ![](./media/image1.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image1.png)
 
-3.  Enter **TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++** in the field and then click on the **Sign
+3.  Enter **TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++* in the field and then click on the **Sign
     in** button and click on the **Yes** to stay Signed in. 
 
-    ![](./media/image2.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image2.png)
 
 4.  Explore the Copilot chat environment.
 
-    ![](./media/image3.png) 
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image3.png) 
 
 5.  In the left **navigation pane**, look for **Agents**. 
 
     - If **Researcher** appears directly under the **Agents** section \>
     select **Researcher**. 
 
-    ![](./media/image4.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image4.png)
 
     - If not, select **All Agents**. In the **Agent Store** window, under
     the **Built by Microsoft** section, select **Researcher**. 
 
-    ![](./media/image5.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image5.png)
 
 6.  Select **Open** to access the Researcher agent.
 
-    ![](./media/image6.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image6.png)
 
 7.  The **Researcher Agent window** opens in a new pane. 
 
-    ![](./media/image7.png) 
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image7.png) 
 
 ## Exercise 2: Run Your First Research Prompt (Campaign Intelligence)
 
 Patricia wants a complete overview of campaign progress for Zava Retail.
 
 1.  Before interacting with agent first we will send some demo campaign emails to the current lab user with your emial. So the Researcher Agent can access relevant data and produce meaningful insights and summaries. You can get demo campaign email from **C:\Labfiles\Lab2-Lab** files.
-    ![](./media/image71.png) 
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image71.png) 
 
-2. Go to the Researcher agent, paste the following prompt in the prompt
-    field, and then click on the **Execute** button. 
+3. Go to the Researcher agent, paste the following prompt in the prompt
+    field, and then click on the **Execute** button.
+   
     ```
     Help me gather and summarize all recent discussions, documents, and
     emails related to Zava Retail Festive Campaign from the past 90 days.
@@ -133,20 +135,20 @@ Patricia wants a complete overview of campaign progress for Zava Retail.
     - Key risks or delays 
     ```
 
-    ![](./media/image8.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image8.png)
 
-3.  Wait for the **Researcher Agent** to gather and summarize the data
+5.  Wait for the **Researcher Agent** to gather and summarize the data
     review the Researcher agent carefully. The Researcher Agent may ask
     clarifying questions. Select the report length as “Short” and select
     “Go ahead with your best judgement” and select **Execute** button.
 
-    ![](./media/image9.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image9.png)
 
-    > **Note:** Ensure that demo campaign emails and Teams messages are
+    >[!Note] Ensure that demo campaign emails and Teams messages are
     shared beforehand so the Researcher Agent can access relevant data and
     produce meaningful insights and summaries.
 
-4. Review the Researcher agent’s response: 
+6. Review the Researcher agent’s response: 
 
     The agent searches across Outlook, Teams, and SharePoint documents to
     retrieve the following:
@@ -163,23 +165,23 @@ Patricia wants a complete overview of campaign progress for Zava Retail.
     
     - Strategic insights
 
-5. Review the output:
+7. Review the output:
 
-    ![](./media/image10.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image10.png)
 
-    ![](./media/image11.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image11.png)
 
-    ![](./media/image12.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image12.png)
 
-    ![](./media/image13.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image13.png)
 
-    ![](./media/image14.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image14.png)
 
-    ![](./media/image15.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image15.png)
 
-    ![](./media/image16.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image16.png)
 
-    ![](./media/image17.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image17.png)
 
 ## Exercise 3: Action and Decision Intelligence 
 
@@ -189,68 +191,68 @@ the data, findings, or situation.
 
 ### Task 1: Identify Action Items
 
-1.  Navigate to +++<https://m365copilot.com/>+++ Microsoft 365 copilot
+1.  Navigate to +++https://m365copilot.com/+++ Microsoft 365 copilot
     page. 
 
 2.  Go to the Researcher agent, paste the below given prompt in the
     field and then click on the **Execute** button. 
 
-    +++*List all action items related to the Zava Festive Campaign.* +++
+    +++List all action items related to the Zava Festive Campaign.+++
 
-    ![](./media/image18.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image18.png)
 
 3.  Review the output:
 
     - Action items such as “Pending approval”, “Pending confirmation”,
     “Under review” are identified as **Action Items**.
 
-    ![](./media/image19.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image19.png)
 
-    ![](./media/image20.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image20.png)
 
 ### Task 2: Key Decisions
 
 1. Under the Researcher agent, paste the below given prompt in the
 field and then click on the **Execute** button. 
 
-    +++*Summarize key decisions made across emails and Teams discussions for
-    the campaign.* +++
+    +++Summarize key decisions made across emails and Teams discussions for
+    the campaign.+++
 
-    ![](./media/image21.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image21.png)
 
 2.  Review the output:
 
     - The key decisions related to multiple action items and teams are
     summarized in the output.
 
-    ![](./media/image22.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image22.png)
 
-    ![](./media/image23.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image23.png)
 
 ### Task 3: Draft Leadership Email
 
 1. Under Researcher agent, paste the below given prompt in the chat
 panel and then click on the **Execute** button. 
 
-    +++ *Draft an email to the leadership team summarizing campaign
-    readiness and participation.* +++
+    +++Draft an email to the leadership team summarizing campaign
+    readiness and participation.+++
 
-    ![](./media/image24.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image24.png)
 
 2. Wait for the **Researcher Agent** to gather and summarize the data
 review the Researcher agent carefully. The Researcher Agent may ask
 clarifying questions. Select the report length as “Short” and select “Go
 ahead with your best judgement” and select the **Execute** button.
 
-    ![](./media/image25.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image25.png)
 
 3.  Review the output: 
 
-     ![](./media/image26.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image26.png)
 
-    ![](./media/image27.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image27.png)
 
-    ![](./media/image28.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image28.png)
 
 ### Task 4: Meeting Preparation (Executive Readiness)
 
@@ -267,7 +269,7 @@ the upcoming meeting.
     +++Help me prepare for an upcoming meeting by summarizing recent
     communication and shared files about.+++
 
-    ![](./media/image29.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image29.png)
 
 2.  Wait for the **Researcher Agent** to gather and summarize the data
     review the Researcher agent carefully. The Researcher Agent may ask
@@ -275,30 +277,30 @@ the upcoming meeting.
     “Meeting is the Q2 Sales Review on April 10” and select the
     **Execute** button.
 
-    ![](./media/image30.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image30.png)
 
 3.  Review the output:
 
-    ![](./media/image31.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image31.png)
 
-    ![](./media/image32.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image32.png)
 
-    ![](./media/image33.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image33.png)
 
 4.  Paste the below given prompt in the field and then click on
     the **Execute** button.
 
     +++What topics have been discussed in past weekly team syncs?+++
 
-    ![](./media/image34.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image34.png)
 
 5.  Review the output:
 
-    ![](./media/image35.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image35.png)
 
-    ![](./media/image36.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image36.png)
 
-    ![](./media/image37.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image37.png)
 
 ### Task 5: Progress and Status Analysis
 
@@ -309,18 +311,18 @@ the leadership team.
 
 1.  Under Researcher agent, paste the below given prompt in the field
     and then click on the **Execute** button.   
-    +++*Summarize the current status and blockers for the Zava Festive
+    +++Summarize the current status and blockers for the Zava Festive
     Campaign.*+++
 
-    ![](./media/image38.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image38.png)
 
 2.  Review the output:
 
-    ![](./media/image39.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image39.png)
 
-    ![](./media/image40.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image40.png)
 
-    ![](./media/image41.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image41.png)
 
 ### Task 6: Identify Gaps and Risks
 
@@ -335,7 +337,7 @@ further. Patricia wants to uncover hidden risks.
 
     +++What open questions or gaps remain in the Zava Festive Campaign?+++
 
-    ![](./media/image42.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image42.png)
 
 2.  Wait for the **Researcher Agent** to gather and summarize the data
     review the Researcher agent carefully. The Researcher Agent may ask
@@ -343,11 +345,11 @@ further. Patricia wants to uncover hidden risks.
     “Analyze sales data and customer feedback for gaps” and select the
     **Execute** button.
 
-    ![](./media/image43.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image43.png)
 
 3.  Review the output:
 
-    ![](./media/image44.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image44.png)
 
 ### Task 7: Document Discovery and Insights 
 
@@ -362,23 +364,23 @@ It helps you to find latest campaign documents and insights.
 
     +++Find the latest version of Zava Festive Campaign plan and summarize key updates.+++
 
-    ![](./media/image45.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image45.png)
 
 2.  Review the output:
 
-    ![](./media/image46.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image46.png)
 
-    ![](./media/image47.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image47.png)
 
 3.  Enter the below given prompt in the field and then click on
     the **Execute** button.   
     +++Summarize contents of shared documents related to campaign planning.+++
 
-    ![](./media/image48.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image48.png)
 
 4.  Review the output:
 
-    ![](./media/image49.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image49.png)
 
 ### Task 8: Generate Executive Communication
 
@@ -400,17 +402,17 @@ team. Patricia needs a leadership update.
     - Next steps
     ```
 
-    ![](./media/image50.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image50.png)
 
 2.  Review the output:
 
-    ![](./media/image51.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image51.png)
 
-    ![](./media/image52.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image52.png)
 
-    ![](./media/image53.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image53.png)
 
-    ![](./media/image54.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image54.png)
 
 ### Task 9: Review and Refine the Output 
 
@@ -420,19 +422,18 @@ team. Patricia needs a leadership update.
 2.  If results are too broad or missing key details, refine your
     prompt. 
 
-    > **Example**: “Narrow this summary to focus only on critical risks
-    > and delivery blockers.”
+    >[!Knowledge]: “Narrow this summary to focus only on critical risks and delivery blockers.”
 
 3.  Export or copy the summary for documentation, reports, or meeting
     notes. 
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image55.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image55.png)
 
-    > **Note:** Here is a brief overview of the tasks associated with each
+    >[!Note] Here is a brief overview of the tasks associated with each
     icon shown in the screenshot: 
 
-    ![](./media/image56.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image56.png)
 
     1.  **Clipboard Icon** – Likely used for **copying or
         pasting** content. 
