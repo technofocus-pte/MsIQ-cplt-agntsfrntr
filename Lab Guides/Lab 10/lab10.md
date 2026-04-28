@@ -89,52 +89,52 @@ In this lab, you will:
 In this exercise, you will import a pre-existing Solution.
 
 1.  Open a browser and navigate to Copilot Studio using the url saved in
-    Lab 2 (+++<https://copilotstudio.microsoft.com/environments/>\<
-    Environment ID \>+++ and login using your credentials if not done
+    Lab 2 +++https://copilotstudio.microsoft.com/environments/>\<
+    Environment ID \+++ and login using your credentials if not done
     already.
 
 2.  Select the **...** in the left navigation and select **Solutions.**
 
-    ![](./media/image1.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image1.png)
 
 3.  Select **Import solution**. Click on **Browse** and select
     the **zip** file starting
     with **Operative** form **C:\LabFiles\LabFiles** and
     select **Open**.
 
-    ![](./media/image2.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image2.png)
 
-    ![](./media/image3.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image3.png)
 
-    ![](./media/image4.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image4.png)
 
 4.  Once selected, select **Next** and then select **Import**.
 
-    ![](./media/image5.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image5.png)
 
-    ![](./media/image6.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image6.png)
 
 5.  This will take some time of around 3 to 5 minutes. On success, you
     will see a green notification bar with the following message when
     it's done: "Solution "Operative" imported successfully."
 
-    ![](./media/image7.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image7.png)
 
 6.  Once you see the "imported successfully" message, take a look at
     what you imported by selecting the display name of the solution
     (**Operative**) in the solutions list.
 
-    ![](./media/image8.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image8.png)
 
 7.  Review the solution and ensure that the following components are
     imported.
 
-    ![](./media/image9.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image9.png)
 
 8.  Select the **Publish all customizations** button at the top of the
     page.
 
-    ![](./media/image10.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image10.png)
 
 ## Exercise 2 - Import sample data  
 
@@ -145,40 +145,40 @@ you imported in the previous exercise.
     the **Hiring Hub** Model-Driven App by selecting the checkmark in
     front of the row and select the **Play** button at the top.
 
-    ![](./media/image11.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image11.png)
 
 2.  Select **Job Roles** in the left navigation. Select
     the **More** icon (three dots below each other) in the command bar
     and then select the **right arrow** next to **Import from Excel.**
 
-        ![](./media/image12.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image12.png)
 
 3.  Select **Import from CSV**.
 
-    ![](./media/image13.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image13.png)
 
 4.  Select the **Choose File** button, select the **job-roles.csv** file
     from **C:\LabFiles\LabFiles** and then select **Open**.
 
-    ![](./media/image14.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image14.png)
 
 5.  Select **Next.** Leave the next step as is and select **Review
     Mapping**
 
-    ![](./media/image15.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image15.png)
 
-    ![](./media/image16.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image16.png)
 
 6.  Make sure the mapping is correct and select **Finish Import**.
 
-    ![](./media/image17.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image17.png)
 
 7.  Select **Done**. This can take a little while, but you can hit
     the **Refresh** button to see if the import has succeeded.
 
-    ![](./media/image18.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image18.png)
 
-    ![](./media/image19.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image19.png)
 
 8.  Now, you will import the **Evaluation Criteria sample data**
 
@@ -188,40 +188,40 @@ you imported in the previous exercise.
     File** button, select
     the **evaluation-criteria.csv** from **C:\LabFiles\LabFiles**.
 
-    ![](./media/image20.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image20.png)
 
 11. Select **Next**. Leave the next step as is and select **Review
     Mapping**
 
-    ![](./media/image21.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image21.png)
 
-    ![](./media/image22.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image22.png)
 
-    **Important:** If you do not see the mapping to be proper in the page,
+    >[!Important] If you do not see the mapping to be proper in the page,
     then select **Back** and select the **Data Delimiter** to
     be **None** and select **Review Mapping**
 
-    ![](./media/image23.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image23.png)
 
 12. Now we have to do a bit more work for the mapping. Select
     the **magnifying glass icon** next to the **Job Role** field.
 
-    ![](./media/image24.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image24.png)
 
 13. Make sure **Job Title** is selected here, and if not - add it and
     select **OK**.
 
-    ![](./media/image25.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image25.png)
 
 14. Make sure the rest of the mapping is correct too and select **Finish
     Import** and then select **Done**.
 
-    ![](./media/image26.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image26.png)
 
 15. This can take a little while, but you can hit the **Refresh** button
     to see if the import has succeeded.
 
-    ![](./media/image27.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image27.png)
 
 ## Exercise 3 - Create the hiring agent
 
@@ -232,22 +232,22 @@ actual work! Let's add our Hiring Agent first!
     Select the drop down next to the **+ Create blank agent** and
     select **Advanced create**.
 
-    ![](./media/image28.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image28.png)
 
 2.  In the Agent settings, select the Solution as **Operative** and then
     select **Confirm and create**.
 
-    ![](./media/image29.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image29.png)
 
 3.  Select **Edit** against the Details of the created agent.
 
-    ![](./media/image30.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image30.png)
 
-4.  Enter the name as +++**Hiring Agent**+++ and Description as
-    +++**Central orchestrator for all hiring activities**+++ and
+4.  Enter the name as +++Hiring Agent+++ and Description as
+    +++Central orchestrator for all hiring activities+++ and
     select **Save**.
 
-    ![](./media/image31.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image31.png)
 
 ## Exercise 4 - Adding the Application Intake Agent
 
@@ -280,7 +280,7 @@ The Application Intake Agent fits perfectly as a child agent because:
 ### Task 1 - Solution setup**
 
 1.  Open a browser and navigate to Copilot Studio using the url saved in
-    Lab 2 (+++<https://copilotstudio.microsoft.com/environments/>\<
+    Lab 2 +++https://copilotstudio.microsoft.com/environments/>\<
     Environment ID \>+++ and login using your credentials if not done
     already.
 
@@ -289,18 +289,18 @@ The Application Intake Agent fits perfectly as a child agent because:
 
 3.  Select **Solutions**.
 
-    ![](./media/image32.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image32.png)
 
 4.  Locate your **Operative** solution, select the **ellipsis
     (...)** next to it, and choose **Set preferred solution**.
     Select **Apply** in the dialogue box that pops up. This will ensure
     that all your work will be added to this solution.
 
-    ![](./media/image33.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image33.png)
 
 5.  Select Apply in the Set your preferred solution dialog box.
 
-    ![](./media/image34.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image34.png)
 
 ### Task 2 - Configure your Hiring Agent instructions
 
@@ -309,7 +309,7 @@ The Application Intake Agent fits perfectly as a child agent because:
 2.  Select **Edit** in the **Instructions** section of
     the **Overview** tab of the agent.
 
-    ![](./media/image35.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image35.png)
 
 3.  Copy and paste the following instructions in the instructions input
     area.
@@ -320,11 +320,11 @@ The Application Intake Agent fits perfectly as a child agent because:
 
 4.  Select **Save**.
 
-    ![](./media/image36.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image36.png)
 
 5.  Select the **Settings** button in the top right of the screen.
 
-    ![](./media/image37.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image37.png)
 
 6.  Review the page and ensure the following settings are applied and
     then select **Save**.
@@ -350,18 +350,18 @@ The Application Intake Agent fits perfectly as a child agent because:
 
     - Code Interpreter - **Off**
 
-    ![](./media/image38.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image38.png)
 
-    ![](./media/image39.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image39.png)
 
-    ![](./media/image40.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image40.png)
 
-    ![](./media/image41.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image41.png)
 
 7.  Once the changes are saved, click the **X** in the upper right hand
     corner to close out of the settings menu
 
-    ![](./media/image42.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image42.png)
 
 ### Task 3 - Add the Application Intake child agent**
 
@@ -370,11 +370,11 @@ In this task, you will add a child agent to the Hiring agent.
 1.  **Navigate** to the **Agents** tab within your Hiring Agent (this is
     where you'll add specialist agents) and select **Add**.
 
-    ![](./media/image43.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image43.png)
 
 2.  Select **New child agent**.
 
-    ![](./media/image44.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image44.png)
 
 3.  **Name** your agent +++Application Intake Agent+++
 
@@ -385,20 +385,20 @@ In this task, you will add a child agent to the Hiring agent.
 5.  Set the **Description** to be - +++Processes incoming resumes and
     stores candidates in the system+++
 
-    ![](./media/image45.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image45.png)
 
 6.  Expand **Advanced**, and set the Priority to be 10000. This will
     ensure that later the Interview Agent will be used to answer general
     questions before this one. A condition could be set here as well
     such as ensuring that there is at least one attachment.
 
-    ![](./media/image46.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image46.png)
 
 7.  Ensure that the toggle **Web Search** is set to **Disabled**. This
     is because we only want to use information provided by the parent
     agent. Select **Save**
 
-    ![](./media/image47.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image47.png)
 
 ### Task 4 - Configure Resume Upload agent flow
 
@@ -415,32 +415,32 @@ existing) without depending on user interaction.
 1.  Locate the **Tools** section inside the Application Intake Agent
     page. 
 
-    \[!Alert\] **Important:** This isn't the Tools tab of the parent agent,
+    >[!Alert] This isn't the Tools tab of the parent agent,
     but can be found if you scroll down underneath the child agent
     instructions.
 
 2.  Select **+ Add**.
 
-    ![](./media/image48.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image48.png)
 
 3.  Select **+ New tool**.
 
-    ![](./media/image49.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image49.png)
 
 4.  Select **Agent flow**. The Agent Flow designer will open, this is
     where we will add the upload resume logic.
 
-    ![](./media/image50.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image50.png)
 
-    \[!Alert\] Important: If **+ New tool** option is not available
+    >[!Alert] If **+ New tool** option is not available
     and **Agent Flow** is directly available, then please select Agent flow.
 
-    ![](./media/image51.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image51.png)
 
 5.  Select the **When an agent calls the flow** node, and select **+ Add
     an input**
 
-    ![](./media/image52.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image52.png)
 
 6.  Add **inputs**. Select the appropriate input type as shown in the
     table and be sure to add both the name and the description. It's
@@ -453,40 +453,40 @@ existing) without depending on user interaction.
     | Text  | +++Message+++  | +++Extract a cover letter style message from the context. The message must be less than 2000 characters.+++  |
     | Text  | +++UserEmail+++  | +++The email address that the Resume originated from. This will be the user uploading the resume in chat, or the from email address if received by email.+++  |
 
-    ![](./media/image53.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image53.png)
 
 7.  Select the **+ icon** below the when an agent calls the flow node
     and search for +++Dataverse add+++, then select the **Add a new
     row** action in the **Microsoft Dataverse** section.
 
-    ![](./media/image54.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image54.png)
 
-    ![](./media/image55.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image55.png)
 
-    \[!Note\] **NOTE:** You may be prompted to create a new connection to
+    >[!Note] You may be prompted to create a new connection to
     Dataverse after you add the action. Enter any **name** for the
     connection and click **Signin** and follow the prompts to create that
     connection.
 
-    ![](./media/image56.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image56.png)
 
-    ![](./media/image57.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image57.png)
 
     If you face issues in creating connection due to popup blocker as in the
     screenshot below, please disable the popup blocker to proceed with the
     connection creation.
 
-    ![](./media/image58.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image58.png)
 
-8.  Name the node +++**Create Resume**+++, by selecting the 3 dot and
+8.  Name the node +++Create Resume+++, by selecting the 3 dot and
     select **Rename**.  
 
-    ![](./media/image59.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image59.png)
 
 9. Set the **Table name** to **Resumes**, then select **Show all**, to
     show all the parameters.
 
-    ![](./media/image60.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image60.png)
 
 10. Set the following **properties**:
 
@@ -497,21 +497,21 @@ existing) without depending on user interaction.
     | Source Email Address  | Dynamic data (thunderbolt icon)  | When an agent calls the flow → UserEmail  |
     | Upload Date  | 	Expression (fx icon)  | 	+++utcNow()+++ Click on Add after the expression is entered.  |
 
-    ![](./media/image61.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image61.png)
 
-    ![](./media/image62.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image62.png)
 
-    ![](./media/image63.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image63.png)
 
 11. Select the **+ icon** below the Create Resume node, search
     for +++Dataverse upload+++ and select the **Upload a file or an
     image** action.
 
-    ![](./media/image64.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image64.png)
 
-12. Name the node to +++**Upload Resume File**+++.
+12. Name the node to +++Upload Resume File+++.
 
-    ![](./media/image65.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image65.png)
 
 13. Set the following **properties**:
 
@@ -523,40 +523,40 @@ existing) without depending on user interaction.
     | Column Name  | Select  | Resume PDF  |
     | Content  | Dynamic data (thunderbolt icon)  | When an agent calls the flow → Resume contentBytes  |
 
-    ![](./media/image66.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image66.png)
 
 14. Select the **Respond to the agent node**, and then select **+ Add an
     output**. Create an output with the properties defined in the table
     below.
 
-    ![](./media/image67.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image67.png)
 
     | Property | How to Set | Details |
     |----------|----------|----------|
     | Type  | Select  | Text  |
     | Name  | Enter | +++ResumeNumber+++  |
     | Value  | Dynamic data (thunderbolt icon)  | Create Resume → See More → Resume Number  |
-    | Description  | Enter  | 	+++The [ResumeNumber] of the Resume created+++  |
+    | Description  | Enter  | +++The [ResumeNumber] of the Resume created+++  |
     
-    ![](./media/image68.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image68.png)
 
 15. Select **Save draft** on the top right
 
-    ![](./media/image69.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image69.png)
 
 16. Select the **Overview** tab, Select **Edit** on
     the **Details** panel. Fill in the name and description as shown
     below and select **Save**
 
-    - **Flow name**:+++Resume Upload+++
+    - **Flow name**: +++Resume Upload+++
 
-    - **Description**:+++Uploads a Resume when instructed+++
+    - **Description**: +++Uploads a Resume when instructed+++
 
-    ![](./media/image70.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image70.png)
 
 17. Select the **Designer** tab again and select **Publish**.
 
-    ![](./media/image71.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image71.png)
 
 ## Task 5 - Connect the flow to your agent
 
@@ -564,31 +564,32 @@ Now you'll connect the published flow to your Application Intake Agent.
 
 1.  Navigate back to the **Hiring Agent** and select the **Agents** tab.
     Open the **Application Intake Agent**, locate the **Tools** panel
-    and select **+Add**.  
-    ![](./media/image72.png)
+    and select **+Add**.
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image72.png)
 
-2.  Select the **Flow** filter and select the **Resume Upload** flow.
+3.  Select the **Flow** filter and select the **Resume Upload** flow.
 
-    ![](./media/image73.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image73.png)
 
-3.  Select **Add and configure**.
+4.  Select **Add and configure**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image74.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image74.png)
 
-4.  Set the following parameters for the **description** and **when the
+5.  Set the following parameters for the **description** and **when the
     tool should be used**.
 
-    **Description** - +++Uploads a Resume when instructed. STRICT RULE: Only
+    **Description** - `Uploads a Resume when instructed. STRICT RULE: Only
     call this tool when referenced in the form "Resume Upload" and there are
-    Attachments+++
+    Attachments`
 
-    **Additional details** → **When this tool may be used** - only when
+    **Additional details** - **When this tool may be used** - only when
     referenced by topics or agents
 
-    ![](./media/image75.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image75.png)
 
-    **Note:** This description tells the agent when it should call this
+    >[!Note] This description tells the agent when it should call this
     tool. Notice the use of "strict rule" in the description. This gives a
     way to provide additional guardrails on when the tool should be used, in
     this case, only if there are attachments and the context of the
@@ -598,100 +599,100 @@ Now you'll connect the published flow to your Application Intake Agent.
     child agent, not the main agent. Setting tha value to "only when
     referenced by topics or agents" ensure this.
 
-5.  Scroll down to the inputs section and select **Add Input** to add
+6.  Scroll down to the inputs section and select **Add Input** to add
     the following inputs:
 
     Inputs → Add Input - **contentBytes**
 
     Inputs → Add Input - name
 
-    ![](./media/image76.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image76.png)
 
-6.  Now we need to set the properties of the inputs. We'll start with
+7.  Now we need to set the properties of the inputs. We'll start with
     the **contentBytes** input which will store the actual resume file.
     Select **Custom value** from the **Fill using** dropdown next to
     the **contentBytes** input. In the **Value** property, select
     the **three dots (...)**.
 
-    ![](./media/image77.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image77.png)
 
-7.  Select the **Formula** tab. Paste in the following formula which
+8.  Select the **Formula** tab. Paste in the following formula which
     extracts the file from the chat and click the **Insert** button.
 
     +++First(System.Activity.Attachments).Content+++
 
-    ![](./media/image78.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image78.png)
 
-8.  Now we'll configure the **name** input which will store the name of
+9.  Now we'll configure the **name** input which will store the name of
     the resume file. This will be hard coded as well so select
     the **Custom value** option in the **Fill using** column.
 
-9.  Select the **three dots (...)** in the **Value** column and paste in
+10. Select the **three dots (...)** in the **Value** column and paste in
     the following formula which extracts the file name from the chat and
     click the **Insert** button.
-
+    
     +++First(System.Activity.Attachments).Name+++
+  
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image79.png)
 
-    ![](./media/image79.png)
-
-10. Now we'll configure the **Message** input. We want to fill this one
+11. Now we'll configure the **Message** input. We want to fill this one
     dynamically with AI so we'll leave the fill using as-is. Select
     the **Customize** button in the **Value** column so we can fill out
     additional details for how this should be filled.
 
-    ![](./media/image80.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image80.png)
 
-11. Enter the following in the **Description** field for the input. Then
+12. Enter the following in the **Description** field for the input. Then
     select **Advanced**.
 
-    +++Extract a cover letter style message from the context. Be sure to
+    ```
+    Extract a cover letter style message from the context. Be sure to
     never prompt the user and create at least a minimal cover letter from
     the available context. STRICT RULE - the message must be less than 2000
-    characters.+++
+    characters
+    ```
 
-    **NOTE** Filling in the description for your dynamically filled inputs
+    >[!Note] Filling in the description for your dynamically filled inputs
     is a crucial step to ensure that your agent knows how to fill in the
     input correctly.
 
-    ![](./media/image81.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image81.png)
 
-12. Expand out the **Advanced** section to configure some additional
+13. Expand out the **Advanced** section to configure some additional
     properties for this input. In the **How many reprompts** section,
     select **Don't repeat**
 
-    ![](./media/image82.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image82.png)
 
-    **NOTE**: This setting helps you customize your user experience so the agent
+    >[!Note]: This setting helps you customize your user experience so the agent
     doesn't ask the same question multiple times if it can't identify the
     data it needs.
 
-13. Scroll down to the **No valid entity found** section. Select
+14. Scroll down to the **No valid entity found** section. Select
     the **Set variable to value** option in the **Action if no entity
     found** dropdown. Type +++Resume upload+++ in the **Default entity
     value** input.
 
-    ![](./media/image83.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image83.png)
 
-    **NOTE**
-
-    This setting lets us hard code a backup value if the agent is unable to
+    >[!Note] This setting lets us hard code a backup value if the agent is unable to
     dynamically fill this message input.
 
-14. We'll fill the **UserEmail** input by selecting the **Custom
+15. We'll fill the **UserEmail** input by selecting the **Custom
     value** option in the **Fill using** column and select the **three
     dots (...)** in the **Value** column.
 
-    ![](./media/image84.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image84.png)
 
-15. Select the **System** tab and search for **User**. Select
+16. Select the **System** tab and search for **User**. Select
     the **User.Email** variable to get the email of the person using the
     agent
 
-    ![](./media/image85.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image85.png)
 
-16. Select **Save**
+17. Select **Save**
 
-    ![](./media/image86.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image86.png)
 
 ## Task 6 - Define agent instructions
 
@@ -701,10 +702,11 @@ Intake agent.
 1.  Move back in to the **Application Intake Agent** by selecting
     the **Agents** tab and selecting the **Application Intake Agent**.
 
-    ![](./media/image87.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image87.png)
 
 2.  In the **Instructions** field, paste the following clear guidance
     for your child agent.
+    
     ```
     You are tasked with managing incoming Resumes, Candidate information, and creating Job Applications.  
     Only use tools if the step exactly matches the defined process. Otherwise, indicate you cannot help.  
@@ -719,7 +721,7 @@ Intake agent.
     - Always output the [ResumeNumber] (R#####).
     ```
 
-    ![](./media/image88.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image88.png)
 
 4. Where the instructions include a forward slash (/), select the text
     following the / and select the resolved name. Do this for,
@@ -728,22 +730,22 @@ Intake agent.
 
     - Resume Upload (Tool)
 
-    \[!Note\] **Note:** If you click on the System.Acticvity.Attachements in
+    >[!Note] If you click on the System.Acticvity.Attachements in
     the instructions, you will get the resolved name listed. You can select
     it. After selecting, if there is any part of the previously existing
     text available, please delete it.
 
-    ![](./media/image89.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image89.png)
 
-    ![](./media/image90.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image90.png)
 
 5. The instructions should now look like this.
 
-    ![](./media/image91.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image91.png)
 
 6. Select **Save.**
 
-    ![](./media/image92.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image92.png)
 
 ## Task 7 - Test your Application Intake Agent
 
@@ -752,43 +754,44 @@ child agent and following our instructions.
 
 1.  **Toggle** the test panel open by selecting **Test**.
 
-    ![](./media/image93.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image93.png)
 
 2.  Select the Attachement icon, select the resume – AVERY EXAMPLE pdf
     from **C:\LabFiles\LabFiles** and click **Open**.
 
-    ![](./media/image94.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image94.png)
 
 3.  Give the message +++Process this resume+++ and hit **send**.
 
-    ![](./media/image95.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image95.png)
 
 4.  The agent should then give a message similar to **The resume for
     Avery Example has been successfully uploaded. The resume number is
     R1001.**
 
-    ![](./media/image96.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image96.png)
 
 5.  In the **Activity map**, you should see the **Application Intake
     Agent** handling the resume upload.
 
-    ![](./media/image97.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image97.png)
 
 6.  If the app is not open already, navigate to
     +++make.powerapps.com+++. Ensure the Dev One environment is selected
     in the top right Environment Picker. Select **Apps** → Hiring Hub →
-    ellipsis(...) menu → **Play**  
-    ![](./media/image98.png)
+    ellipsis(...) menu → **Play**
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image98.png)
 
-    **NOTE:** If the play button is greyed out it means you have not
+    >[!Note] If the play button is greyed out it means you have not
     published your solution. Select **Solutions** → **Publish all
     customizations**.
 
-7.  In the Power Apps – Hiring Hub app, navigate to **Resumes**, and
+8.  In the Power Apps – Hiring Hub app, navigate to **Resumes**, and
     check that the resume file is uploaded and the cover letter is set
     accordingly.
 
-    ![](./media/image99.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image99.png)
 
 ## Exercise 5: Adding the Interview Prep connected agent
 
@@ -822,16 +825,16 @@ it to your existing Hiring Agent. This agent is know as Interview Prep Agent - a
     navigation and select the **drop down** next to **+ Create blank
     agent**, and select **Advanced create**.
 
-    ![](./media/image100.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image100.png)
 
 2.  Select the **Solution** as **Operative** and select **Confirm and
     create**.
 
-    ![](./media/image101.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image101.png)
 
 3.  Select **Edit** against the Details.
 
-    ![](./media/image102.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image102.png)
 
 4.  Provide the below details and select **Save**.
 
@@ -839,10 +842,11 @@ it to your existing Hiring Agent. This agent is know as Interview Prep Agent - a
 
     - **Description**: +++Assists with the interview process.+++
 
-    ![](./media/image103.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image103.png)
 
 5.  Select **Edit** against **Instructions**, enter the below
     instruction and select **Save**.
+    
     ```
     You are the Interview Agent. You help interviewers and hiring managers prepare for interviews. You never contact candidates. 
     Use Knowledge to help with interview preparation. 
@@ -872,11 +876,11 @@ it to your existing Hiring Agent. This agent is know as Interview Prep Agent - a
     - Never address or message a candidate
     ```
 
-    ![](./media/image104.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image104.png)
 
-6. Ensure that **Web Search** is **Disabled.**
+7. Ensure that **Web Search** is **Disabled.**
 
-    ![](./media/image105.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image105.png)
 
 ### Task 2: Configure data access and publish
 
@@ -885,11 +889,11 @@ agent.
 
 1.  In the **Knowledge** section, select **+ Add knowledge.**
 
-    ![](./media/image106.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image106.png)
 
 2.  Select **Dataverse**
 
-    ![](./media/image107.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image107.png)
 
 3.  In the **Search box**, type +++ppa\_+++. This is the prefix for the
     tables you imported previously in earlier lab.
@@ -897,11 +901,11 @@ agent.
 4.  **Select** all 5 tables (Candidate, Evaluation Criteria, Job
     Application, Job Role, Resume). Select **Add to agent**
 
-    ![](./media/image108.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image108.png)
 
 5.  Select the **Settings** button in the upper right hand corner
 
-    ![](./media/image109.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image109.png)
 
 6.  Ensure that the following settings are configured.
 
@@ -913,25 +917,25 @@ agent.
 
     - **Content moderation level:** Medium
 
-    ![](./media/image110.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image110.png)
 
-    ![](./media/image111.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image111.png)
 
-    ![](./media/image112.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image112.png)
 
 7.  Select **Save** and select the **X** in the upper right hand corner
     to close out of the settings menu.
 
-    ![](./media/image113.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image113.png)
 
 8.  Select **Publish**.
 
-    ![](./media/image114.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image114.png)
 
 9.  Select **Publish** in the confirmation dialog and wait for the
     publishing to complete.
 
-    ![](./media/image115.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image115.png)
 
 ## Task 3: Connect the Interview Prep Agent to your Hiring Agent**
 
@@ -941,15 +945,13 @@ agent to achieve multi agent orchestration.
 1.  Navigate back to your **Hiring Agent**. Select the **Agents** Tab
     and select **+Add an agent.**
 
-    ![](./media/image116.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image116.png)
 
 2.  Select the **Interview Agent**.
 
-    ![](./media/image117.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image117.png)
 
-    **NOTE**
-
-    If the Interview Agent is greyed out and not selectable then that means
+    >[!Note] If the Interview Agent is greyed out and not selectable then that means
     it did not Publish. Go back to the Interview Agent and publish it first.
 
 3.  Set the **Description** to be,
@@ -963,15 +965,15 @@ agent to achieve multi agent orchestration.
 
 6.  Select Add and configure.
 
-    ![](./media/image118.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image118.png)
 
 7.  Ensure that you see both the **Application Intake Agent**, and
     the **Interview Agent**. Notice how one is a child and the other is
     a connected agent.
 
-    ![](./media/image119.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image119.png)
 
-    ![](./media/image120.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image120.png)
 
 ## Task 4: Test multi-agent collaboration
 
@@ -986,13 +988,13 @@ agent to achieve multi agent orchestration.
     resume to at least one suitable job role even if not a perfect
     match.
 
-    ![](./media/image121.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image121.png)
 
 4.  Notice how the Hiring Agent delegated the upload to the child agent,
     and then asked the Interview Agent to provide a summary and job role
     match using its knowledge.
 
-    ![](./media/image122.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image122.png)
 
 ## Exercise 6: Automating candidate application emails
 
@@ -1009,16 +1011,16 @@ Event triggers let an agent act on its own when something happens in another sys
 1.  In the Hiring Agent, scroll down in the **Overview tab** to
     the **Triggers** section and select **+ Add trigger**.
 
-    ![](./media/image123.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image123.png)
 
 2.  A list of triggers will appear. Select **When a new email arrives
     (V3)** and select **Next**.
 
-    ![](./media/image124.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image124.png)
 
 3.  Select **Continue** in the next screen.
 
-    ![](./media/image125.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image125.png)
 
 4.  We'll now see the **Trigger name** and the **Sign in** connection
     references for the apps listed. Rename the trigger name to the
@@ -1026,12 +1028,12 @@ Event triggers let an agent act on its own when something happens in another sys
 
     +++When a new email arrives from an applicant+++
 
-    **NOTE:** Make sure you see a green check by each of the connection
+    >[!Note] Make sure you see a green check by each of the connection
     references for the apps listed. If you don't see a green check, sign in
     through the ellipsis (...) and select **+ New connection reference** to
     create a new connection reference.
 
-    ![](./media/image126.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image126.png)
 
 5.  The final step is to set the input properties of the trigger. Update
     the following properties to the following,
@@ -1044,19 +1046,19 @@ Event triggers let an agent act on its own when something happens in another sys
 
 6.  Select **Create trigger**.
 
-    ![](./media/image127.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image127.png)
 
 7.  Once created, a confirmation message will appear that the trigger
     has been added to the agent. Select **Close** and the trigger will
     be listed in the **Triggers** section.
 
-    ![](./media/image128.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image128.png)
 
 8.  We're now going to update the event trigger to add some more
     automation capabilities. Select the **ellipsis (...)** by the
     trigger and select **Edit in Power Automate**.
 
-    ![](./media/image129.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image129.png)
 
 9.  The trigger will then load as a flow in the Power Automate maker
     portal. It will open to the flow designer where we can add further
@@ -1064,12 +1066,12 @@ Event triggers let an agent act on its own when something happens in another sys
     the top, followed by **Sends a prompt to the specified copilot for
     processing** as the last action in the flow.
 
-    ![](./media/image130.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image130.png)
 
-    \[!Note\] **Note:** If the **New designer** is not selected by default
+    >[!Note] If the **New designer** is not selected by default
     on the top right, please ensure to toggle it to **On**.
 
-    ![](./media/image131.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image131.png)
 
 10. By default, the **When a new email arrives** trigger in Power
     Automate may process multiple emails together if several arrive at
@@ -1086,34 +1088,34 @@ Event triggers let an agent act on its own when something happens in another sys
     to **@triggerOutputs()?\['body/value'\]**, the flow will run
     individually for each message, even if many arrive simultaneously.
 
-    ![](./media/image132.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image132.png)
 
 11. Let's next add some logic to check the file type of the attachment,
     we only want to upload .PDF file attachments and not images (these
     could come from email signatures). Select the **+** icon below the
     trigger and select **Control** under the **Built in tools** section.
 
-    ![](./media/image133.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image133.png)
 
 12. Select the **Condition** action.
 
-    ![](./media/image134.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image134.png)
 
 13. Now we will configure the condition to check if the file
     attachment’s type is .PDF. In the **Choose a value** field on the
     left, select the **lightning bolt icon**.
 
-    ![](./media/image135.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image135.png)
 
 14. In the **Search** field type +++content type+++ and select
     the **Attachments Content-Type** parameter from the trigger
 
-    ![](./media/image136.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image136.png)
 
 15. Let's pause here for a moment, you probably noticed that the **For
     each** action automatically appeared.
 
-    ![](./media/image137.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image137.png)
 
     This action represents looping through each attachment in the email,
     since the **Attachments Content-Type** parameter is tied to each
@@ -1129,50 +1131,50 @@ Event triggers let an agent act on its own when something happens in another sys
     This will ensure that for each file attachment, it will check the file
     extension format is .PDF.
 
-    ![](./media/image138.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image138.png)
 
 17. Now we'll configure the **True** path to extract the file from the
     email and upload it into the **Resume** Dataverse table.
 
     Add a new action below in the **True** path and search for html to text.
-    Search for and select the +++**Html to text**+++ action.
+    Search for and select the +++Html to text+++ action.
 
-    \[!NOte\] **Note:** The HTML to text action in Power Automate is used to
+    >[!Note] The HTML to text action in Power Automate is used to
     convert HTML-formatted content into plain text. This is especially
     useful when you receive data (like emails, web content, or API
     responses) that contains HTML tags, and you want to extract just the
     readable text without any formatting or code.
 
-    ![](./media/image139.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image139.png)
 
 18. Next, we need to create a new connection reference for the **Html to
     text** action by selecting **Create new**.
 
-    ![](./media/image140.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image140.png)
 
 19. The action can now be configured. Let's add the **Body** parameter
     from the trigger. In the **Content** field, select the **lightning
     bolt icon** or **fx icon** to the right.
 
-    ![](./media/image141.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image141.png)
 
 20. In the **Dynamic content** tab, search for +++body+++ and select
     the **Body** parameter, followed by selecting **Add**.
 
-    ![](./media/image142.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image142.png)
 
 21. We've completed configuring this action so let's exit from the
     action by selecting the two angle brackets («) pointing to the left
     to collapse the panel.
 
-    ![](./media/image143.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image143.png)
 
 22. We'll add a new action by selecting the **+ icon** underneath
     the **Html to text** action which will load the panel to add
     actions. Search for **Dataverse add**.Select the **Add a new
     row** action.
 
-    ![](./media/image144.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image144.png)
 
 23. Rename the action by pasting +++Add a new Resume row+++ as the name
     in the upper left-hand corner of the properties panel,
@@ -1180,12 +1182,12 @@ Event triggers let an agent act on its own when something happens in another sys
     For the **Table name** parameter, search for +++res+++ and select
     the **Resumes** table.
 
-    ![](./media/image145.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image145.png)
 
 24. Select the **Resume Title** field next and select the **fx icon** to
     the right.
 
-    ![](./media/image146.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image146.png)
 
 25. In the **Function tab**, enter the following expression that uses
     the item() function.
@@ -1194,72 +1196,74 @@ Event triggers let an agent act on its own when something happens in another sys
 
     Select **Add** to add the expression to the **Resume Title** parameter.
 
-    ![](./media/image147.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image147.png)
 
-    \[!Note\] **Note on item() function:**
-
-        - When you use an **Apply to each** action, Power Automate goes through
+    >[!Note]
+    >
+    >**Note on item() function:**
+    >
+    >- When you use an **Apply to each** action, Power Automate goes through
         each element in a collection (array).
-
-        - It’s most often used inside actions like **Apply to each** (or **For
+    >
+    >- It’s most often used inside actions like **Apply to each** (or **For
         each**), **Select**, or **Filter array**.
 
-26. We still need to configure several more parameters, select **Show
+27. We still need to configure several more parameters, select **Show
     all**.
 
-    ![](./media/image148.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image148.png)
 
-27.  In the **Cover Letter** field, select the **fx icon** to the right.
+28. In the **Cover Letter** field, select the **fx icon** to the right.
 
     In the **Function tab**, enter the following expression.
 
-    +++if(greater(length(body('Html_to_text')), 2000),
-    substring(body('Html_to_text'), 0, 2000), body('Html_to_text'))+++
+    `if(greater(length(body('Html_to_text')), 2000),
+    substring(body('Html_to_text'), 0, 2000), body('Html_to_text'))`
 
-    This expression checks if the text from the **Html to text** action is
+    >[!Note] This expression checks if the text from the **Html to text** action is
     longer than 2000 characters, and if so, returns only the first 2000
     characters; otherwise, it returns the full text.
 
-    ![](./media/image149.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image149.png)
 
-28. The expression will now be added to the **Cover Letter** field.
+29. The expression will now be added to the **Cover Letter** field.
 
-    ![](./media/image150.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image150.png)
 
-29. For the **Source Email Address** field, select the **lightning bolt
+30. For the **Source Email Address** field, select the **lightning bolt
     icon** and select the **From** parameter from the trigger as this
     contains the email address value.
 
-    ![](./media/image151.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image151.png)
 
-30. For the **Upload Date** field, select the **fx icon** to the right.
+31. For the **Upload Date** field, select the **fx icon** to the right.
     In the **Function tab**, enter, +++utcNow()+++ and select **Add**.
 
-    **Note:**  **What is the utcNow() function?**
-
-    - The utcnow() function in Power Automate returns the current date and
+    >[!Note] **What is the utcNow() function?**
+    >
+    >- The utcnow() function in Power Automate returns the current date and
     time in Coordinated Universal Time (UTC) in an ISO 8601 format,
     like: 2025-09-23T04:32:14Z
 
-    ![](./media/image152.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image152.png)
 
-31. We've now completed configuring the **Add a new Resume row** action
+32. We've now completed configuring the **Add a new Resume row** action
     so let's exit from the panel by collapsing it.
 
-    ![](./media/image153.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image153.png)
 
-32. We'll add a new action by selecting the **+ icon** underneath
+33. We'll add a new action by selecting the **+ icon** underneath
     the **Add a new Resume row** action which will load the panel to add
-    actions. Search for +++**Dataverse Upload**+++. Select the **Upload
+    actions. Search for +++Dataverse Upload+++. Select the **Upload
     a file or an image** action.
 
-    ![](./media/image154.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image154.png)
 
-33. Rename the action by pasting +++Upload Resume File+++ as the name.
+34. Rename the action by pasting +++Upload Resume File+++ as the name.
 
-    ![](./media/image155.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image155.png)
 
-34. Select the **Content name** field (remove the Untitled message if
+35. Select the **Content name** field (remove the Untitled message if
     that is already available) next and select the **fx icon** to the
     right.
 
@@ -1267,30 +1271,30 @@ Event triggers let an agent act on its own when something happens in another sys
     () function. This gets the name property of the current item (the
     attachment file).
 
-    +++item()?['name']+++
+    `item()?['name']`
 
-    ![](./media/image156.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image156.png)
 
-35. For the **Table name** parameter, search for +++resumes+++ and
+36. For the **Table name** parameter, search for +++resumes+++ and
     select the **Resumes** table.
 
-    ![](./media/image157.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image157.png)
 
-36. Select the **Row ID** field next and select the **lightning bolt
+37. Select the **Row ID** field next and select the **lightning bolt
     icon** to the right.
 
     Search for +++ID+++ and select the **Resume** parameter from the **Add a
     new row** Dataverse action as this contains the ID value of the row to
     upload the PDF file to.
 
-    ![](./media/image158.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image158.png)
 
-37. Select the **Column name** field and select the **Resume
+38. Select the **Column name** field and select the **Resume
     PDF** option.
 
-    ![](./media/image159.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image159.png)
 
-38. Select the **Content** field and select the **fx icon** to the
+39. Select the **Content** field and select the **fx icon** to the
     right.
 
     In the Function tab, enter the following expression that uses the item
@@ -1298,59 +1302,60 @@ Event triggers let an agent act on its own when something happens in another sys
     (the attachment file). contentBytes refers to the raw binary data of a
     file or attachment, encoded as a Base64 string.
 
-    +++item()?['contentBytes']+++
+    `item()?['contentBytes']`
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image160.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image160.png)
 
-39. We've completed configuring this action so let's exit from the
+40. We've completed configuring this action so let's exit from the
     action by selecting the two angle brackets («) pointing to the left
     to collapse the panel.
 
-    ![](./media/image161.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image161.png)
 
-40. Next, select the **Sends a prompt to the specified copilot for
+41. Next, select the **Sends a prompt to the specified copilot for
     processing**, then drag and drop this action to be below
     the **Upload Resume File** action in the **True** path of the
     condition.
 
-    ![](./media/image162.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image162.png)
 
-41. Select the **Sends a prompt to the specified copilot for
+42. Select the **Sends a prompt to the specified copilot for
     processing** to configure it.
 
-    ![](./media/image163.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image163.png)
 
-42. In the **Body/message** field, select all of the field content and
+43. In the **Body/message** field, select all of the field content and
     clear/delete it.
 
-    ![](./media/image164.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image164.png)
 
-43. Copy and paste the following text into the **Body/message** field
+44. Copy and paste the following text into the **Body/message** field
     and highlight the **RESUME ID PLACEHOLDER** and select
     the **lightning** icon.
+    
     ```
     Send [ResumeId (text)] = "RESUME ID PLACEHOLDER" and [ResumeTitle (text_1)] = "RESUME TITLE PLACEHOLDER" and [ResumeNumber (text_2)]= "RESUME NUMBER PLACEHOLDER" to the Tool "Notify Teams Applicant channel" in the child agent "Application Intake Agent"
     ```
 
-    ![](./media/image165.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image165.png)
 
-44. Search for +++resume+++ and select the **Resume** parameter from
+46. Search for +++resume+++ and select the **Resume** parameter from
     the **Add a new row** *Dataverse* action as this contains
     the ID value of the Resume row created.
 
-    ![](./media/image166.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image166.png)
 
-45. Highlight the **RESUME TITLE PLACEHOLDER**. Select the **lightning
+47. Highlight the **RESUME TITLE PLACEHOLDER**. Select the **lightning
     bolt icon** to the right.
 
     Search for +++title+++ and select the **Resume Title** parameter from
     the **Add a new row Dataverse** action as this contains the resume title
     value of the Resume row created.
 
-    ![](./media/image167.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image167.png)
 
-46. Highlight the **RESUME NUMBER PLACEHOLDER**. Select the **lightning
+48. Highlight the **RESUME NUMBER PLACEHOLDER**. Select the **lightning
     bolt icon** to the right.
 
     Search for +++resume number+++ and select the **Resume
@@ -1358,42 +1363,42 @@ Event triggers let an agent act on its own when something happens in another sys
     contains the Resume Number value of the Resume row created.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image168.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image168.png)
 
-47. We've completed configuring this action and our agent flow. Now
+49. We've completed configuring this action and our agent flow. Now
     let's save our event trigger flow by selecting **Save**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image169.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image169.png)
 
-48. We now need to edit the details of the agent flow,
+50. We now need to edit the details of the agent flow,
     select **Back** once saved.
 
-    ![](./media/image170.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image170.png)
 
-49. Select **Edit** in the **Details** section and update
+51. Select **Edit** in the **Details** section and update
     the **Plan** to the **Copilot Studio** option. Select **Save**.
 
-    ![](./media/image171.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image171.png)
 
-50. A modal will appear to ask you to confirm to switch to Copilot
+52. A modal will appear to ask you to confirm to switch to Copilot
     Studio plan. Select **Confirm**.
 
-    ![](./media/image172.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image172.png)
 
-51. The plan is now updated to **Copilot Studio**. Select **Edit** as we
+53. The plan is now updated to **Copilot Studio**. Select **Edit** as we
     need to publish the event trigger flow for our agent.
 
-    ![](./media/image173.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image173.png)
 
-52. Select **Publish**.
+54. Select **Publish**.
 
-    ![](./media/image174.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image174.png)
 
     The event trigger flow is now Published.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image175.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image175.png)
 
     Let's proceed with creating a new agent flow that will be invoked by the
     child **Intake Application Agent**.
@@ -1416,7 +1421,7 @@ be used later in this lab.
 
 2.  Select the **New items drop down** and select **New team**.
 
-    ![](./media/image176.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image176.png)
 
 3.  Provide the below details and select Create.
 
@@ -1425,49 +1430,49 @@ be used later in this lab.
     - First channel name - +++Applicants+++
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image177.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image177.png)
 
 4.  Select Skip in the next screen.
 
-    ![](./media/image178.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image178.png)
 
 5.  You have now created the new Team and Channel.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image179.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image179.png)
 
 ## Task 2.2: Create the agent flow
 
 1.  Back in the Copilot Studio, in the **Hiring Agent** select
     the **Agents** tab and select the **Application Intake Agent**
 
-    ![](./media/image180.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image180.png)
 
 2.  Scroll down to **Tools** and select **+ Add**.
 
-    ![](./media/image181.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image181.png)
 
 3.  The **Add tool** modal will appear. Select **+ New tool**.
 
-    ![](./media/image182.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image182.png)
 
 4.  Select **Agent flow**.
 
-    ![](./media/image183.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image183.png)
 
 5.  The **agent flow designer** will next load. In the **When an agent
     calls the flow** trigger, select **+ Add an input**.
 
-    ![](./media/image184.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image184.png)
 
 6.  Select **Text** as the type of user input.
 
-    ![](./media/image185.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image185.png)
 
 7.  In the input text field, enter +++ResumeId+++ as the input parameter
     name.
 
-    ![](./media/image186.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image186.png)
 
 8.  Repeat the same steps for the below parameters.
 
@@ -1475,9 +1480,9 @@ be used later in this lab.
 
     Text - +++ResumeNumber+++
 
-    ![](./media/image187.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image187.png)
 
-    ![](./media/image188.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image188.png)
 
 9.  Now, you are going to add an adaptive card in the agent flow. We're
     now going to add another action to our agent flow that will post an
@@ -1485,21 +1490,21 @@ be used later in this lab.
 
     Select the **+ icon** below the trigger.
 
-    ![](./media/image189.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image189.png)
 
-10. Search for +++**Microsoft Teams post+++** and select the **Post card
+10. Search for +++Microsoft Teams post+++ and select the **Post card
     in a chat or channel** action.
 
-    ![](./media/image190.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image190.png)
 
 11. A connection reference to Microsoft Teams needs to be created with
     your signed in user account. Select **Sign in**.
 
-    ![](./media/image191.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image191.png)
 
 12. Select your user account and then select **Allow access**.
 
-    ![](./media/image192.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image192.png)
 
 13. Configure according to the following input parameters:
 
@@ -1511,12 +1516,12 @@ be used later in this lab.
     | Team  |Dropdown  | Select Applicants channel  |
     |
 
-    ![](./media/image193.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image193.png)
 
 14. Next, we'll configure the **Adaptive Card** field. Select
     the **Adaptive Card** field.
 
-    ![](./media/image194.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image194.png)
 
 15. Copy the below code and paste it into the Adaptive Card field.
     ```
@@ -1771,7 +1776,7 @@ be used later in this lab.
 
     ```
 
-    ![](./media/image195.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image195.png)
 
 17. We will now replace existing values in the JSON payload with actual
      values or dynamic content.
@@ -1783,7 +1788,7 @@ be used later in this lab.
     Resumes system view in the model-driven app. Highlight the **current
     URL** value and delete it.
 
-    ![](./media/image196.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image196.png)
 
 17. In the **Hiring Hub** model-driven app, navigate to
      the **Resumes** system view using the left hand side menu and copy
@@ -1791,7 +1796,7 @@ be used later in this lab.
      and **paste** the **copied URL** into the **url** property of the
      within the selectAction property.
 
-    ![](./media/image197.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image197.png)
 
 18. You should see the following where highlighted in Yellow is your
      environment details of the **Hiring Hub** model-driven app.
@@ -1802,7 +1807,7 @@ be used later in this lab.
     | appid  | GUID  | To open a specific model-driven app, the query parameter of either appid or appname is used. In this case, the appid is used  |
     | viewid  | GUID  | The query parameter which is the id of the view  |
 
-    ![](./media/image198.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image198.png)
 
 19. Next, we'll add dynamic content values for several properties.
      Let's start with the text that will display the Resume Number
@@ -1811,30 +1816,30 @@ be used later in this lab.
 
     Select the **panel** icon to load the action panel.
 
-    ![](./media/image199.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image199.png)
 
 20. Scroll down to the line where you see the text property for RESUME
      NUMBER PLACEHOLDER. Highlight the placeholder value and delete it.
 
-    ![Delete placeholder](./media/image200.png)
+    ![Delete placeholder](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image200.png)
 
 21. Click in-between the double quotation marks and select
      the **lightning bolt icon** from the right.
 
-    **Note:** Make sure that the Adaptive card code block is docked to the
+    >[!Note] Make sure that the Adaptive card code block is docked to the
     left pane of your screen.
 
-    ![](./media/image201.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image201.png)
 
 22. In the **Dynamic Content** tab select
      the **ResumeNumber** parameter.
 
-    ![](./media/image202.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image202.png)
 
 23. The **ResumeNumber** parameter will now be added as dynamic content
      to the text property.
 
-    ![](./media/image203.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image203.png)
 
 24. We'll repeat the same steps for the RESUME NAME PLACEHOLDER. Scroll
      down to the line where you see the text property for RESUME NAME
@@ -1842,28 +1847,28 @@ be used later in this lab.
      in-between the double quotation marks and select the select
      the **lightning bolt icon** from the right.
 
-    ![](./media/image204.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image204.png)
 
 25. In the **Dynamic Content** tab select
      the **ResumeTitle** parameter.
 
-    ![](./media/image205.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image205.png)
 
 26. The **ResumeTitle** parameter will now be added as dynamic content
      to the text property.
 
-    ![](./media/image206.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image206.png)
 
 27. We'll repeat the same steps for the **Due Date** value that
      represents when a recruiter should review the resume by. Scroll
      down to the line where you see the text property for May 21, 2023.
 
-    ![Select Allow access](./media/image207.png)
+    ![Select Allow access](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image207.png)
 
 28. Delete this date placeholder value and click in-between the double
      quotation marks and select the **fx icon** from the right.
 
-    ![](./media/image208.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image208.png)
 
 29. In the **Function** tab, enter the following expression and
      select **Add**.
@@ -1881,11 +1886,11 @@ be used later in this lab.
     For the utcNow value, we are formatting the date to be month and date,
     followed by the year.
 
-    ![](./media/image209.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image209.png)
 
 30. The expression will now be added to the text property.
 
-    ![](./media/image210.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image210.png)
 
 31. Lastly, we'll update the **URL** for the **url property** within
      the **actions** array property at the bottom of the JSON payload.
@@ -1895,7 +1900,7 @@ be used later in this lab.
      the adaptive card and be **directed** to the **Resume** in the
      model-driven app.
 
-    ![](./media/image211.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image211.png)
 
 32. In the **Hiring Hub** model-driven app, open a row in
      the **Resumes** system view using the left hand side menu. The
@@ -1903,30 +1908,30 @@ be used later in this lab.
 
     Copy the URL for the Resume row.
 
-    ![](./media/image212.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image212.png)
 
-    ![](./media/image213.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image213.png)
 
 33. Then navigate back to the agent flow, highlight the current
      placeholder URL value and **delete** it.
 
-    ![](./media/image214.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image214.png)
 
 34. Then **paste** the **copied URL** into the **url** property of the
      within the url property.
 
-    ![](./media/image215.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image215.png)
 
 35. You should see the following. Delete the GUID id value at the end.
      We'll replace this dynamic content - the **ResumeId** parameter.
 
-    ![](./media/image216.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image216.png)
 
 36. Select the **lightning bolt icon** from the right.
 
     In the **Dynamic Content** tab select the **ResumeId** parameter.
 
-    ![](./media/image217.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image217.png)
 
 37. The **ResumeId** will be added as dynamic content. The following
      highlighted in Yellow is your environment details of the **Hiring
@@ -1939,24 +1944,24 @@ be used later in this lab.
     | id  | GUID  | The query parameter which is the id of the Resume row  |
 
 
-    ![](./media/image218.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image218.png)
 
 38. We've completed configuring the **Post card in a chat or
      channel** action 👏🏻 Exit from the action configuration panel by
      selecting the **x** icon.
 
-    ![](./media/image219.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image219.png)
 
 39. Finally, we'll configure the last action, **Respond to the
      agent** by sending a text back to the agent to end the processing.
 
     In the **Respond to the agent** action, select **+Add an output**.
 
-    ![](./media/image220.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image220.png)
 
 40. Select **Text** as the type of output.
 
-    ![](./media/image221.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image221.png)
 
 41. Enter the following details
 
@@ -1964,43 +1969,43 @@ be used later in this lab.
 
      - Value - +++Finished+++
 
-    ![](./media/image222.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image222.png)
 
 42. We've now completed configuring the agent flow. Select **Save
      draft** to save the agent flow. A confirmation message will appear
      once saved.
 
-    ![](./media/image223.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image223.png)
 
 43. Before publishing the agent flow, we need to update the details for
      the agent flow. Select the **Overview** tab and select **Edit**.
 
-    ![](./media/image224.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image224.png)
 
 44. Enter the Name as +++Notify Teams Applicant channel+++ and select
      the Refresh icon under Description to update it using AI.
 
-    ![](./media/image225.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image225.png)
 
 45. Once the Description is populated, select **Save** to save the
      updated details for the agent flow.
 
-    ![](./media/image226.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image226.png)
 
 46. Navigate back to the **Designer** tab and select **Publish** to
      publish the agent flow.
 
-    ![](./media/image227.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image227.png)
 
 47. A confirmation message will appear once published.
 
-    ![](./media/image228.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image228.png)
 
 48. The agent flow now needs to be added as a tool in the **Application
      Intake Agent**. Navigate back to the **Hiring Agent** and select
      the **Agents** tab, then select the **Application Intake Agent**.
 
-    ![](./media/image229.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image229.png)
 
 49. In the **Details** section of the agent, we'll update
      the **Description** field. Copy the following and paste and the end
@@ -2010,21 +2015,21 @@ be used later in this lab.
 
     Select **Save**.
 
-    ![](./media/image230.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image230.png)
 
 50. Next, we'll add the agent flow as a tool. Scroll down to
      the **tools** section and select **+ Add**.
 
-    ![](./media/image231.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image231.png)
 
 51. Select the **Flow** tab and choose the agent flow created
      earlier, **Notify Teams Applicant Channel**.
 
-    ![](./media/image232.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image232.png)
 
 52. Select **Add and configure** next.
 
-    ![](./media/image233.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image233.png)
 
 53. In the **Inputs** section, the three inputs we configured earlier
      in the agent flow are visible. By default, the **Fill
@@ -2032,18 +2037,18 @@ be used later in this lab.
      keep this setting as-is as the prompt from the event trigger will
      contain the parameter values that AI will extract.
 
-    ![](./media/image234.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image234.png)
 
 54. Now that the tool has been added to the **Application Intake
      Agent**, the instructions of the agent needs to be updated. Select
      the **back arrow**.
 
-    ![](./media/image235.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image235.png)
 
 55. Select the **Application Intake Agent** in the **Agents** tab of
      the **Hiring Agent**.
 
-    ![](./media/image236.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image236.png)
 
 56. In the **Instructions** field, enter a new line
      after **Post-Upload** instructions. Copy and paste the following
@@ -2053,18 +2058,18 @@ be used later in this lab.
      1. When you receive a message, **Send [ResumeId (text)] = "1680265f-5793-f011-b41b-7c1e525be9f7" and [ResumeTitle (text_1)] = "TAYLOR TESTPERSON (FICTITIOUS).pdf" and [ResumeNumber (text_2)]= "R01026" to the Tool "Notify Teams Applicant channel"** in the child agent "Application Intake Agent", call [AGENT FLOW PLACEHOLDER]
      ```
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image237.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image237.png)
 
 57. Highlight the \[AGENT FLOW PLACEHOLDER\] text.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image238.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image238.png)
 
 58. Enter the forward slash character, /, and select the **Notify Teams
      Applicant Channel** tool.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image239.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image239.png)
 
 59. The agent flow will now be invoked by the **Application Intake
      Agent** as per the instructions, after the last action (**Sends a
@@ -2076,28 +2081,28 @@ be used later in this lab.
     Intake Agent**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image240.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image240.png)
 
 60. The instructions will now be updated once the agent has been saved.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image241.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image241.png)
 
 61. We now need to **Publish** the **Hiring Agent**.
      Select **Publish** on the upper right, and in the **Publish this
      agent modal** that appears select **Publish**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image242.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image242.png)
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image243.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image243.png)
 
 62. Once published, a confirmation message will appear that the agent
      has been published.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image244.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image244.png)
 
     We can now test the agent!
 
@@ -2142,7 +2147,7 @@ this lab.
 2. **Send** the email once composed from your mail box.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image245.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image245.png)
 
 3. In +++<https://make.powerautomate.com/+++>, for the event trigger
     flow, (select **Flows** -\> **When a new email arrives from an
@@ -2150,7 +2155,7 @@ this lab.
     that **succeeded** for the sent email.
 
     ![A screenshot of a computer screen AI-generated content may be
-    incorrect.](./media/image246.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image246.png)
 
 4. Back in Copilot Studio in the Hiring Agent select
     the **Activity** tab. The **Activity** tab will load which will
@@ -2160,7 +2165,7 @@ this lab.
     agent flow that was invoked.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image247.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image247.png)
 
 5. Select the activity, and select the event trigger in the activity
     map. On the right hand side panel, notice how the input parameters
@@ -2170,7 +2175,7 @@ this lab.
     in **Automate uploading resumes to Dataverse received by email**.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image248.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image248.png)
 
 6. Navigate back to the **Hiring Hub** model-driven app and in
     the **Resumes system view**, select **Refresh** to refresh the view.
@@ -2178,7 +2183,7 @@ this lab.
     be listed as it was created through the event trigger.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image249.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image249.png)
 
 7. Navigate back to Copilot Studio and select the **Notify Teams
     Applicant Channel** agent flow within the **Application Intake
@@ -2190,7 +2195,7 @@ this lab.
     we can pass parameter values from event triggers to agent flows.
 
     ![A screenshot of a chat AI-generated content may be
-    incorrect.](./media/image250.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image250.png)
 
 8. Finally, let's take a look at the adaptive card posted to the
     channel in **Microsoft Teams**. In the channel, we'll see the
@@ -2200,13 +2205,13 @@ this lab.
     that we configured earlier in the JSON payload of the adaptive card.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image251.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image251.png)
 
 9. Select the hyperlink, and you'll be directed to the Resumes system
     view in the **Hiring Hub** model-driven app on your browser.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image252.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image252.png)
 
 10. Navigate back to the adaptive card posted to the channel in
     Microsoft Teams. This time, hover over **View Resume** which is
@@ -2215,13 +2220,13 @@ this lab.
     the adaptive card.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image253.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image253.png)
 
 11. Select the action, and you'll be directed to the Resume row form in
     the Hiring Hub model-driven app on your browser.
 
     ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image254.png)
+    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image254.png)
 
 ## Summary
 
