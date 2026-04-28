@@ -1417,7 +1417,7 @@ In this task, you will create a Team and Channel in MS Teams which will
 be used later in this lab.
 
 1.  Login to
-    +++[https://teams.microsoft.com+++](https://teams.microsoft.com+++/)
+    +++https://teams.microsoft.com+++
 
 2.  Select the **New items drop down** and select **New team**.
 
@@ -1514,7 +1514,6 @@ be used later in this lab.
     | Post in  | Dropdown  | Select the Channel option |
     | Team  | Dropdown  | Select HR Team option  |
     | Team  |Dropdown  | Select Applicants channel  |
-    |
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image193.png)
 
@@ -1524,6 +1523,9 @@ be used later in this lab.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image194.png)
 
 15. Copy the below code and paste it into the Adaptive Card field.
+
+    >[!Alert] Please paste this into a notepad prior to the Adaptive Card Field.
+    
     ```
     {
         "type": "AdaptiveCard",
@@ -1773,7 +1775,6 @@ be used later in this lab.
         "$schema": "https://adaptivecards.io/schemas/adaptive-card.json",
         "version": "1.5"
     }
-
     ```
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image195.png)
@@ -1873,7 +1874,7 @@ be used later in this lab.
 29. In the **Function** tab, enter the following expression and
      select **Add**.
 
-    +++addDays(utcNow(), 3, 'MMM dd, yyyy')+++
+    `addDays(utcNow(), 3, 'MMM dd, yyyy')`
 
     This expression utilizes two functions.
 
@@ -2141,7 +2142,6 @@ this lab.
 
     Kind regards,
     Taylor Testperson
-
     ```
 
 2. **Send** the email once composed from your mail box.
@@ -2149,7 +2149,7 @@ this lab.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image245.png)
 
-3. In +++<https://make.powerautomate.com/+++>, for the event trigger
+3. In +++https://make.powerautomate.com/+++, for the event trigger
     flow, (select **Flows** -\> **When a new email arrives from an
     applicant**) select the **Refresh** icon to view the flow run
     that **succeeded** for the sent email.
