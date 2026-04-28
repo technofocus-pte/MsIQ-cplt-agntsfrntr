@@ -167,7 +167,7 @@ Patricia logs into Copilot to review Festive Campaign readiness.
 
     ![](./media/image7.png)
 
-9.  Select the below files from the Lab files and select **Open**.
+9.  Select the below files from **C:\Labfiles\Lab5-Lab-files** and select **Open**.
 
     - SOP PDFs
 
@@ -279,21 +279,21 @@ of Zava Retail on Microsoft Teams for better visibility.
 
 9. Review the output:
 
-    ![](./media/image18.png)
+  ![](./media/image18.png)
 
-    ![](./media/image19.png)
+  ![](./media/image19.png)
 
-    ![](./media/image20.png)
+  ![](./media/image20.png)
 
-    ![](./media/image21.png)
+  ![](./media/image21.png)
 
-    ![](./media/image22.png)
+  ![](./media/image22.png)
 
-    ![](./media/image23.png)
+  ![](./media/image23.png)
 
-    ![](./media/image24.png)
+  ![](./media/image24.png)
 
-    ![](./media/image25.png)
+  ![](./media/image25.png)
 
 ## Exercise 3: Action and Decision Intelligence
 
