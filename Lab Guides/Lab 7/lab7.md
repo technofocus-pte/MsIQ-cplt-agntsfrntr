@@ -256,8 +256,7 @@ the **Execute** button.
 
   - Format the report as a detailed executive acquisition analysis
     suitable for finance leadership decision-making
-
-    ```
+  ```
 
   ![](./media/image18.png)
 
