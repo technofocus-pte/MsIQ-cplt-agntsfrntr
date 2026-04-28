@@ -119,12 +119,12 @@ Patricia logs into Copilot to review Festive Campaign readiness.
 1.  Navigate to +++<https://m365copilot.com/>+++ to open Microsoft 365
     copilot page. 
 
-2.  Enter the **User ID** in the field and then click on
+2.  Enter the **Username - +++@lab.CloudPortalCredential(User1).Username+++** in the field and then click on
     the **Next** button to proceed. 
 
      ![](./media/image1.png)
 
-3.  Enter **Password** in the field and then click on the **Sign
+3.  Enter **TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++** in the field and then click on the **Sign
     in** button and click on the **Yes** to stay Signed in. 
 
     ![](./media/image2.png)
