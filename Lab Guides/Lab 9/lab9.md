@@ -112,7 +112,7 @@ AI Agent Service and how it integrates with various AI models and tools.
 Microsoft Foundry is your launchpad for building AI agents. In this
 task, you’ll log in to Microsoft Foundry with your login credentials.
 
-1.  Open the browser and navigate to +++https://ai.azure.com+++ **Sign in** using your
+1.  Open the browser and navigate to +++https://ai.azure.com+++, **Sign in** using your
     credentials (**Username** and **TAP**) from the **Resources** tab.
 
     ![](./media/image1.png)
