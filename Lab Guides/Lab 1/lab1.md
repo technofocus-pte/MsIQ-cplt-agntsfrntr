@@ -130,7 +130,7 @@ Copilot to automate email triage.
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
     ![](./media/image1.png)
-    ![](./media/image102.png)
+    ![](./media/image101.png)
 
 4.  Click **Yes**, to stay signed in.
 
