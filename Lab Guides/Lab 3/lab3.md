@@ -75,14 +75,19 @@ and configure it inside Microsoft 365 Copilot.
 ### Task 1: Open Agent Builder
 
 1.  Navigate to +++<https://m365copilot.com/>+++ to open Microsoft 365
-    copilot page. Sign in with your credentials.  
-    ![](./media/image1.png)
+    copilot page. Sign in with your credentials.
+    - Username - +++@lab.CloudPortalCredential(User1).Username+++
 
-2.  From the left navigation panel, click **Create Agent**.
+    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
+    ![](./media/image100.png)
+    ![](./media/image101.png)
+    ![](./media/image102.png)
+
+3.  From the left navigation panel, click **Create Agent**.
 
     ![](./media/image2.png)
 
-3.  The **New Agent** page will be opened.
+4.  The **New Agent** page will be opened.
 
     ![](./media/image3.png)
 
