@@ -90,7 +90,7 @@ In this exercise, you will import a pre-existing Solution.
 
 1.  Open a browser and navigate to Copilot Studio using the url saved in
     Lab 2 +++https://copilotstudio.microsoft.com/environments/>\<
-    Environment ID \+++ and login using your credentials if not done
+    Environment ID>\<+++ and login using your credentials if not done
     already.
 
 2.  Select the **...** in the left navigation and select **Solutions.**
