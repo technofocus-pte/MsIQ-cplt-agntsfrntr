@@ -509,6 +509,8 @@ created.
     package consisting of the generated manifest files and icons and
     side load the app into the catalog only for you to test.
 
+    >[!Alert] If you reach a ***Time-out Failure***, please re-start the provisioning cycle.
+    
     ![A screenshot of a computer program AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image34.png)
 
