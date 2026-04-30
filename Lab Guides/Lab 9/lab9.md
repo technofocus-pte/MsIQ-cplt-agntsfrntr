@@ -88,7 +88,7 @@ HR workload and improving overall employee experience.
 
 - Goal: Access HR information instantly without delays
 
-## Exercise 1: Prepare your agent in Microsoft Foundry
+## Exercise 1: Prepare your in Microsoft Foundry
 
 In this exercise, you’ll begin your journey by preparing a custom engine
 agent using Microsoft Foundry, Microsoft’s platform for creating,
@@ -143,7 +143,7 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image5.png)
 
-8.  Scroll down and select **Try in playground**.
+8.  On the right in the **setup** panel, select **Try in playground**.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image6.png)
@@ -249,16 +249,13 @@ Copilot, and other preferred channels.
 
 1.  From **Desktop**, open **Visual Studio 2022**.
 
+    >[Note] If you are asked to login, Select **Microsoft**, **Work or School Account** and login with your @lab.CloudCredential(User1).Ussername
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image16.png)
 
 2.  Select **Create a new project**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image17.png)
-
-    Select **Close** in the **Sign in** window.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image18.png)
 
 3.  Search for +++Microsoft+++ and select **Microsoft 365
     Agents** template. Click on **Next**.
