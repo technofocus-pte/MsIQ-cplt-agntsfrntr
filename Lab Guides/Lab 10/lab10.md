@@ -312,9 +312,9 @@ The Application Intake Agent fits perfectly as a child agent because:
 3.  Copy and paste the following instructions in the instructions input
     area.
 
-    +++You are the central orchestrator for the hiring process. You
+    `You are the central orchestrator for the hiring process. You
     coordinate activities, provide summaries, and delegate work to
-    specialized agents.+++
+    specialized agents.`
 
 4.  Select **Save**.
 
@@ -380,8 +380,8 @@ In this task, you will add a child agent to the Hiring agent.
     will this be used?** dropdown. These options are similar to the
     triggers that can be configured for topics.
 
-5.  Set the **Description** to be - +++Processes incoming resumes and
-    stores candidates in the system+++
+5.  Set the **Description** to be - `Processes incoming resumes and
+    stores candidates in the system`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image45.png)
 
@@ -447,9 +447,9 @@ existing) without depending on user interaction.
 
     | Type | Name | Description |
     |----------|----------|----------|
-    | File | +++Resume+++  | +++The Resume PDF file+++  |
-    | Text  | +++Message+++  | +++Extract a cover letter style message from the context. The message must be less than 2000 characters.+++  |
-    | Text  | +++UserEmail+++  | +++The email address that the Resume originated from. This will be the user uploading the resume in chat, or the from email address if received by email.+++  |
+    | File | +++Resume+++  | `The Resume PDF file`  |
+    | Text  | +++Message+++  | `Extract a cover letter style message from the context. The message must be less than 2000 characters.`  |
+    | Text  | +++UserEmail+++  | `The email address that the Resume originated from. This will be the user uploading the resume in chat, or the from email address if received by email.`  |
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image53.png)
 
@@ -491,9 +491,9 @@ existing) without depending on user interaction.
     | Property | How to Set | 	Details / Expression |
     |----------|----------|----------|
     | Resume Title  | VDynamic data (thunderbolt icon)  | When an agent calls the flow → Resume name If you don't see the Resume name, make sure you have configured the Resume parameter above as a data type.  |
-    | Cover letter  | Expression (fx icon)  | Expression (fx icon)	+++if(greater(length(triggerBody()?['text']), 2000), substring(triggerBody()?['text'], 0, 2000), triggerBody()?['text'])+++ Click on Add after the expression is entered.  |
+    | Cover letter  | Expression (fx icon)  | Expression (fx icon)	`if(greater(length(triggerBody()?['text']), 2000), substring(triggerBody()?['text'], 0, 2000), triggerBody()?['text'])` Click on Add after the expression is entered.  |
     | Source Email Address  | Dynamic data (thunderbolt icon)  | When an agent calls the flow → UserEmail  |
-    | Upload Date  | 	Expression (fx icon)  | 	+++utcNow()+++ Click on Add after the expression is entered.  |
+    | Upload Date  | 	Expression (fx icon)  | 	`utcNow()` Click on Add after the expression is entered.  |
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image61.png)
 
@@ -534,7 +534,7 @@ existing) without depending on user interaction.
     | Type  | Select  | Text  |
     | Name  | Enter | +++ResumeNumber+++  |
     | Value  | Dynamic data (thunderbolt icon)  | Create Resume → See More → Resume Number  |
-    | Description  | Enter  | +++The [ResumeNumber] of the Resume created+++  |
+    | Description  | Enter  | `The [ResumeNumber] of the Resume created`  |
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image68.png)
 
@@ -617,7 +617,7 @@ Now you'll connect the published flow to your Application Intake Agent.
 8.  Select the **Formula** tab. Paste in the following formula which
     extracts the file from the chat and click the **Insert** button.
 
-    +++First(System.Activity.Attachments).Content+++
+    `First(System.Activity.Attachments).Content`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image78.png)
 
@@ -629,7 +629,7 @@ Now you'll connect the published flow to your Application Intake Agent.
     the following formula which extracts the file name from the chat and
     click the **Insert** button.
     
-    +++First(System.Activity.Attachments).Name+++
+    `First(System.Activity.Attachments).Name`
   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image79.png)
 
@@ -1190,7 +1190,7 @@ Event triggers let an agent act on its own when something happens in another sys
 25. In the **Function tab**, enter the following expression that uses
     the item() function.
 
-    +++item()?['name']+++
+    `item()?['name']`
 
     Select **Add** to add the expression to the **Resume Title** parameter.
 
