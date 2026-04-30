@@ -68,7 +68,7 @@ intelligent and trustworthy.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image6.png)
 
-10.  Navigate to **C:\Labfiles\Lab6-Lab files** and **upload** the following folders in your SharePoint
+10. Navigate to **C:\Labfiles\Lab6-Lab files** and **upload** the following folders in your SharePoint
     site:
 
 - Product Specs Folder
