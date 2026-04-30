@@ -279,8 +279,7 @@ The Application Intake Agent fits perfectly as a child agent because:
 ### Task 1 - Solution setup**
 
 1.  Open a browser and navigate to Copilot Studio using the url saved in
-    Lab 2 +++https://copilotstudio.microsoft.com/environments/>\<
-    Environment ID \>+++ and login using your credentials if not done
+    Lab 2 +++https://copilotstudio.microsoft.com+++ and login using your credentials if not done
     already.
 
 2.  Inside Copilot Studio, select the ellipsis (...) below Tools in the
