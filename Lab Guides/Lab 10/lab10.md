@@ -421,19 +421,7 @@ existing) without depending on user interaction.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image48.png)
 
-3.  Select **+ New tool**.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image49.png)
-
-4.  Select **Agent flow**. The Agent Flow designer will open, this is
-    where we will add the upload resume logic.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image50.png)
-
-    >[!Alert] If **+ New tool** option is not available
-    and **Agent Flow** is directly available, then please select Agent flow.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image51.png)
+3.  Select **Add new Workflows**.
 
 5.  Select the **When an agent calls the flow** node, and select **+ Add
     an input**
