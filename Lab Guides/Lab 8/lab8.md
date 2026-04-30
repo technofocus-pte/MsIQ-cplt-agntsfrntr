@@ -788,7 +788,7 @@ analyst to test.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image49.png)
 
-    \[!Alert\] **Important:** There are couple of known issues where the
+    >[!Alert] There are couple of known issues where the
     Provision action in Agents Toolkit may fail with the errors shown below.
     If this happens, simply retry the provisioning process until it
     succeeds.
