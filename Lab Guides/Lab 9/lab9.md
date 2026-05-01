@@ -124,7 +124,7 @@ task, you’ll log in to Microsoft Foundry with your login credentials.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image2.png)
 
-4.  Leave the project name as recommended, select the Resource group
+4.  Enter +++proj-@lab.labinstance.ID+++ as the project name, select the Resource group
     that starts with **ResourceGroup1** and select **Create**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image3.png)
