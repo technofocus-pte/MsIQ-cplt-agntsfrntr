@@ -424,7 +424,7 @@ Teams or Copilot Chat.
     This registers the Semantic Kernel, a core component that allows your
     agent to interact with generative AI models.
 
-9.  Right-click to **ContosoHRAgent** project and select **Add \>
+9.  Right-click to **MyM365Agent1** project and select **Add \>
     Class**.
 
     ![A screenshot of a computer AI-generated content may be
@@ -637,7 +637,7 @@ In this task, you will add your Foundry connection details to
 appsettings.json, these values connect your M365 agent to the correct
 Foundry project and agent.
 
-1.  In **ZavaHRAgent** project, open **appsettings.json** and add the
+1.  In **MyM365Agent1** project, open **appsettings.json** and add the
     following lines at the bottom of the appsettings list (At line 40).
     
     ```
@@ -951,9 +951,9 @@ inside the Copilot experience.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image350.png)
 
-10.  Select **Open with Copilot** to test your agent on Copilot.
+10. Select **Open with Copilot** to test your agent on Copilot.
 
-        ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image351.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image351.png)
 
 11. Select the conversation starter, **PerksPlus Details** and
     hit **Send**.
