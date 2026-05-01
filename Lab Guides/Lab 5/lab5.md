@@ -234,7 +234,7 @@ of Zava Retail on Microsoft Teams for better visibility.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image15.png)
     
-7.  Before interacting with Researcher agent we have to first provide some demo campaign emails, so the Researcher Agent can access relevant data and produce meaningful insights and summaries. Hence naivagte to C:\Labfiles\Lab3-Lab to get the demo campaign emails. You can send these emails to the current user using your email.
+7.  Before interacting with Researcher agent we have to first provide some demo campaign emails, so the Researcher Agent can access relevant data and produce meaningful insights and summaries. Hence naivagte to **C:\Labfiles\Lab 2 - Lab Files** to get the demo campaign emails. You can send these emails to the current user using your email.
 
 8.  Now navigate back to the Researcher agent, paste the following prompt in the prompt
     field, and then click on the **Execute** button.
