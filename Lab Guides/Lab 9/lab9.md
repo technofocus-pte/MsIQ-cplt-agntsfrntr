@@ -424,7 +424,7 @@ Teams or Copilot Chat.
     This registers the Semantic Kernel, a core component that allows your
     agent to interact with generative AI models.
 
-9.  Right-click to **MyM365Agent1** project and select **Add \>
+9.  Right-click to **ZavaHRAgent** project and select **Add \>
     Class**.
 
     ![A screenshot of a computer AI-generated content may be
