@@ -58,14 +58,17 @@ most relevant numbers.
 Complete the following steps in order:
 
 1.  Navigate to **C:\Labfiles\Lab7-Lab files** and open the **Zava Home COGS Estimates.xlsx** file.
-    ![](./media/image1.png)
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image1.png)
 
-2.  Open the excel sheet and Select the Copilot icon from the Home tab
-    ribbon.  
-    ![](./media/image2.png)
+3.  Open the excel sheet and Select the Copilot icon from the Home tab
+    ribbon.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image2.png)
 
-3.  To analyze the dataset, paste the prompt below and select
+5.  To analyze the dataset, paste the prompt below and select
     **Execute** button:
+    
     ```
     I'm a financial analyst for Zava Retail. I was asked to analyze
     the Zava Home COGS Estimates spreadsheet for Zava Retail's new Zava
@@ -76,10 +79,11 @@ Complete the following steps in order:
     Present your findings in a concise, structured format in a new sheet.
     ```
 
-    ![](./media/image3.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image3.png)
 
-4.  Review the output:  
-  ![](./media/image4.png)
+7.  Review the output:
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image4.png)
 
 ## Exercise 2: Use Copilot in Teams to Summarize Meeting Notes
 
@@ -91,26 +95,24 @@ you turned to Copilot for help.
 
 ### Task 1: Summarize Meeting Notes
 
-1.  Select the link to download the file+++[Zava Retail Finance meeting
-    notes.txt](https://lodsprodmca-my.sharepoint.com/:t:/g/personal/user1-60937628_lodsprodmca_onmicrosoft_com/IQDaF9EO3DI6Q5eQlVQk477yAXjd5XK3MWGLTLeVa7PmMZg?e=nYJ7TW)
-    +++ file and store it on your desktop.
+1.  Select the link to download the file: +++https://lodsprodmca-my.sharepoint.com/:t:/g/personal/user1-60937628_lodsprodmca_onmicrosoft_com/IQDaF9EO3DI6Q5eQlVQk477yAXjd5XK3MWGLTLeVa7PmMZg?e=nYJ7TW+++ file and store it on your desktop.
     
-    ![](./media/image5.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image5.png)
 
-2.  Navigate to +++ [Microsoft 365 home page](https://m365.cloud.microsoft) +++, select Apps in the
-    navigation pane.  
-    ![](./media/image6.png)
+4.  Navigate to +++https://m365.cloud.microsoft+++, select Apps in the navigation pane.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image6.png)
 
-3.  Select Teams.  
+6.  Select Teams.  
       
-    ![](./media/image7.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image7.png)
 
-4.  Open the Copilot Chat. In Teams for the web, select Copilot in the
+7.  Open the Copilot Chat. In Teams for the web, select Copilot in the
     navigation pane.
 
-    ![](./media/image8.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image8.png)
 
-5.  In the Copilot description box, paste the following prompt and
+8.  In the Copilot description box, paste the following prompt and
     select the **Execute** button.  
 
     ```
@@ -120,11 +122,11 @@ you turned to Copilot for help.
     participants. Download the document that Copilot generated
     ```
 
-    ![](./media/image9.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image9.png)
 
-6.  Review the output:  
+9.  Review the output:  
       
-    ![](./media/image10.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image10.png)
 
 ### Task 2: Creating a Task List
 
@@ -142,10 +144,11 @@ items in the notes.
     levels for each task, such as high, medium, or low priority where
     appropriate
     ```
-    ![](./media/image11.png)
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image11.png)
 
 2.  Review the output:  
-    ![](./media/image12.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image12.png)
 
 ### Task 3: Generate a Calendar Invite
 
@@ -159,12 +162,13 @@ the team to reconvene.
     Draft a follow-up email to the team summarizing the meeting
     outcomes and including the assigned task list with responsibilities,
     deadlines, and priority levels for each participant.
-    ``` 
-    ![](./media/image13.png)
+    ```
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image13.png)
 
 2.  Review the output:
 
-    ![](./media/image14.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image14.png)
 
 ## Exercise 3: Use Copilot Chat to Analyze a Potential Acquisition
 
@@ -184,11 +188,13 @@ high-level, vague ones.
 
 1.  In Microsoft Edge, go to the Microsoft 365 home page and select
     **Work** mode.(Work mode ensures Copilot uses secure internal business context,
-    while Web mode searches public external sources.) 
-    ![](./media/image15.png)
+    while Web mode searches public external sources.)
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image15.png)
 
-2.  In the Copilot prompt field, attach the Relecloud Business the **Execute** but
+3.  In the Copilot prompt field, attach the Relecloud Business the **Execute** but
     Perspective.docx file present at C:\Labfiles\Lab7-Lab files. Paste the following prompt and selectton.
+    
     ```
     Review the attached Relecloud Business Perspective document and
     create a business perspective summary with the following three sections:
@@ -196,10 +202,12 @@ high-level, vague ones.
     and (3) Integration plan for the acquisition. Present the summary in a
     clear and structured executive format suitable for leadership review.
     ```
-    ![](./media/image16.png)
+    
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image16.png)
 
-4.  Review the output:  
-    ![](./media/image17.png)
+5.  Review the output:
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image17.png)
 
 ### Task 2: Expand the Summary and generate a comprehensive report
 
@@ -208,6 +216,7 @@ comprehensive version of the report with deeper analysis and visuals.
   
 1. In the Copilot prompt field, paste the following prompt and select
 the **Execute** button.
+
   ```
   Expand the previous Relecloud acquisition report and include all
   prior information, plus the following additional analysis:*
@@ -258,10 +267,11 @@ the **Execute** button.
     suitable for finance leadership decision-making
   ```
 
-  ![](./media/image18.png)
+  ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image18.png)
 
-2. Review the output:  
-![](./media/image19.png)
+2. Review the output:
+   
+![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image19.png)
 
 ## Summary
 

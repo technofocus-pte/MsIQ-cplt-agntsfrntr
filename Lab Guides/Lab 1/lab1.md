@@ -121,40 +121,41 @@ Teams, and summarize content.
 You are Marie (Customer Support Manager) logging into Microsoft 365
 Copilot to automate email triage.
 
-1.  Navigate to +++<https://m365.cloud.microsoft/chat/>+++ to
+1.  Navigate to +++https://m365.cloud.microsoft/chat/+++ to
     open Microsoft 365 Copilot.
 
 2.  Sign in with your Microsoft 365 Copilot account credentials.
+   
     - Username - +++@lab.CloudPortalCredential(User1).Username+++
 
     - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
-    ![](./media/image1.png)
-    ![](./media/image101.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image1.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image101.png)
 
 4.  Click **Yes**, to stay signed in.
 
-    ![](./media/image3.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image3.png)
 
 5.  After successful login, you will see **Copilot Chat** home page.
 
-    ![](./media/image4.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image4.png)
 
 6.  In the **left navigation**, select **All Agents** and explore the
     Agent store.
 
-    ![](./media/image5.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image5.png)
 
-    ![](./media/image6.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image6.png)
 
 7.  Scroll down and look for **Workflows (Frontier)** option under
     “Built by Microsoft” header.
 
-    ![](./media/image7.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image7.png)
 
 8.  Select **Add** to add the **Workflows Agent (Frontier)**.
 
-    ![](./media/image8.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image8.png)
 
 ## Exercise 2: Build Zava Email Triage Agent
 
@@ -164,19 +165,19 @@ Copilot to automate email triage.
 
 2.  Navigate to **Agents \> Workflows (Frontier)**.
 
-    ![](./media/image9.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image9.png)
 
-    > **Note:** You will see a chat interface of Workflows (Frontier).
+    >[!Note] You will see a chat interface of Workflows (Frontier).
 
-    ![](./media/image10.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image10.png)
 
 ### Task 2: Describe the Workflow in Natural Language
 
 1.  Define Business Logic (Prompt)
 
     Paste the below prompt and click **Send**.
-    ```
 
+    ```
     Each weekday morning, review unread emails from the last 24 hours.  
     Focus on:  
     - Customer complaints and escalations  
@@ -206,28 +207,30 @@ Copilot to automate email triage.
     @lab.CloudPortalCredential(User1).Username.
     ```
 
-    > **Note:** The email id will be changed to the username you are
+    >[!Note] The email id will be changed to the username you are
     currently using to execute this lab.
 
-    ![](./media/image11.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image11.png)
 
-2.  Select **Save** on the top right corner of the **Workflow** window
+3.  Select **Save** on the top right corner of the **Workflow** window
     to run the actions automatically. Your workflow is now created and
     ready to test.
 
-    ![](./media/image12.png)
-3. Once the workflow is saved, open your email and send some sample email to the current user to verify that the workflow triggers a notification in Microsoft Teams. 
-    Navigate to **C:/Labfiles/Lab 1 - Lab files** to get sample email.  
-    ![](./media/image122.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image12.png)
+    
+5. Once the workflow is saved, open your email and send some sample email to the current user to verify that the workflow triggers a notification in Microsoft Teams. 
+    Navigate to **C:/Labfiles/Lab 1 - Lab files** to get sample email.
+   
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image122.png)
 
-4.  Once the sample emails are sent, select **Test** to review the output.
+7.  Once the sample emails are sent, select **Test** to review the output.
 
-    ![](./media/image13.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image13.png)
 
 4.  Once the testing is successful, it will show the test duration and
     result as success confirmation.
 
-    ![](./media/image14.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image14.png)
 
     Once the test process is completed, review that it:
 
@@ -241,12 +244,11 @@ Copilot to automate email triage.
 
         - Teams (output delivery)
 
-
     - Applies AI reasoning for categorization and summarization.
 
     You did not configure connectors manually—Copilot did it.
 
-    > **Note:** Test process can take 5-10 minutes. Wait until the process
+    >[!Note] Test process can take 5-10 minutes. Wait until the process
     is completed.
 
 ### Task 3: Validate Output 
@@ -255,25 +257,25 @@ After processing your prompt, you will see the run results:
 
 1. Emails detected.
 
-    > Note: You need to send different types of sample emails to the
+    >[!Note] You need to send different types of sample emails to the
     account to verify that the workflow triggers a notification in Microsoft
     Teams. If you do not have any new unread emails in your inbox, you will
     need to do send test emails to validate the workflow and outputs.
 
-    ![](./media/image15.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image15.png)
 
 2.  Email categorization accuracy.
 
-    ![](./media/image16.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image16.png)
 
 3.  Teams message format.
 
     Ensure that the Teams message format is matching the Outlook email
     details.
 
-    ![](./media/image17.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image17.png)
 
-    ![](./media/image18.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image18.png)
 
 4.  If something looks wrong:
 
@@ -296,7 +298,7 @@ After processing your prompt, you will see the run results:
 Marie Brown (Customer Support Manager) wants approval before sending
 summaries to leadership team.
 
-1.  Navigate to +++<https://m365.cloud.microsoft/chat/>+++ to
+1.  Navigate to +++https://m365.cloud.microsoft/chat/+++ to
     open Microsoft 365 Copilot.
 
 2.  Go to **Workflows (Frontier)** agent.
@@ -325,11 +327,11 @@ summaries to leadership team.
     user.
     ```
 
-    ![](./media/image19.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image19.png)
 
 4.  Once the workflow is saved, select **Test**.
 
-    ![](./media/image20.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image20.png)
 
 5.  Review the output of approval prompt.
 
@@ -340,37 +342,38 @@ summaries to leadership team.
 6.  The approval step will be added and the email will be received with
     “Approve” and “Reject” options.
 
-    ![](./media/image21.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image21.png)
 
-    ![](./media/image22.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image22.png)
 
 7.  Select **Approve** and enter “*Approved”* in the comments. Select
     **Submit**.
 
-    ![](./media/image23.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image23.png)
 
 8.  Once the approval is received, review the confirmation email.
 
-    ![](./media/image24.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image24.png)
 
 9.  When the approval step is completed, the email summary is sent
     automatically.
 
-    ![](./media/image25.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image25.png)
 
-    > **Note:** If the request is Rejected, the summary will not be sent.
+    >[!Note] If the request is Rejected, the summary will not be sent.
 
 ## Exercise 4: Autonomous Workflow
 
 Marie Brown (Customer Support Manager) wants to reduce missed
 follow-ups.
 
-1.  Navigate to +++<https://m365.cloud.microsoft/chat/>+++ to
+1.  Navigate to +++https://m365.cloud.microsoft/chat/+++ to
     open Microsoft 365 Copilot.
 
 2.  Go to **Workflows (Frontier)** agent.
 
 3.  Paste the below prompt in the chat and select **Save**.
+   
     ```
     When a new email arrives in Outlook with "Urgent" in the email
     subject:  
@@ -388,34 +391,34 @@ follow-ups.
     Send an escalation notification to Microsoft Teams.
     ```
 
-    > **Note:** The email id will be changed to the username (Email ID) you
+    >[!Note] The email id will be changed to the username (Email ID) you
     are currently using to execute this lab.
 
-    ![](./media/image26.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image26.png)
 
-4.  Once the workflow is saved, select **Test**.
+5.  Once the workflow is saved, select **Test**.
 
-    ![](./media/image27.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image27.png)
 
-5.  Review the outcome:
+6.  Review the outcome:
 
     - Automated follow-ups
 
     - Escalation logic activated
 
-6.  Review the automated follow-up message sent on Teams. It ensures
+7.  Review the automated follow-up message sent on Teams. It ensures
     that the urgent emails are not missed.
 
-    ![](./media/image28.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image28.png)
 
-7.  Once the mentioned time of 2 hours is passed, review the automated
+8.  Once the mentioned time of 2 hours is passed, review the automated
     escalation message on Teams.
 
-    > **Note:** Currently, the last step of the workflow cannot be
+    >[!Note] Currently, the last step of the workflow cannot be
     > executed. The flow will send the Teams message after the 2-hour mark
     > is reached.
 
-    ![](./media/image29.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image29.png)
 
 ## Exercise 5: Integrate Work IQ to retrieve Zava Leadership Insights
 
@@ -424,13 +427,12 @@ burnout risks at Zava Retail.
 
 ### Task 1: Add Workload Analysis
 
-1. Navigate to
-[**https://m365.cloud.microsoft/chat/**](https://m365.cloud.microsoft/chat/)
-to open Microsoft 365 Copilot.
+1. Navigate to +++https://m365.cloud.microsoft/chat/+++ to open Microsoft 365 Copilot.
 
 2. Go to **Workflows (Frontier)** agent.
 
 3. Paste the below prompt in the chat and select **Save**.
+   
     ```
     Analyze my email workload patterns.  
     When a new email arrives in Outlook*
@@ -449,32 +451,34 @@ to open Microsoft 365 Copilot.
     Include a short note indicating if workload is high based on these
     counts.
     ```
-    > **Note:** The email id will be changed to the username (Email ID) you
+    
+    >[!Note] The email id will be changed to the username (Email ID) you
     are currently using to execute this lab.
 
-    ![](./media/image30.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image30.png)
 
-4. Select **Test**.
+5. Select **Test**.
 
-    ![](./media/image31.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image31.png)
 
-5. Review the output:
+6. Review the output:
 
     - Adds Work IQ intent to workflow
 
     - Extends AI reasoning layer
 
-6. Review the Email workload summary and intensity.
+7. Review the Email workload summary and intensity.
 
-    ![](./media/image32.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image32.png)
 
 ### Task 2: Classify Workload
 
-1. Navigate to +++<https://m365.cloud.microsoft/chat/>+++ to
+1. Navigate to +++https://m365.cloud.microsoft/chat/+++ to
 open Microsoft 365 Copilot.
 
 2. Under **Workflows (Frontier)** agent, paste the below prompt in the
 chat and select **Save**.
+
     ```
     Classify the workload into:  
     - Low  
@@ -486,13 +490,13 @@ chat and select **Save**.
     - Urgent response pressure
     ```
 
-    ![](./media/image33.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image33.png)
 
-3. Select **Test**.
+4. Select **Test**.
 
-    ![](./media/image34.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image34.png)
 
-4. Review the output:
+5. Review the output:
 
     - Adds classification logic
 
@@ -500,17 +504,17 @@ chat and select **Save**.
 
     - Tags workload states
 
-5. After test run, verify:
+6. After test run, verify:
 
     - Workload category appears (Low/Moderate/High)
 
     - Flags are visible in output
 
-    ![](./media/image35.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image35.png)
 
 ### Task 3: Generate Insights
 
-1. Navigate to +++<https://m365.cloud.microsoft/chat/>+++ to
+1. Navigate to +++https://m365.cloud.microsoft/chat/+++ to
 open Microsoft 365 Copilot.
 
 2. Under **Workflows (Frontier)** agent, paste the below prompt in the
@@ -527,11 +531,11 @@ chat to turn raw signals into leadership insights. Select **Save**.
     Provide 3 actionable recommendations to improve productivity.
     ```
 
-    ![](./media/image36.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image36.png)
 
 3. Once the workflow is saved, Select **Test**.
 
-    ![](./media/image37.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image37.png)
 
 4. Review the output:
 
@@ -551,15 +555,16 @@ chat to turn raw signals into leadership insights. Select **Save**.
 
     - 3 recommendations
 
-    ![](./media/image38.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image38.png)
 
 ### Task 4: Add Adaptive Intelligence
 
-1. Navigate to +++<https://m365.cloud.microsoft/chat/>+++ to
+1. Navigate to +++https://m365.cloud.microsoft/chat/+++ to
 open Microsoft 365 Copilot.
 
 2. Under **Workflows (Frontier)** agent, paste the below prompt in the
 chat to make the agent dynamic and context-aware. Select **Save**.
+
     ```
 
     When work activity is detected outside business hours (after 6 PM):
@@ -579,13 +584,13 @@ chat to make the agent dynamic and context-aware. Select **Save**.
     - Rebalance workload for the next day
     ```
 
-    ![](./media/image39.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image39.png)
 
-3. Select **Test**.
+4. Select **Test**.
 
-    ![](./media/image40.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image40.png)
 
-4. Review the output:
+5. Review the output:
 
     - Adds **conditional logic (IF-THEN)**
 
@@ -593,11 +598,11 @@ chat to make the agent dynamic and context-aware. Select **Save**.
 
     - Personalizes recommendations
 
-5. Review the output after the test run is completed. When the workload
+6. Review the output after the test run is completed. When the workload
 is high, enhanced recommendations will appear automatically. The
 overload risk is also highlighted explicitly.
 
-    ![](./media/image41.png)
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image41.png)
 
 ## Summary
 
