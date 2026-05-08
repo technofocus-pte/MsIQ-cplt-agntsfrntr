@@ -293,76 +293,7 @@ After processing your prompt, you will see the run results:
 
     - Is Teams message structured clearly?
 
-## Exercise 3: Add Human-in-the-Loop
-
-Marie Brown (Customer Support Manager) wants approval before sending
-summaries to leadership team.
-
-1.  Navigate to +++https://m365.cloud.microsoft/chat/+++ to
-    open Microsoft 365 Copilot.
-
-2.  Go to **Workflows (Frontier)** agent.
-
-3.  Paste the below prompt in the chat and select **Save**.
-
-    ```
-    When a summary is generated from Outlook emails categorized as
-    Action Required:
-
-    Before sending the summary:
-
-    Send a Microsoft Teams approval request to me including the summary
-    content.
-
-    If approved:
-
-    Send the summary via email.
-
-    If rejected:
-
-    Stop the workflow and notify me in Teams.
-
-    Start the workflow when a new email arrives. Once the approval or
-    rejection action is taken, stop sending the approval emails to the
-    user.
-    ```
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image19.png)
-
-4.  Once the workflow is saved, select **Test**.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image20.png)
-
-5.  Review the output of approval prompt.
-
-    - Approval step added
-
-    - Control retained for critical communication
-
-6.  The approval step will be added and the email will be received with
-    “Approve” and “Reject” options.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image21.png)
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image22.png)
-
-7.  Select **Approve** and enter “*Approved”* in the comments. Select
-    **Submit**.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image23.png)
-
-8.  Once the approval is received, review the confirmation email.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image24.png)
-
-9.  When the approval step is completed, the email summary is sent
-    automatically.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image25.png)
-
-    >[!Note] If the request is Rejected, the summary will not be sent.
-
-## Exercise 4: Autonomous Workflow
+## Exercise 3: Autonomous Workflow
 
 Marie Brown (Customer Support Manager) wants to reduce missed
 follow-ups.
@@ -420,7 +351,7 @@ follow-ups.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image29.png)
 
-## Exercise 5: Integrate Work IQ to retrieve Zava Leadership Insights
+## Exercise 4: Integrate Work IQ to retrieve Zava Leadership Insights
 
 Patricia Gray (Operations Head) wants visibility into workload and
 burnout risks at Zava Retail.
