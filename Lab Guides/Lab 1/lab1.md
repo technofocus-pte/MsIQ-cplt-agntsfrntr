@@ -255,7 +255,7 @@ Copilot to automate email triage.
 
 After processing your prompt, you will see the run results:
 
-1. Emails detected.
+1. Navigate to +++https://outlook.office365.com/mail/+++ to view emails.
 
     >[!Note] You need to send different types of sample emails to the
     account to verify that the workflow triggers a notification in Microsoft
@@ -268,10 +268,7 @@ After processing your prompt, you will see the run results:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image16.png)
 
-3.  Teams message format.
-
-    Ensure that the Teams message format is matching the Outlook email
-    details.
+3.  Navigate to +++https://teams.cloud.microsoft/+++ to view the output.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image17.png)
 
@@ -311,9 +308,9 @@ follow-ups.
     Send a Microsoft Teams reminder with Urgent timeline to respond to the
     email.  
     If there is no email response until 5 minutes:  
-    Send an escalation notification on email and Microsoft Teams.”
+    Send an escalation notification on email and Microsoft Teams.
 
-    “When a new email arrives in Outlook with "Urgent" in the email
+    When a new email arrives in Outlook with "Urgent" in the email
     subject:  
     Send a Microsoft Teams reminder to
     “@lab.CloudPortalCredential(User1).Username” to respond to the email
@@ -366,12 +363,12 @@ burnout risks at Zava Retail.
    
     ```
     Analyze my email workload patterns.  
-    When a new email arrives in Outlook*
+    When a new email arrives in Outlook
 
     After every new email received:
 
     Send me a summary in Microsoft Teams at
-    User1-60901006@LODSPRODMCA.onmicrosoft.com that includes:
+    @lab.CloudPortalCredential(User1).Username that includes:
 
     - Total number of emails received on the same day
 
@@ -506,7 +503,7 @@ chat to make the agent dynamic and context-aware. Select **Save**.
 
     - A message indicating high workload and potential overload risk
 
-    - A list of current tasks*
+    - A list of current tasks
 
     Also include suggestions to:
 
