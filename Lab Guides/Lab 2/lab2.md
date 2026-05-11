@@ -73,12 +73,12 @@ Patricia logs into Copilot to review Festive Campaign readiness.
 1.  Navigate to +++https://m365copilot.com/+++ Microsoft 365 copilot
     page. 
 
-2.  Enter the **Username - +++@lab.CloudPortalCredential(User1).Username+++* in the field and then click on
+2.  Enter the **Username** - +++@lab.CloudPortalCredential(User1).Username+++ in the field and then click on
     the **Next** button to proceed. 
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image1.png)
 
-3.  Enter **TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++* in the field and then click on the **Sign
+3.  Enter **TAP Token** - +++@lab.CloudPortalCredential(User1).AccessToken+++ in the field and then click on the **Sign
     in** button and click on the **Yes** to stay Signed in. 
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image2.png)
@@ -113,7 +113,10 @@ Patricia wants a complete overview of campaign progress for Zava Retail.
 
 1.  Before interacting with agent first we will send some demo campaign emails to the current lab user with your emial. So the Researcher Agent can access relevant data and produce meaningful insights and summaries. You can get demo campaign email from **C:\Labfiles\Lab2-Lab** files.
    
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image71.png) 
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image71.png)
+2. To view sample email navigate to +++https://outlook.office365.com/mail+++
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image300.png)
 
 3. Go to the Researcher agent, paste the following prompt in the prompt
     field, and then click on the **Execute** button.
@@ -124,13 +127,13 @@ Patricia wants a complete overview of campaign progress for Zava Retail.
 
     Include:
 
-    - Campaign planning progress*
+    - Campaign planning progress
 
-    - Vendor onboarding updates*
+    - Vendor onboarding updates
 
-    - Inventory readiness*
+    - Inventory readiness
 
-    - Marketing campaign activities*
+    - Marketing campaign activities
 
     - Key risks or delays 
     ```
@@ -139,8 +142,8 @@ Patricia wants a complete overview of campaign progress for Zava Retail.
 
 5.  Wait for the **Researcher Agent** to gather and summarize the data
     review the Researcher agent carefully. The Researcher Agent may ask
-    clarifying questions. Select the report length as “Short” and select
-    “Go ahead with your best judgement” and select **Execute** button.
+    clarifying questions. Select the report length as “Short” and select/enter
+    “Go ahead with your best judgement” and select **Send** button.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image9.png)
 
@@ -182,6 +185,7 @@ Patricia wants a complete overview of campaign progress for Zava Retail.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image16.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image17.png)
+    > Note: Generated outputs are non-deterministic and may vary across users, sessions, and environments.
 
 ## Exercise 3: Action and Decision Intelligence 
 
@@ -191,17 +195,14 @@ the data, findings, or situation.
 
 ### Task 1: Identify Action Items
 
-1.  Navigate to +++https://m365copilot.com/+++ Microsoft 365 copilot
-    page. 
-
-2.  Go to the Researcher agent, paste the below given prompt in the
-    field and then click on the **Execute** button. 
+1.  In the Researcher agent, paste the below given prompt in the
+    field and then click on the **Send** button. 
 
     +++List all action items related to the Zava Festive Campaign.+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image18.png)
 
-3.  Review the output:
+2.  Review the output:
 
     - Action items such as “Pending approval”, “Pending confirmation”,
     “Under review” are identified as **Action Items**.
@@ -213,7 +214,7 @@ the data, findings, or situation.
 ### Task 2: Key Decisions
 
 1. Under the Researcher agent, paste the below given prompt in the
-field and then click on the **Execute** button. 
+field and then click on the **Send** button. 
 
     +++Summarize key decisions made across emails and Teams discussions for
     the campaign.+++
@@ -232,17 +233,16 @@ field and then click on the **Execute** button. 
 ### Task 3: Draft Leadership Email
 
 1. Under Researcher agent, paste the below given prompt in the chat
-panel and then click on the **Execute** button. 
+panel and then click on the **Send** button. 
 
-    +++Draft an email to the leadership team summarizing campaign
-    readiness and participation.+++
+    +++Draft an email to the leadership team summarizing campaign readiness and participation.+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image24.png)
 
 2. Wait for the **Researcher Agent** to gather and summarize the data
 review the Researcher agent carefully. The Researcher Agent may ask
-clarifying questions. Select the report length as “Short” and select “Go
-ahead with your best judgement” and select the **Execute** button.
+clarifying questions. Select the report length as “Short” and select/Enter “Go
+ahead with your best judgement” and select the **Send** button.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image25.png)
 
@@ -264,18 +264,17 @@ leadership review meeting in next week and she want to be prepared for
 the upcoming meeting.
 
 1.  Under the Researcher agent, paste the below given prompt in the
-    field and then click on the **Execute** button. 
+    field and then click on the **Send** button. 
 
-    +++Help me prepare for an upcoming meeting by summarizing recent
-    communication and shared files about.+++
+    +++Help me prepare for an upcoming meeting by summarizing recent communication and shared files about.+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image29.png)
 
 2.  Wait for the **Researcher Agent** to gather and summarize the data
     review the Researcher agent carefully. The Researcher Agent may ask
-    clarifying questions. Select the report length as “Short” and select
+    clarifying questions. Select the report length as “Short” and select/enter
     “Meeting is the Q2 Sales Review on April 10” and select the
-    **Execute** button.
+    **Send** button.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image30.png)
 
@@ -288,7 +287,7 @@ the upcoming meeting.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image33.png)
 
 4.  Paste the below given prompt in the field and then click on
-    the **Execute** button.
+    the **Send** button.
 
     +++What topics have been discussed in past weekly team syncs?+++
 
@@ -310,9 +309,8 @@ update the current status, blockers, and overall campaign progress to
 the leadership team.
 
 1.  Under Researcher agent, paste the below given prompt in the field
-    and then click on the **Execute** button.   
-    +++Summarize the current status and blockers for the Zava Festive
-    Campaign.*+++
+    and then click on the **Send** button.   
+    +++Summarize the current status and blockers for the Zava Festive Campaign.+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image38.png)
 
@@ -333,7 +331,7 @@ while Action Prompts guide you to resolve or explore these gaps
 further. Patricia wants to uncover hidden risks.
 
 1.  Under Research agent window, paste the below given prompt in the
-    field and then click on the **Execute** button. 
+    field and then click on the **Send** button. 
 
     +++What open questions or gaps remain in the Zava Festive Campaign?+++
 
@@ -343,7 +341,7 @@ further. Patricia wants to uncover hidden risks.
     review the Researcher agent carefully. The Researcher Agent may ask
     clarifying questions. Select the report length as “Short” and select
     “Analyze sales data and customer feedback for gaps” and select the
-    **Execute** button.
+    **Send** button.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image43.png)
 
@@ -360,7 +358,7 @@ references that can guide research, planning, or project documentation. 
 It helps you to find latest campaign documents and insights.
 
 1.  Under Researcher agent, paste the below given prompt in the field
-    and then click on the **Execute** button.
+    and then click on the **Send** button.
 
     +++Find the latest version of Zava Festive Campaign plan and summarize key updates.+++
 
@@ -373,7 +371,7 @@ It helps you to find latest campaign documents and insights.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image47.png)
 
 3.  Enter the below given prompt in the field and then click on
-    the **Execute** button.   
+    the **Send** button.   
     +++Summarize contents of shared documents related to campaign planning.+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image48.png)
@@ -388,7 +386,7 @@ Use the Researcher Agent to help communicate findings to your
 team. Patricia needs a leadership update.
 
 1.  Under Researcher Agent, paste the below given prompt in the field
-    and then click on the **Execute** button. 
+    and then click on the **Send** button. 
 
     ```
     Draft an executive summary email on Zava Festive Campaign covering:
