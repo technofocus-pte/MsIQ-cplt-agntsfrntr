@@ -1,4 +1,4 @@
-# Lab – Orchestrating multi-agent AI for retail using Copilot Studio, Microsoft Foundry, and Fabric
+# Lab 12 – Orchestrating multi-agent AI for retail using Copilot Studio, Microsoft Foundry, and Fabric
 
 ## Objective:
 
