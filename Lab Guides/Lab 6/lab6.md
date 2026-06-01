@@ -1,4 +1,4 @@
-# Lab 6 – Build the Project Knowledge Assistant Copilot Agent with Microsoft IQ for trusted customer success
+# Lab 6 – Build a Store Operations Assistant Copilot Agent for trusted customer success at Zava Retail
 
 **Estimated Duration:** 40 minutes
 
