@@ -77,7 +77,7 @@ The operations head at Zava Retail oversees the business operations
 across departments, tracks productivity and workload, and ensures
 operational efficiency.
 
-# Lab Prerequisites
+## Lab Prerequisites
 
 **Licensing & Access**
 
@@ -139,7 +139,7 @@ Copilot to automate email triage.
 
 5.  After successful login, you will see **Copilot Chat** home page.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image4.png)
+    ![](./media/a1.png)
 
 6.  In the **left navigation**, select **All Agents** and explore the
     Agent store.
@@ -159,19 +159,10 @@ Copilot to automate email triage.
 
 ## Exercise 2: Build Zava Email Triage Agent
 
-### Task 1: Open Workflows Agent
+### Task 1: Populate the Inbox with Sample Emails
 
-1.  Go to Microsoft 365 Copilot home page.
 
-2.  Navigate to **Agents \> Workflows (Frontier)**.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image9.png)
-
-    >[!Note] You will see a chat interface of Workflows (Frontier).
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image10.png)
-
-### Task 2: Describe the Workflow in Natural Language
+### Task 1: Describe the Workflow in Natural Language
 
 1.  Define Business Logic (Prompt)
 
@@ -251,7 +242,7 @@ Copilot to automate email triage.
     >[!Note] Test process can take 5-10 minutes. Wait until the process
     is completed.
 
-### Task 3: Validate Output 
+### Task 2: Validate Output 
 
 After processing your prompt, you will see the run results:
 
