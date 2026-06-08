@@ -277,7 +277,7 @@ diagnose workforce skills gaps:
 ### Task 1: Generate Alex’s 6-Week Plan
 
 1.  To generate plan for Alex, paste the following prompt and click on
-    the **Sand** button.
+    the **Send** button.
     
     ```  
     Generate a structured 6-week learning plan for Alex with: 
