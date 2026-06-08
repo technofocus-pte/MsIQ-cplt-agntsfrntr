@@ -155,12 +155,16 @@ Copilot to automate email triage.
 7.  Select **Add** to add the **Workflows Agent (Frontier)**.
 
     ![](./media/b5.png)
+    Now your agent is ready to use.
     ![](./media/b6.png)
 
 ## Exercise 2: Build Zava Email Triage Agent
 
 ### Task 1: Populate the Inbox with Sample Emails
-
+Populate the Outlook inbox with realistic unread sample emails so the Zava Email Triage Agent can analyze, categorize, and generate actionable insights from them during workflow execution.
+1. Navigate to C:\Lab Files\Lab 1-Lab files and open Sample Emaile for Lab1 file. Here you will find all the sample emails that will be used in this lab.
+   ![](./media/b7.png)
+2. Send first 6 emails to the current user: Username - +++@lab.CloudPortalCredential(User1).Username+++ using your own email account.
 
 ### Task 1: Describe the Workflow in Natural Language
 
