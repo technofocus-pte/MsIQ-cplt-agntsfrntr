@@ -258,6 +258,7 @@ take a specific action based on the data, findings, or situation.
 
     ![](./media/q14.png)
     ![](./media/q15.png)
+    > Note: Generated outputs are non-deterministic and may vary across users, sessions, and environments.
     
 ### Task 2: Resolve Customer Issues
 
@@ -278,19 +279,21 @@ take a specific action based on the data, findings, or situation.
     ![](./media/q17.png)
 
     ![](./media/q18.png)
+    > Note: Generated outputs are non-deterministic and may vary across users, sessions, and environments.
 
-3.  Paste the below given prompt in the field and then click on
+4.  Paste the below given prompt in the field and then click on
     the **Send** button. 
 
     `Product out of stock during sale. What are the next steps?`
 
     ![](./media/q19.png)
 
-4.  Review the output:
+5.  Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image32.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%205/media/image33.png)
+    > Note: Generated outputs are non-deterministic and may vary across users, sessions, and environments.
 
 ### Task 3: Store Manager Scenario
 
