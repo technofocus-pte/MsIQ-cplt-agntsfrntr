@@ -84,15 +84,14 @@ and configure it inside Microsoft 365 Copilot.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image101.png)
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image102.png)
 
-3.  From the left navigation panel, click **All agents**, then click **Create Agent**.
+2.  From the left navigation panel, click **More agents**, then click **Create Agent**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image300.png)
-    
+    ![](./media/p2.png)
 
-5.  The **New Agent** page will be opened. Now click **Skip to configure**.
+3.  The **New Agent** page will be opened. Now click **Skip**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image301.png)
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image302.png)
+    ![](./media/p3.png)
+    ![](./media/p4.png)
 
 ## Task 2: Define and Configure Agent 
 
