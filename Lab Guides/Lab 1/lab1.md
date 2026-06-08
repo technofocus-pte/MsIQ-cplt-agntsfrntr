@@ -166,7 +166,7 @@ Populate the Outlook inbox with realistic unread sample emails so the Zava Email
    ![](./media/b7.png)
 2. Send first 6 emails to the current user: Username - +++@lab.CloudPortalCredential(User1).Username+++ using your own email account.
 
-### Task 1: Describe the Workflow in Natural Language
+### Task 2: Describe the Workflow in Natural Language
 
 1.  Define Business Logic (Prompt)
 
@@ -207,18 +207,13 @@ Populate the Outlook inbox with realistic unread sample emails so the Zava Email
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image11.png)
 
-3.  Select **Save** on the top right corner of the **Workflow** window
+2.  Select **Save** on the top right corner of the **Workflow** window
     to run the actions automatically. Your workflow is now created and
     ready to test.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image12.png)
-    
-5. Once the workflow is saved, open your email and send some sample email to the current user to verify that the workflow triggers a notification in Microsoft Teams. 
-    Navigate to **C:/Labfiles/Lab 1 - Lab files** to get sample email.
-   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image122.png)
 
-7.  Once the sample emails are sent, select **Test** to review the output.
+3.  Select **Test** to review the output.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image13.png)
 
@@ -246,7 +241,7 @@ Populate the Outlook inbox with realistic unread sample emails so the Zava Email
     >[!Note] Test process can take 5-10 minutes. Wait until the process
     is completed.
 
-### Task 2: Validate Output 
+### Task 3: Validate Output 
 
 After processing your prompt, you will see the run results:
 
@@ -403,7 +398,7 @@ open Microsoft 365 Copilot.
 chat and select **Save**.
 
     ```
-    Classify the workload into:  
+    Create a workflow to classify the workload into:  
     - Low  
     - Moderate  
     - High  
@@ -482,10 +477,33 @@ chat to turn raw signals into leadership insights. Select **Save**.
 
 ### Task 4: Add Adaptive Intelligence
 
-1. Navigate to +++https://m365.cloud.microsoft/chat/+++ to
+1. Before adding adaptive intelligence first we need to add some sample task in the teams planner so that the agent fetch the data from there. Navigate to https://teams.cloud.microsoft/
+2. From the left navigation, select **three dots(...)** and then select **planner**.
+3. Click **+Create a Plan**
+   
+   ![](./media/b8.png)
+4. Click **Create basic plan**
+   
+   ![](./media/b9.png)
+5. Enter plan name as +++Zava Retail FY-26+++ and click **Create basic plan**
+   
+   ![](./media/b10.png)
+6. Select **+Add task**
+   
+   ![](./media/b11.png)
+7. Enter the task name as +++knowledge transfer with CRM Team+++ set any due date and then click **Add task** button to add task in the planner.
+   
+   ![](./media/b12.png)
+8. Similary we can add the following tasks in the planner:
+   +++Prepare onboading program training+++
+   +++Prepare training for vendord program+++
+   +++Prepare training for new joiners+++
+   +++Prepare training for new joiners+++
+   
+9. Navigate to +++https://m365.cloud.microsoft/chat/+++ to
 open Microsoft 365 Copilot.
 
-2. Under **Workflows (Frontier)** agent, paste the below prompt in the
+10. Under **Workflows (Frontier)** agent, paste the below prompt in the
 chat to make the agent dynamic and context-aware. Select **Save**.
 
     ```
@@ -509,11 +527,11 @@ chat to make the agent dynamic and context-aware. Select **Save**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image39.png)
 
-4. Select **Test**.
+11. Select **Test**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image40.png)
 
-5. Review the output:
+12. Review the output:
 
     - Adds **conditional logic (IF-THEN)**
 
@@ -521,7 +539,7 @@ chat to make the agent dynamic and context-aware. Select **Save**.
 
     - Personalizes recommendations
 
-6. Review the output after the test run is completed. When the workload
+13. Review the output after the test run is completed. When the workload
 is high, enhanced recommendations will appear automatically. The
 overload risk is also highlighted explicitly.
 
