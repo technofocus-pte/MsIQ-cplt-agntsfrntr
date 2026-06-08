@@ -159,7 +159,7 @@ the files. The required files for this lab are available at **C:\Lab Files\Lab 3
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image307.png)
 
-5.  Click **Create** and then, select **Go to Agent**.
+4.  Click **Create** and then, select **Go to Agent**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image308.png)
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image309.png)
@@ -186,14 +186,14 @@ Retail.
     tools.  
 
     Our key upskilling priorities are:  
-    1. RMS system adoption*  
+    1. RMS system adoption
     2. AI inventory and analytics supervisory skills
     3. Supply chain risk management for mid-career analysts
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image310.png)
+    ![](./media/p8.png)
 
-3.  Review the output:
+2.  Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image311.png)
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image312.png)
@@ -209,7 +209,7 @@ Retail.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image314.png)
 
-3. Review the output:
+2. Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image315.png)
    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image316.png)
@@ -225,9 +225,7 @@ diagnose workforce skills gaps:
     ```
     I have a Store Operations Supervisor named Alex who is consistently
     overriding AI-powered inventory replenishment alerts without reviewing
-    them — approximately 3 times per week over the past month.
-    *Based on this behavioral signal, what skill gaps should I hypothesize,
-    and what targeted learning plan should I create? 
+    them — approximately 3 times per week over the past month. Based on this behavioral signal, what skill gaps should I hypothesize, and what targeted learning plan should I create? 
     ```
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image317.png)
@@ -263,8 +261,8 @@ diagnose workforce skills gaps:
     ```
     Our RMS went live 6 months ago. Derek is at 31% system utilization —
     lowest on his team.
-    *He has 11 years of legacy system experience.
-    *What resistance patterns and skill gaps should I address?
+    He has 11 years of legacy system experience.
+    What resistance patterns and skill gaps should I address?
     ``` 
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image323.png)
@@ -282,7 +280,7 @@ diagnose workforce skills gaps:
     the **Sand** button.
     
     ```  
-    Generate a structured 6-week learning plan for Alex with:*  
+    Generate a structured 6-week learning plan for Alex with: 
     - Learning objectives
     - Weekly activities 
     - Resources 
@@ -292,7 +290,7 @@ diagnose workforce skills gaps:
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image326.png)
 
-3.  Review the output:
+2.  Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image327.png)
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image328.png)
@@ -359,7 +357,7 @@ diagnose workforce skills gaps:
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image335.png)
 
-3.  Review the output:
+2.  Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image336.png)
 
