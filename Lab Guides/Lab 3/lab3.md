@@ -104,7 +104,7 @@ and configure it inside Microsoft 365 Copilot.
     assisting leaders with workforce readiness decisions during digital
     transformation`  
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image303.png)
+    ![](./media/p5.png)
 
 2.  Paste the below given prompt in the field and then click on
     the **Execute** button.
@@ -114,7 +114,7 @@ and configure it inside Microsoft 365 Copilot.
 
     Your purpose is to help leaders identify workforce capability gaps,
     generate personalized learning plans, support coaching simulations,
-    and recommend interventions during digital transformation.*
+    and recommend interventions during digital transformation.
 
     Focus on:
 
@@ -138,7 +138,7 @@ and configure it inside Microsoft 365 Copilot.
 
     - Retail store cluster context
     ```
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image304.png)
+    ![](./media/p6.png)
 
 3. In the Knowledge Sources, upload or connect the below mentioned
 organizational resources. Select **Upload from device** icon to upload
@@ -163,6 +163,7 @@ the files. The required files for this lab are available at **C:\Lab Files\Lab 3
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image308.png)
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%203/media/image309.png)
+    ![](./media/p7.png)
 
 ## Exercise 2: Grounding the Agent in Organizational Context
 
