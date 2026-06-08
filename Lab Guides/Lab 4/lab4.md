@@ -63,17 +63,19 @@ first version will be.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image100.png)
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image101.png)
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image102.png)
+    ![](./media/p1.png)
 
-3.  On the left-hand navigation pane, click **All Agents\>App Builder
+2.  On the left-hand navigation pane, click **More agents\>App Builder
     (Frontier)**.
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image2.png)
+    ![](./media/p2.png)
 
-5.  Select **Add** to add this agent to your environment.  
+3.  Select **Add** to add this agent to your environment.  
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image3.png)
 
-6.  The App Builder interface will open with a conversational input
+4.  The App Builder interface will open with a conversational input
     field — this is where you describe your app.
+    ![](./media/p3.png)
 
 ### Task 2: Describe Your App in Natural Language
 
@@ -91,16 +93,16 @@ first version will be.
     related to asset setup, and a section for IT resources and policies.
     ```
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image4.png)
-
-3.  Once generation is complete, a live preview of your app will appear
+    ![](./media/p4.png)
+  
+2.  Once generation is complete, a live preview of your app will appear
     on the right side of the screen — with a navigation panel showing
     sections such as Dashboard, Employees, Tasks, Resources, and
     potential Feedback.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image5.png)
 
-4.  On the left side, Copilot will summarize what it built and may
+3.  On the left side, Copilot will summarize what it built and may
     suggest enhancements. Read through its summary before proceeding.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image6.png)
