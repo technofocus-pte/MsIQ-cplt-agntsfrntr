@@ -80,7 +80,7 @@ first version will be.
 ### Task 2: Describe Your App in Natural Language
 
 1.  In the App Builder input field, paste the following prompt and click
-    on **Execute** button.
+    on **Send** button.
     
     ```
     Build me an IT asset tracking app for Zava Retail. The app should
@@ -100,12 +100,12 @@ first version will be.
     sections such as Dashboard, Employees, Tasks, Resources, and
     potential Feedback.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image5.png)
-
+    ![](./media/p5.png)
+    
 3.  On the left side, Copilot will summarize what it built and may
     suggest enhancements. Read through its summary before proceeding.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image6.png)
+    ![](./media/p6.png)
 
 ## Exercise 2: Refine the App Through Conversation
 
@@ -116,7 +116,7 @@ first version will be.
     for the IT team.
 
 2.  In the App Builder conversation input on the left, paste the below
-    prompt and click on the **Execute** button.
+    prompt and click on the **Send** button.
 
     ```
     Add a section to the dashboard that highlights overdue asset requests
@@ -125,16 +125,16 @@ first version will be.
     overdue. 
     ```
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image7.png)
+    ![](./media/p7.png)
 
 3.  Confirm the dashboard now includes an overdue section with the
     fields you specified.  
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image8.png)
-
+    ![](./media/p8.png)
+    
 ### Task 2: Add Task Priority Indicators
 
 1.  In the conversation input, paste the following prompt and click on
-    **Execute** button.
+    **Send** button.
 
     ```
     In the Tasks section, add priority indicators — High, Medium, and
@@ -142,7 +142,7 @@ first version will be.
     only tasks due within the next 7 days
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image9.png)
+    ![](./media/p9.png)
 
 2.  Once the response is generated, review the updated Tasks section in
     the preview.
@@ -153,7 +153,7 @@ first version will be.
 
     - A Due This Week filter or view is available
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image10.png)
+    ![](./media/p10.png)
 
 ### Task 3: Enhance the Employee Section
 
@@ -162,7 +162,7 @@ record of what each person has been issued and whether their setup is
 complete.
 
 1.  In the conversation input, paste the following prompt and click on
-    **Execute** button.
+    **Send** button.
 
     ```
     In the Employees section, add a column showing each employee's asset
@@ -171,56 +171,51 @@ complete.
     follow-up.
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image11.png)
+    ![](./media/p11.png)
 
-2.  Review the updated Employees section.  
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image12.png)
+2.  Review the updated **Employees** section.  
+    ![](./media/p12.png)
 
 ## Exercise 4: Test the App as a Real IT Team Member Would
 
 ### Task 1: Log a New Asset Assignment
 
 1.  In the app preview, navigate to the Asset section.  
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image13.png)
+    ![](./media/p13.png)
 
 2.  To add a new asset record, paste the following details in respective
     fields.
 
-    - Model: +++Macbook Air+++
+    - Model: +++**Macbook Air**+++
 
-    - Serial Number: +++AB568J+++
+    - Serial Number: +++**AB568J**+++
 
-    - Type: +++Laptop+++
+    - Type: Select **Laptop**
 
-    - Status: +++Pending+++
+    - Status: Select **Pending Collection**
 
     >[!Note] This asset is yet to be assigned.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image14.png)
+    ![](./media/p14.png)
 
 3.  Save the record.  
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image15.png)
-
+    ![](./media/p15.png)
+    
 ### Task 2: Complete a Task and Check Progress
 
-1.  Navigate to the Tasks section.
+1.  Navigate to the **Tasks** section.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image16.png)
+    ![](./media/p16.png)
 
-3.  Find a task related to Laptop-Refresh Manchester Store. Select
-    **Complete** and then, click on **Save Changes** to mark it as
+2.  Find a task related to Provision new laptop for store manager. Select the checkbox to mark it as
     completed.
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image17.png)
-
-5.  Return to the Dashboard and confirm the Task Completion Progress
-    metric updates to reflect the completed task.
+    ![](./media/p17.png)
+    ![](./media/p18.png)
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image18.png)
+3.  Return to the Dashboard and review that the overall completion percentage changes accordingly.
 
-7.  Review that the overall completion percentage changes accordingly.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image19.png)
+    ![](./media/p19.png)
 
 ## Exercise 5: Publish the App and Share It with Your Team
 
@@ -231,13 +226,14 @@ complete.
 
 2.  Click **Publish**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image20.png)
+    ![](./media/p20.png)
 
-4.  Once published, App Builder will generate a direct link to your app.
-    Copy this link.
+3.  Once published, App Builder will generate a direct link to your app. Select **Share ->Copy link** to
+    copy this link.
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image21.png)
-
+    ![](./media/p21.png)
+4. Select **Copy** to copy the link.
+   ![](./media/p22.png)
     >[!Note] Save the link in your notes. It will be used in the upcoming task.
 
 ### Task 2: Validate the Published App
@@ -247,7 +243,7 @@ complete.
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image22.png)
 
-3.  Review that the app loads correctly with:
+2.  Review that the app loads correctly with:
 
     - The correct app name and dashboard visible
 
@@ -255,12 +251,12 @@ complete.
 
     - The overdue items section present on the dashboard
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image23.png)
+    ![](./media/p23.png)
 
 ### Task 3: Share and Brief Your Team
 
 1.  Return to App Builder. In the conversation input, paste the
-    following prompt and click on **Execute** button.
+    following prompt and click on **Send** button.
 
     ```
     Draft a brief message I can send to the Zava Retail IT team
@@ -268,15 +264,17 @@ complete.
     how to check overdue items. 
     ```
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image24.png)
+   ![](./media/p24.png)
 
 2.  Copilot will generate a ready-to-send team briefing. Review the
     briefing and note any required edits.
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%204/media/image25.png)
-
+    ![](./media/p25.png)
+    ![](./media/p27.png)
+    
 3.  Copy the briefing and the direct app link — these are what you would
     share with the IT team in a real deployment.
+    ![](./media/p26.png)
 
 ## Summary
 
