@@ -133,7 +133,7 @@ Patricia logs into Copilot to review Festive Campaign readiness.
 
     ![](./media/q1.png)
 
-5.  In the left **navigation pane**, look for **More agents**.
+5.  Expand **navigation pane**, and look for **More agents**.
 
     ![](./media/q2.png)
 
