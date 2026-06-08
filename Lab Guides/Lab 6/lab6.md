@@ -48,44 +48,57 @@ intelligent and trustworthy.
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image101.png)
 
-4.  Click **Yes**, to stay signed in.
+3.  Click **Yes**, to stay signed in.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image2.png)
+    ![](./media/a1.png)
 
-5.  In the left navigation bar, select **All Agents** and then select
+4.  From the left navigation bar, select **App Launcher** and then select
     **SharePoint**.
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image3.png)
+    ![](./media/a2.png)
 
-7.  On the SharePoint home page, create your organization’s site. Click
-    **Create site** in the top-left corner and follow the wizard.
+5.  On the SharePoint home page, create your organization’s site. Select
+    **Build** from the left navigation bar.
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image4.png)
+    ![](./media/a3.png)
+6. Select **Site** to create your organization’s site.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image5.png)
+    ![](./media/a4.png)
+7. Select **Standard Team** as a Site template.
+   ![](./media/a5.png)
+   
+8. Select **Use this template**.
+   ![](./media/a6.png)
+9. Paste the site name as +++**ZavaSite**+++ and then click **Create Site** button.
 
-9.  Paste the site name as +++**ZavaSite**+++
+    ![](./media/a7.png)
+   > Note: If you encounter any error in **site address** please add 3-digit unique number at the end of ZavaSite to make the address unique.
+10. Select **Go to site** to open the newly created site.
+    ![](./media/a8.png)
+    ![](./media/a9.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image6.png)
+11. Under **Documents** Section, click three dots(...) and then select **Uploads -> Folder**.
+    ![](./media/a10.png)
+12. Navigate to **C:\Labfiles\Lab6-Lab files** and select **HR Document** folder and then select **Open** to add this folder in the site.
+    ![](./media/a11.png)
+13. Select **Upload** to upload the folder in the site.
+    ![](./media/a12.png)
+14. Similarly add the remaining folders individaully in the site.
+    - Product Specs Folder
+    - Project Updates
+    - Shift Handover notes
+    - SOP
+    - library
+    ![](./media/a13.png)
 
-10. Navigate to **C:\Labfiles\Lab6-Lab files** and **upload** the following folders in your SharePoint
-    site:
-
-- Product Specs Folder
-- Project Updates
-- Shift Handover notes
-- SOP
-- library
- 
-![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image7.png)
-
->[!Note] *Before testing your Copilot Agent, ensure that all
+>[!Note] Before testing your Copilot Agent, ensure that all
 required source documents (such as project updates, SOP files, product
 specifications, shift handover notes, or any other referenced materials)
 are uploaded to the appropriate SharePoint site libraries and folders.
 The agent can only generate accurate, grounded responses from content
 that exists in the site and is accessible through its configured
-knowledge sources.*
+knowledge sources.
 
 ### Task 2: Create a New Agent 
 
