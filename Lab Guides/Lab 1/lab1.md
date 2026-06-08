@@ -133,29 +133,29 @@ Copilot to automate email triage.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image1.png)
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image101.png)
 
-4.  Click **Yes**, to stay signed in.
+3.  Click **Yes**, to stay signed in.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image3.png)
 
-5.  After successful login, you will see **Copilot Chat** home page.
+4.  After successful login, you will see **Copilot Chat** home page.
 
-    ![](./media/a1.png)
+    ![](./media/b1.png)
 
-6.  In the **left navigation**, select **All Agents** and explore the
+5.  In the **left navigation**, select **More agents** and explore the
     Agent store.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image5.png)
+    ![](./media/b2.png)
+    ![](./media/b3.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image6.png)
-
-7.  Scroll down and look for **Workflows (Frontier)** option under
+6.  Scroll down and look for **Workflows (Frontier)** option under
     “Built by Microsoft” header.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image7.png)
+    ![](./media/b4.png)
+    
+7.  Select **Add** to add the **Workflows Agent (Frontier)**.
 
-8.  Select **Add** to add the **Workflows Agent (Frontier)**.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image8.png)
+    ![](./media/b5.png)
+    ![](./media/b6.png)
 
 ## Exercise 2: Build Zava Email Triage Agent
 
