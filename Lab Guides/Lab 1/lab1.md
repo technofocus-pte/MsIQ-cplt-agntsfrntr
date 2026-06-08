@@ -162,7 +162,7 @@ Copilot to automate email triage.
 
 ### Task 1: Populate the Inbox with Sample Emails
 Populate the Outlook inbox with realistic unread sample emails so the Zava Email Triage Agent can analyze, categorize, and generate actionable insights from them during workflow execution.
-1. Navigate to C:\Lab Files\Lab 1-Lab files and open Sample Emaile for Lab1 file. Here you will find all the sample emails that will be used in this lab.
+1. Navigate to **C:\Lab Files\Lab 1-Lab** files and open **Sample Emaile for Lab1** file. Here you will find all the sample emails that will be used in this lab.
    ![](./media/b7.png)
 2. Send first 6 emails to the current user: Username - +++@lab.CloudPortalCredential(User1).Username+++ using your own email account.
 
@@ -495,10 +495,10 @@ chat to turn raw signals into leadership insights. Select **Save**.
    
    ![](./media/b12.png)
 8. Similary we can add the following tasks in the planner:
-   +++Prepare onboading program training+++
-   +++Prepare training for vendord program+++
-   +++Prepare training for new joiners+++
-   +++Prepare training for new joiners+++
+   - +++Prepare onboading program training+++
+   - +++Prepare training for vendord program+++
+   - +++Prepare training for new joiners+++
+   - +++Prepare training for new joiners+++
    
 9. Navigate to +++https://m365.cloud.microsoft/chat/+++ to
 open Microsoft 365 Copilot.
