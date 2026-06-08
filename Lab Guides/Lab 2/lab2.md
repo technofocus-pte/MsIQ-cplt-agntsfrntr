@@ -82,30 +82,31 @@ Patricia logs into Copilot to review Festive Campaign readiness.
     in** button and click on the **Yes** to stay Signed in. 
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image2.png)
+    ![](./media/b1.png)
 
-4.  Explore the Copilot chat environment.
+5.  Explore the Copilot chat environment.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image3.png) 
+    ![](./media/b2.png)
 
-5.  In the left **navigation pane**, look for **Agents**. 
+6.  In the left **navigation pane**, look for **Agents**. 
 
     - If **Researcher** appears directly under the **Agents** section \>
     select **Researcher**. 
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image4.png)
+    ![](./media/b3.png)
 
-    - If not, select **All Agents**. In the **Agent Store** window, under
+    - If not, select **More agents**. In the **Agent Store** window, under
     the **Built by Microsoft** section, select **Researcher**. 
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image5.png)
+    ![](./media/b4.png)
 
-6.  Select **Open** to access the Researcher agent.
+7.  Select **Open** to access the Researcher agent.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image6.png)
+    ![](./media/b5.png)
 
-7.  The **Researcher Agent window** opens in a new pane. 
+8.  The **Researcher Agent window** opens in a new pane. 
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%202/media/image7.png) 
+    ![](./media/b6.png)
 
 ## Exercise 2: Run Your First Research Prompt (Campaign Intelligence)
 
