@@ -30,45 +30,45 @@ using enterprise knowledge sources.
 
 ### Task 1: Create the agent and configure knowledge sources
 
-In this task, you will create the +++TrailAssist Concierge+++ agent,
+In this task, you will create the **TrailAssist Concierge** agent,
 configure its behavior, and ground it with knowledge sources related to
 shipping, returns, and customer support policies.
 
 1.  Login to +++https://copilotstudio.microsoft.com/+++ with your
     login credentials
 
-    - Username - <+++@lab.CloudPortalCredential>(User1).Username+++
+    - Username - +++@lab.CloudPortalCredential(User1).Username+++
 
-    - TAP - <+++@lab.CloudPortalCredential>(User1).AccessToken+++
+    - TAP - +++@lab.CloudPortalCredential(User1).AccessToken+++
 
 2.  Select **Get Started** to activate the Copilot Studio trial.
 
     ![](./media/image1.png)
 
-3.  Select **Agents** -> **+ Create blank agent**. Enter the name
-    +++TrailAssist Concierge+++
+3.  Select **Agents** -> **+ Create blank agent**.
+    ![](./media/m1.png)
+   
+4.  Enter the name **+++TrailAssist Concierge+++** and then click **Create**.
+    ![](./media/m2.png)
 
-    ![](./media/image2.png)
-
-4.  Select **Edit** to edit the details of the agent and enter the below
+5.  Select **Edit** to edit the details of the agent and enter the below
     description and select **Save**.
 
     ```
-    A customer-facing AI assistant that helps users with
-    order support, returns, refunds, and shipping queries while coordinating
+    A customer-facing AI assistant that helps users with order support, returns, refunds, and shipping queries while coordinating
     with a product specialist agent for recommendations and product-specific
     details.
     ```
-    ![](./media/image3.png)
+    ![](./media/m3.png)
 
-    ![](./media/image4.png)
+    ![](./media/m4.png)
 
-5.  Select **Edit** against Instructions to add instructions to the
+6.  Select **Edit** against Instructions to add instructions to the
     agent.
 
-    ![](./media/image5.png)
+    ![](./media/m5.png)
 
-6. Enter the below instructions and select **Save**.
+7. Enter the below instructions and select **Save**.
     ```
     You are TrailAssist Concierge, a helpful and professional retail assistant for an outdoor gear company.
 
@@ -83,45 +83,45 @@ shipping, returns, and customer support policies.
     - If unsure, ask clarifying questions.
     - Do not hallucinate product details-rely on the product agent.
     ```
-    ![](./media/image6.png)
+    ![](./media/m6.png)
 
-7. Select **Settings** to update the agent’s settings.
+8. Select **Settings** to update the agent’s settings.
 
-    ![](./media/image7.png)
+    ![](./media/m7.png)
 
-8. Under **Knowledge**, **disable** **Allow ungrounded
+9. Under **Knowledge**, **disable** **Allow ungrounded
     responses** and **Use information from the web** options and then
     select **Save**.
 
-    ![](./media/image8.png)
+    ![](./media/m8.png)
 
-9. Once the changes are saved, close the Settings pane.
+10. Once the changes are saved, close the Settings pane.
 
-    ![](./media/image9.png)
+    ![](./media/m9.png)
 
-10. Back in the Overview page of the agent, select **+ Add knowledge**.
+11. Back in the Overview page of the agent, select **+ Add knowledge**.
 
     ![](./media/image10.png)
 
-11. **Browse** for the files, select the files under **C:\Labfiles\MCS
+12. **Browse** for the files, select the files under **C:\Labfiles\MCS
     Agent** and click **Open**.
 
     ![](./media/image11.png)
 
     ![](./media/image12.png)
 
-12. In the next screen, select **Add to agent**.
+13. In the next screen, select **Add to agent**.
 
     ![](./media/image13.png)
 
     ![](./media/image14.png)
 
-13. Ensure that the added documents change to **Ready** state.
+14. Ensure that the added documents change to **Ready** state.
 
     \[!Alert\] It may take up to 10 mminutes for the status to change to
     "Ready".
 
-    ![](./media/image15.png)
+    ![](./media/m10.png)
 
     You have successfully created and configured the Copilot Studio agent
     and grounded it with relevant knowledge sources to handle customer
@@ -132,23 +132,25 @@ shipping, returns, and customer support policies.
 In this task, you will test the agent to validate that it correctly
 retrieves and responds using the configured knowledge sources.
 
-1.  Select the Test pane from the top right and enter:
+1.  Select the Test pane from the top right.
+    ![](./media/m11.png)
+2.  Enter the following prompt in the prompt field:
 
-    How long does delivery take to metro cities?
+    +++How long does delivery take to metro cities?+++
 
     ![](./media/image16.png)
 
-2.  You can see that the agent replies from the added knowledge source.
+3.  You can see that the agent replies from the added knowledge source.
 
-    ![](./media/image17.png)
+    ![](./media/m12.png)
 
-3.  Try another prompt as below and observe the response
+4.  Try another prompt as below and observe the response
 
-    Can I return a product after 7 days?
+    +++Can I return a product after 7 days?+++
 
     ![](./media/image18.png)
 
-    ![](./media/image19.png)
+    ![](./media/m13.png)
 
     You have verified that the agent can accurately respond to user queries
     using its knowledge base, ensuring reliable and grounded interactions.
@@ -179,7 +181,7 @@ by completing the following steps:
 
 3.  On the left hand panel, select **Access Control (IAM)**.
 
-4.  Select **+ Add**, **Add Role Assignment**.
+4.  Select **+ Add**, then select **Add Role Assignment**.
 
 5.  Search for and select +++Azure AI Administrator+++, then
     select **Next**.
@@ -196,62 +198,62 @@ by completing the following steps:
 9.  Select **Review and Assign** twice on the bottom of the page and
     wait for the role assignment to complete.
 
-&nbsp;
-
-1.  On the Home page of the Azure portal, select **Foundry** from
+10. On the Home page of the Azure portal, select **Foundry** from
     the **Home** page.
 
     ![](./media/image20.png)
 
-2.  Select **Use with Foundry** -> **Foundry** -> **+ Create** to
+11. Select **Use with Foundry** -> **Foundry** -> **+ Create** to
     create the new Foundry resource.
 
     ![](./media/image21.png)
 
-3.  Enter the below details, select the nearest region and
+12. Enter the below details, select the nearest region and
     select **Review + create**.
 
     - Resource Group - **@lab.CloudResourceGroup(ResourceGroup1).Name**
 
-    - Name - <+++resource@lab.LabInstance.Id>+++
+    - Name - +++resource@lab.LabInstance.Id+++
 
     - Location - **@lab.CloudResourceGroup(ResourceGroup1).Location**
 
-    - Default project name - <+++proj@lab.LabInstance.Id>+++
+    - Default project name - +++proj@lab.LabInstance.Id+++
 
     ![](./media/image22.png)
 
-4.  Select **Create** in the next screen.
+13. Select **Create** in the next screen.
 
     ![](./media/image23.png)
 
-5.  Once the resource is created, select **Go to resource** and then
+14. Once the resource is created, select **Go to resource** and then
     select **Go to Foundry portal**. This will take you to
     the **Microsoft Foundry** page.
 
     ![](./media/image24.png)
 
     ![](./media/image25.png)
+15. Select your project.
+    ![](./media/m14.png)
 
-6.  Toggle **on** the **New Foundry** option.
+16. Toggle **on** the **New Foundry** option.
 
-    ![](./media/image26.png)
+    ![](./media/m15.png)
 
-7.  Select **Build** from the top menu since you will be building a new
+17. Select **Build** from the top menu since you will be building a new
     agent now.
 
-    ![](./media/image27.png)
+    ![](./media/m16.png)
 
-8.  Select **Create agent** to create a new product expert agent.
+18. Select **New agent -> Build an agent** to create a new product expert agent.
 
-    ![](./media/image28.png)
+    ![](./media/m17.png)
 
-9.  Enter the name of the agent as +++TrailGearExpert+++ and then
+19. Enter the name of the agent as +++TrailGearExpert+++ and then
     select **Create**.
 
-    \![\](https://raw.githubusercontent.com/technofocus-pte/entrprsagntscpltstdfrntr/refs/heads/main/Labguides/Foundry%20lab/media/image29.png)
+    ![](./media/m18.png)
 
-11. Once the agent is created, enter the below instructions in the
+20. Once the agent is created, enter the below instructions in the
     Instructions areas of the agent and then select **Save**.
     ```
     You are TrailGear Expert, a product specialist for outdoor and camping gear.
@@ -268,27 +270,27 @@ by completing the following steps:
     - Do not answer questions related to refunds, shipping, or support-those are handled by another agent.
     ```
 
-    ![](./media/image29.png)
+    ![](./media/m19.png)
 
-25. Select the **Upload files** option -\> **Browse for files**.
+21. Select the **Upload files** option -\> **Browse for files**.
 
-    ![](./media/image30.png)
+    ![](./media/m20.png)
 
     ![](./media/image31.png)
 
-26. Navigate to **C:\Labfiles\Foundry agent**, select all the files
+22. Navigate to **C:\Labfiles\Foundry agent**, select all the files
     under it and select **Open**.
 
     ![](./media/image32.png)
 
-27. Select **Attach** to add the files to the agent.
+23. Select **Attach** to add the files to the agent.
 
     ![](./media/image33.png)
 
-28. Once all the configuration is done, select **Save** to save the
+24. Once all the configuration is done, select **Save** to save the
     agent.
 
-    ![](./media/image34.png)
+    ![](./media/m21.png)
 
     You have successfully created and configured the Foundry agent to
     provide detailed product knowledge and recommendations.
@@ -298,7 +300,7 @@ by completing the following steps:
 In this task, you will connect the Foundry agent to the Copilot Studio
 agent, enabling seamless delegation of product-related queries.
 
-1.  Navigate back to the Copilot Studio – TrailAssist Concierage agent
+1.  Navigate back to the Copilot Studio – **TrailAssist Concierage agent**
     and select the **Agents** tab.
 
     ![](./media/image35.png)
@@ -316,12 +318,13 @@ agent, enabling seamless delegation of product-related queries.
 4.  Navigate back to the Foundry tab, select **Home** and copy
     the **Project endpoint** from there.
 
-    ![](./media/image38.png)
+    ![](./media/m22.png)
 
 5.  Paste the copied endpoint in the Copilot Studio – create connection
     pane and then select **Create**.
 
     ![](./media/image39.png)
+    ![](./media/m23.png)
 
 6.  Once the connection is established, click **Next**.
 
@@ -329,14 +332,16 @@ agent, enabling seamless delegation of product-related queries.
 
 7.  Enter the below details and select **Add and configure**.
 
-    - Name - +++TrailGearExpert+++
+    - **Name:** +++TrailGearExpert+++
 
-    - Description - A specialized AI agent that provides detailed
+    - **Description:**
+      ```
+      A specialized AI agent that provides detailed
       product knowledge, comparisons, and personalized recommendations
       for outdoor gear including backpacks, tents, and camping
       accessories.
-
-    - Agent Id - +++TrailGearExpert+++
+      ```
+    - **Agent Id:** +++TrailGearExpert+++
 
     ![](./media/image41.png)
 
@@ -351,8 +356,8 @@ agent.
 In this task, you will test the integrated setup to validate that
 product-related queries are correctly routed to the Foundry agent.
 
-1.  Open the Test pane and enter: Which backpack is best for a 3 day
-    trek? then select **Send**.
+1.  Open the Test pane and enter the following prompt in the prompt field and select **Send** button:
+    +++Which backpack is best for a 3 day trek?+++ 
 
     ![](./media/image43.png)
 
@@ -364,7 +369,7 @@ product-related queries are correctly routed to the Foundry agent.
 
     ![](./media/image45.png)
 
-    ![](./media/image46.png)
+    ![](./media/m24.png)
 
     ![](./media/image47.png)
 
@@ -374,7 +379,7 @@ product-related queries are correctly routed to the Foundry agent.
     of the chat. You can see that the agent has invoked the
     TrailGearExpert – Foundry agent to answer this question.
 
-    ![](./media/image49.png)
+    ![](./media/m27.png)
 
     ![](./media/image50.png)
 
@@ -397,12 +402,13 @@ structured datasets required for operational insights.
 
 1.  Open +++https://app.fabric.microsoft.com+++ from
     a new tab.
+    ![](./media/m25.png)
 
-2.  Select **+ New workspace**.
+2.  Select **Workspaces -> +New Workspace**.
 
-    ![](./media/image51.png)
+    ![](./media/m26.png)
 
-3.  Enter the name of the workspace as <+++fabws@lab.LabInstance.Id>+++
+3.  Enter the name of the workspace as +++fabws@lab.LabInstance.Id+++
     and select **Apply**.
 
     ![](./media/image52.png)
@@ -415,14 +421,14 @@ structured datasets required for operational insights.
 
     ![](./media/image55.png)
 
-5.  Enter the Lakehouse name as <+++lh@lab.LabInstance.Id>+++ and
+5.  Enter the Lakehouse name as +++lh@lab.LabInstance.Id+++ and
     select **Create**.
 
     ![](./media/image56.png)
 
 6.  Select **Upload files**.
 
-    ![](./media/image57.png)
+    ![](./media/m28.png)
 
 7.  Navigate to **C:\Labfiles\Fabric Data Agent**, select all the csv
     files under it and click **Open**. Then select **Upload**.
@@ -435,7 +441,7 @@ structured datasets required for operational insights.
 
     ![](./media/image60.png)
 
-9.  Select the 3 dots next to the **customer** file, select **Load to
+9. Select the 3 dots next to the **customer** file, select **Load to
     Tables** -\> **New table**.
 
     ![](./media/image61.png)
@@ -448,12 +454,12 @@ structured datasets required for operational insights.
 
 11. Ensure that the data is loaded as table.
 
-    ![](./media/image64.png)
+    ![](./media/m29.png)
 
 12. **Repeat** the process for the other files as well to load
     the **products**, **orders** and **inventory** tables.
 
-    ![](./media/image65.png)
+    ![](./media/m30.png)
 
 You have successfully created the Lakehouse and loaded structured data,
 enabling data-driven capabilities for your solution.
@@ -466,7 +472,7 @@ and configure it to answer queries based on structured data.
 1.  From the left pane, select the **Workspace** and select **+ New
     item**.
 
-    ![](./media/image66.png)
+    ![](./media/m31.png)
 
 2.  Select **Data agent** from the list to create a new Fabric Data
     Agent..
@@ -480,14 +486,15 @@ and configure it to answer queries based on structured data.
 4.  Once the agent is created, a data source needs to be added to it.
     Select **Add a data source**.
 
-    ![](./media/image69.png)
+    ![](./media/m32.png)
 
-5.  Select the Lakehouse - <+++lh@lab.LabInstance.ID>+++ and
+5.  Select the Lakehouse - +++lh@lab.LabInstance.ID+++ and
     select **Add**.
 
     ![](./media/image70.png)
 
 6.  **Select** all the four **tables** from the left pane.
+    ![](./media/m33.png)
 
 7.  Select **Setup** -\> **Instructions** and add the below instructions
     to the agent.
@@ -514,21 +521,22 @@ and configure it to answer queries based on structured data.
     - Focus on insights, trends, and real-time operational data.
     ```
 
-    ![](./media/image71.png)
+    ![](./media/m34.png)
 
-21. Test the agent with the below question: Which products are low in
-    stock? and observe that the agent replies based on the data in the
+8. Test the agent with the below question:
+    +++Which products are low in stock?+++
+    Observe that the agent replies based on the data in the
     lakehouse.
 
-    ![](./media/image72.png)
+    ![](./media/m35.png)
 
-    ![](./media/image73.png)
+    ![](./media/m36.png)
 
-22. Select **Publish** to publish the agent.
+9. Select **Publish** to publish the agent.
 
-    ![](./media/image74.png)
+    ![](./media/m37.png)
 
-    ![](./media/image75.png)
+    ![](./media/m38.png)
 
 You have successfully created and configured the Fabric Data Agent to
 provide insights based on business data.
@@ -551,27 +559,27 @@ Studio agent to enable real-time data-driven responses.
 3.  **Create new connection** to establish connection with Fabric.
 
     ![](./media/image78.png)
+    ![](./media/m39.png)
 
-4.  Select **Create** to proceed.
+5.  Select **Create** to proceed.
 
     ![](./media/image79.png)
 
-5.  Follow the prompts to add the **TrailOpsAnalyst** agent to the
+6.  Follow the prompts to add the **TrailOpsAnalyst** agent to the
     Copilot Studio agent.
 
     ![](./media/image80.png)
 
     ![](./media/image81.png)
 
-6.  Enter the below description and select **Add and configure**.
+7.  Enter the below description and select **Add and configure**.
+    ```
+    A data-driven AI agent that provides real-time insights on orders,
+    inventory, customer activity, and operational metrics using structured
+    data from Fabric Lakehouse.
+    ```
 
-A data-driven AI agent that provides real-time insights on orders,
-inventory, customer activity, and operational metrics using structured
-data from Fabric Lakehouse.
-
-    ![](./media/image82.png)
-
-    ![](./media/image83.png)
+    ![](./media/m40.png)
 
 You have successfully integrated the Fabric Data Agent, enabling the
 Copilot Studio agent to access real-time operational insights.
