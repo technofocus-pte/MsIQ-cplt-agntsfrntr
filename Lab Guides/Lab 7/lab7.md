@@ -57,17 +57,28 @@ most relevant numbers.
 
 Complete the following steps in order:
 
-1.  Navigate to **C:\Labfiles\Lab7-Lab files** and open the **Zava Home COGS Estimates.xlsx** file.
+1. Open web browser and navigate to **+++https://excel.cloud.microsoft/+++**. Click **Sign in** button.
+   ![](./media/m1.png)
+2. Enter the following credentials to login into web Excel:
+   - Username - +++@lab.CloudPortalCredential(User1).Username+++
+   - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
+  ![](./media/m2.png)
+  ![](./media/m3.png)
+  ![](./media/m4.png)
+3. Click **Upload a file**.
+   ![](./media/m5.png)
    
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image1.png)
-
-3.  Open the excel sheet and Select the Copilot icon from the Home tab
-    ribbon.
+6.  Navigate to **C:\Labfiles\Lab7-Lab files** and open the **Zava Home COGS Estimates.xlsx** file.
    
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image2.png)
+    ![](./media/m6.png)
+    ![](./media/m7.png)
 
-5.  To analyze the dataset, paste the prompt below and select
-    **Execute** button:
+8.  Select the Copilot icon to open Copilot chat.
+   
+    ![](./media/m8.png)
+
+9.  To analyze the dataset, paste the prompt below and select
+    **Send** button:
     
     ```
     I'm a financial analyst for Zava Retail. I was asked to analyze
@@ -79,12 +90,12 @@ Complete the following steps in order:
     Present your findings in a concise, structured format in a new sheet.
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image3.png)
+    ![](./media/m9.png)
 
-7.  Review the output:
+10. Review the output:
    
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image4.png)
-
+    ![](./media/m10.png)
+    
 ## Exercise 2: Use Copilot in Teams to Summarize Meeting Notes
 
 In your role as a Financial Analyst for Zava Retail, you joined a
@@ -95,25 +106,20 @@ you turned to Copilot for help.
 
 ### Task 1: Summarize Meeting Notes
 
-1.  Select the link to download the file: +++https://lodsprodmca-my.sharepoint.com/:t:/g/personal/user1-60937628_lodsprodmca_onmicrosoft_com/IQDaF9EO3DI6Q5eQlVQk477yAXjd5XK3MWGLTLeVa7PmMZg?e=nYJ7TW+++ file and store it on your desktop.
-    
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image5.png)
-
-4.  Navigate to +++https://m365.cloud.microsoft+++, select Apps in the navigation pane.
+1.  Navigate to +++https://m365.cloud.microsoft+++, select **App Launcher** in the navigation pane.
    
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image6.png)
+    ![](./media/m11.png)
 
-6.  Select Teams.  
+2.  Select **Teams**.  
       
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image7.png)
-
-7.  Open the Copilot Chat. In Teams for the web, select Copilot in the
-    navigation pane.
-
+   ![](./media/m12.png)
+  
+3.  From left navigation list select Copilot to open the Copilot Chat in Teams.
+   
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image8.png)
 
-8.  In the Copilot description box, paste the following prompt and
-    select the **Execute** button.  
+4.  In the Copilot description box, paste the following prompt and
+    select the **Send** button.  
 
     ```
     Generate a downloadable summary. Review the summary to ensure it
@@ -122,9 +128,9 @@ you turned to Copilot for help.
     participants. Download the document that Copilot generated
     ```
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image9.png)
+    ![](./media/m13.png)
 
-9.  Review the output:  
+5.  Review the output:  
       
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image10.png)
 
@@ -135,7 +141,7 @@ generate a detailed task list for each participant based on the action
 items in the notes.
 
 1.  To generate a task list, paste the below prompt in the description
-    box and select **the Execute** icon.  
+    box and select **Send** icon.  
 
     ```
     Based on the action items and next steps in the meeting summary,
@@ -145,10 +151,11 @@ items in the notes.
     appropriate
     ```
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image11.png)
+    ![](./media/m14.png)
 
 2.  Review the output:  
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image12.png)
+    >Note: Generated outputs are non-deterministic and may vary across users, sessions, and environments.
 
 ### Task 3: Generate a Calendar Invite
 
@@ -156,7 +163,7 @@ In follow-up to the timeline, ask Copilot to draft a calendar invite for
 the team to reconvene.
 
 1.  To generate a calendar, paste the below prompt in the description
-    box and select the **Execute** icon.  
+    box and select the **Send** icon.  
 
     ```
     Draft a follow-up email to the team summarizing the meeting
@@ -164,11 +171,12 @@ the team to reconvene.
     deadlines, and priority levels for each participant.
     ```
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image13.png)
-
+    ![](./media/m15.png)
+    
 2.  Review the output:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image14.png)
+    >Note: Generated outputs are non-deterministic and may vary across users, sessions, and environments.
 
 ## Exercise 3: Use Copilot Chat to Analyze a Potential Acquisition
 
@@ -186,14 +194,16 @@ high-level, vague ones.
 
 ### Task 1: Create a business perspective summary 
 
-1.  In Microsoft Edge, go to the Microsoft 365 home page and select
+1.  Navigate back to the Microsoft 365 Copilot home page and select
     **Work** mode.(Work mode ensures Copilot uses secure internal business context,
     while Web mode searches public external sources.)
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image15.png)
-
-3.  In the Copilot prompt field, attach the Relecloud Business the **Execute** but
-    Perspective.docx file present at C:\Labfiles\Lab7-Lab files. Paste the following prompt and selectton.
+    ![](./media/m16.png)
+2. Select the **+ icon** in the prompt field and then select **Upload images and files**.
+   ![](./media/m17.png)
+3. Select **Relecloud Business Perspective.docx** file from **C:\Labfiles\Lab7-Lab files**.
+   ![](./media/m18.png)
+4. Paste the following prompt in the prompt field and selec **Send** button to execute the prompt.
     
     ```
     Review the attached Relecloud Business Perspective document and
@@ -203,7 +213,7 @@ high-level, vague ones.
     clear and structured executive format suitable for leadership review.
     ```
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image16.png)
+    ![](./media/m19.png)
 
 5.  Review the output:
    
@@ -215,11 +225,11 @@ After reviewing the initial summary, ask Copilot to generate a more
 comprehensive version of the report with deeper analysis and visuals.  
   
 1. In the Copilot prompt field, paste the following prompt and select
-the **Execute** button.
+the **Send** button.
 
   ```
   Expand the previous Relecloud acquisition report and include all
-  prior information, plus the following additional analysis:*
+  prior information, plus the following additional analysis:
 
   1.  Financial Analysis Section:
 
@@ -257,7 +267,7 @@ the **Execute** button.
     opportunities, integration risks, and post-merger integration
     planning
 
-  - *Leadership and organizational review, including management track
+  - Leadership and organizational review, including management track
     record and organizational structure assessment
 
   - Include an Integration Timeline (Gantt Chart) showing phases and
@@ -267,7 +277,7 @@ the **Execute** button.
     suitable for finance leadership decision-making
   ```
 
-  ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image18.png)
+  ![](./media/m20.png)
 
 2. Review the output:
    
