@@ -184,7 +184,7 @@ which will be used to search through the documents.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image2.png)
 
-3.  In the **AI Foundry page**, select **AI Search** from the left pane
+3.  In the **Microsoft Foundry| AI Search page**, select **AI Search** from the left pane
     and then select **+ Create**.
 
     ![A screenshot of a search engine AI-generated content may be
