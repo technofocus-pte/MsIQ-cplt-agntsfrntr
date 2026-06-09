@@ -80,39 +80,7 @@ Design-First Approach - encourages thinking about agent and API
 structure and contracts before jumping into implementation, leading to
 better long-term maintainability.
 
-## Exercise 1: Set up the lab environment
-
-In this exercise, you will set up the development environment to build,
-test, and deploy the Copilot agents, which will help you achieve
-tailor-made AI assistance using Microsoft 365 Copilot.
-
-### Task 1: Install Agents Toolkit
-
-The **Agents Toolkit for Visual Studio Code** requires Visual Studio
-Code. In this exercise, you will install the toolkit in Visual Studio
-Code.
-
-1.  Open **Visual Studio Code** from the VM. Select **Extensions** from
-    the left menu.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image2.png)
-
-2.  Search for and select +++Microsoft 365 Agents Toolkit+++ and click
-    on **Install**.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image3.png)
-
-3.  Ensure that the toolkit is installed.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image4.png)
-
-4.  Create a new folder named +++ServiceAgent+++ in your Desktop.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image5.png)
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image6.png)
-
-## Exercise 2: Build the base agent with TypeSpec using Microsoft 365 Agents Toolkit
+## Exercise 1: Build the base agent with TypeSpec using Microsoft 365 Agents Toolkit
 
 In this exercise, you will build a **Declarative Agent**, define it,
 update the actions and test the agent.
@@ -125,8 +93,14 @@ Toolkit**. You will create an agent called **RepairServiceAgent**, which
 interacts with repairs data via an existing API service to help users
 manage car repair records.
 
-1.  Locate the **Microsoft 365 Agents Toolkit
-    icon** from the VS Code menu on the left and select it. An activity bar will be open. Select the **Create a New Agent/App** button in the activity bar which will open the palette with a list of app templates available on Microsoft 365 Agents Toolkit.
+1. Create a new folder named +++ServiceAgent+++ in your Desktop.
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image5.png)
+
+    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image6.png)
+
+2.  Open Visual Studio Code and locate the **Microsoft 365 Agents Toolkit
+    icon** from the menu on the left and select it. An activity bar will be open. Select the **Create a New Agent/App** button in the activity bar which will open the palette with a list of app templates available on Microsoft 365 Agents Toolkit.
     
     ![m365atk-icon](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image7.png)
 
@@ -167,7 +141,7 @@ manage car repair records.
 
     ![m365atk-icon](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image7.png)
 
-11. Under **Accounts** section select **Sign in to Microsoft 365**.
+10. Under **Accounts** section select **Sign in to Microsoft 365**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image14.png)
 
@@ -175,10 +149,11 @@ manage car repair records.
     Microsoft 365 developer sandbox or Cancel. Select **Sign in**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image15.png)
+    ![](./media/g1.png)
 
-12. Login with your **user name** and **TAP Token** from
-    the **Resources** tab.
-
+12. Login with the following credentials:
+    - Username - +++@lab.CloudPortalCredential(User1).Username+++
+    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image16.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%208/media/image17.png)
