@@ -310,47 +310,46 @@ redirects the user to the second agent.
 
     **Name**- `Handoff to Secondary Agent`
 
-    **Trigger phrases**: `payroll", "leave request", "HR policy", "annual leave", "employee record"`
+    **Trigger phrases**: `"payroll", "leave request", "HR policy", "annual leave", "employee record"`
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image34.png)
+    ![](./media/a45.png)
 
-4.  Click **+** to add a new node.
+3.  Click **+** to add a new node.
    
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image35.png)
+    ![](./media/a46.png)
 
-6.  Select **Send a Message** to add a message node.
+4.  Select **Send a Message** to add a message node.
    
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image36.png)
+    ![](./media/a47.png)
 
-8.  In the Message description box, paste the following information:
+5.  In the Message description box, paste the following information:
    
     `That question is outside my area. I'm connecting you to the HR &
     Payroll Agent who can help with that — one moment please`
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image37.png)
-
-10. Click Save and **Publish** to save the node and publish the setting
+    ![](./media/a48.png)
+    
+6. Click Save and **Publish** to save the node and publish the setting
     again.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image38.png)
-
+    ![](./media/a49.png)
+    ![](./media/a50.png)
+    
 ### Task 2: Configure the Secondary Agent
 
 Now, we will create a lightweight secondary agent to handles the
 out-of-scope queries using multi-agent connections.
 
-1.  In Copilot Studio, select **New Agent** from the left navigation
-    bar.
+1.  In Copilot Studio, select **Agents** from the left navigation
+    bar and then select **+Create blank agent**.
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image39.png)
+    ![](./media/a51.png)
 
-3.  In the name section, paste the following name of the agent as below:
-
-    +++HR & Payroll Assistant+++
+2.  Enter the agent name: +++HR & Payroll Assistant+++. Click **Create**
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image40.png)
+    ![](./media/a52.png)
 
-5.  In the Instructions field, paste the following instructions:
+3.  In the **Instructions** field, click **Edit** and then paste the following instructions:
 
     `You are the HR & Payroll Assistant. You handle queries specifically
     related to store operations. Use only verified content from your
@@ -358,36 +357,49 @@ out-of-scope queries using multi-agent connections.
     outside your scope, say: "That's outside my remit. Please contact the
     appropriate team`
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image41.png)
+    Click **Save** to save the instruction.
+    
+    ![](./media/a53.png)
 
-4.  In the Knowledge section, add the relevant HR
+4.  In the Knowledge section, Click **+Add Knowledge** to add knowledge to the agent. add the relevant HR
     document form C:\Labfiles\Lab6-Lab files\HR Document
     You save it on your **SharePoint** site, and
     paste the **URL** here. Or you can also
     upload the file by using “**Add knowledge**” section.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image42.png)
-
-5.  Select **Publish** to publish the secondary
+    ![](./media/a54.png)
+    
+5. Here we are using **SharePoint** to add knowledge.
+   ![](./media/a55.png)
+   
+6. Select **Browse items->More places->ZavaSite**
+   ![](./media/a56.png)
+   ![](./media/a57.png)
+7. Select **HR Document** and then select **Confirm selection**
+    ![](./media/a58.png)
+8. Click **Add to agent**.
+    ![](./media/a59.png)
+    ![](./media/a60.png)
+9. Select **Publish** to publish the secondary
     agent.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image43.png)
-
+    ![](./media/a61.png)
+    ![](./media/a62.png)
+    
 ### Task 3: Add the Secondary Agent to the Primary Agent. 
 
 1. Go to the **Project Knowledge Assistant** Agent.
    
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image44.png)
+    ![](./media/a63.png)
 
-3. In the Agent section, select **+Add**.
+2. In the **Agent section**, select **+Add**.
    
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image45.png)
 
-5. Select the **HR & Payroll Assistant** from the list.
+3. Select the **HR & Payroll Assistant** from the list.
    
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image46.png)
 
-7. Paste the following description in the description box:
+4. Paste the following description in the description box and then **disable** pass the converstion history to the agent:
    
     ```
     Use this agent when users ask about HR or payroll matters, including
@@ -396,16 +408,15 @@ out-of-scope queries using multi-agent connections.
     workforce support queries to the HR & Payroll Assistant for accurate
     resolution
     ```
-    
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image47.png)
-
-9. In the completion step, paste the following message to display:  
+    Click **Add and configure**.
+    ![](./media/a64.png)
+5. Scroll down and move to the completion step, paste the following message to display:  
   
     `Your request relates to HR and payroll support. Transferring you now to the HR & Payroll Assistant for accurate assistance`
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image48.png)
 
-11. Select **Publish** to publish the agent.
+6. Select **Publish**(twice) to publish the agent.
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image49.png)
 
@@ -414,24 +425,15 @@ out-of-scope queries using multi-agent connections.
 With both agents published, validate the complete handoff flow using the
 test scenarios below.
 
-1.  Navigate to **Project Knowledge Assistant** agent.
-   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image50.png)
-
-3.  Select **Test** in the upper menu bar.
-   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image51.png)
-
-5.  Paste the following prompt in the chat interface:  
+1.  Paste the following prompt in the chat interface:  
       
     `What is my leave balance?`
    
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image52.png)
+    ![](./media/a65.png)
 
-7.  Review the output:  
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image53.png)
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%206/media/image53.png)
-
+2.  Review the output:  
+    ![](./media/a66.png)
+    
 ## Summary 
 
 In this lab, you created and configured a SharePoint-grounded Project
