@@ -187,8 +187,7 @@ which will be used to search through the documents.
 3.  In the **Microsoft Foundry| AI Search page**, select **AI Search** from the left pane
     and then select **+ Create**.
 
-    ![A screenshot of a search engine AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image3.png)
+    ![](./media/v1.png)
 
 4.  Enter the below details and select **Review + create**.
 
@@ -200,63 +199,57 @@ which will be used to search through the documents.
 
     - Location - @lab.CloudResourceGroup(ResourceGroup1).Location
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image4.png)
+    ![](./media/v2.png)
 
 5.  Once the validation passes, select **Create**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image5.png)
+    ![](./media/v3.png)
 
 6.  The deployment takes a few minutes. Select **Go to resource** once
     the search service is created.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image6.png)
+    ![](./media/v4.png)
 
 7.  From the **Overview** page, copy the Url value and save it in a
     notepad to be used in a future exercise.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image7.png)
+    ![](./media/v5.png)
 
-8.  Select **Keys** under **Settings** from the left pane. Copy
+8.  Select **Keys** under **Security + networking** from the left pane. Copy
     the **Primary admin key** and save it in a notepad for using it in
     the upcoming exercises.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image8.png)
+    ![](./media/v6.png)
 
-9.  Select **Identity** under **Settings** from the left pane.
+9.  Select **Identity** under **Security + networking** from the left pane.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image9.png)
+    ![](./media/v7.png)
 
 10. Toggle the Status to **On** under **System assigned** and then click
     on **Save**.
 
-    ![A screenshot of a computer screen AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image10.png)
-
+    ![](./media/v8.png)
+    
 11. Select **Yes** in the **Enable system assigned managed
     identity** confirmation dialog. This setting will enable the search
     service to be listed under the managed identity resources, which can
     then be assigned roles as required.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image11.png)
+    ![](./media/v9.png)
 
 ## Exercise 2: Create a Storage account
 
 This exercise is to create a storage account with Blob storage and
 upload the documents required supporting the retail customers in it.
 
-1.  From the Home page of the Azure portal, +++https://portal.azure.com/+++, select **Storage accounts**.
+1.  From the Home page of the Azure portal, select **Storage accounts**.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image12.png)
 
 2.  Select **+ Create** to create a new Storage account.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image13.png)
+    ![](./media/v10.png)
 
 3.  Enter the below details, accept the default values in the other
     fields and click on **Review + create**.
@@ -270,23 +263,19 @@ upload the documents required supporting the retail customers in it.
     - Storage account name - +++docstore@lab.labinstance.id+++
 
     - Preferred storage type - Select **Azure Blob Storage or Azure Data
-      Lake Storage Gen 2**
+      Lake Storage**
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image14.png)
-
+    ![](./media/v11.png)
+    
 4.  Once the validation passes, click on **Create**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image15.png)
-
+    ![](./media/v12.png)
+    
 5.  Once the resource creation succeeds, click on **Go to resource**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image16.png)
+    ![](./media/v13.png)
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image17.png)
+    ![](./media/v14.png)
 
 6.  Select **Containers** under **Data storage**. Select **+ Add
     container**, enter the name as +++documents+++ and click
@@ -321,8 +310,8 @@ upload the documents required supporting the retail customers in it.
     select **Access Control (IAM)** from the left pane. Select **Add -\>
     Add role assignment**.
 
-![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image23.png)
+    ![A screenshot of a computer AI-generated content may be
+        incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image23.png)
 
 11. Search for +++Storage Blob Data Reader+++, select it and click
     on **Next**.
@@ -339,15 +328,14 @@ upload the documents required supporting the retail customers in it.
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image25.png)
 
 13. Select **Managed identity** and then select **+ Select members**.
-    Select **Search service** under **Managed identity** and select
+    Select **Search service(Foundry IQ)** under **Managed identity** and select
     the **docuemntstore@lab.LabInstance.Id** search service that gets listed.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image26.png)
-
+    ![](./media/v15.png)
+    
 14. Click on **Select** to select the search service.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image27.png)
+    ![](./media/v16.png)
 
 15. Back in the Add role assignment screen, click on **Review +
     assign**.
@@ -357,8 +345,7 @@ upload the documents required supporting the retail customers in it.
 
 16. Select **Review + assign** again in the next screen.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image29.png)
+    ![](./media/v17.png)
 
 17. Proceed to the next step once you receive a success message on role
     addition.
@@ -378,9 +365,8 @@ an Azure OpenAI Service and deploy the text-embedding model in it.
 1.  From the Azure portal Home page, search for select +++Azure
     OpenAI+++.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image31.png)
-
+    ![](./media/v18.png)
+    
 2.  Select **+ Create -> Azure OpenAI**.
 
     ![A screenshot of a computer AI-generated content may be
@@ -396,7 +382,7 @@ an Azure OpenAI Service and deploy the text-embedding model in it.
       
     - Name - +++openaiservice@lab.labinstance.id+++
 
-    - Pricing tier - Select **Standard**
+    - Pricing tier - Select **Standard S0**
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image33.png)
@@ -404,16 +390,14 @@ an Azure OpenAI Service and deploy the text-embedding model in it.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image34.png)
 
-4.  Select **Next** in the next 2 screens select **Create** in
+4.  Select **Next** in the next 2 screens, and then select **Create** in
     the **Review + submit** screen.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image35.png)
+    ![](./media/v19.png)
 
 5.  Click on **Go to resource** once the service is created.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image36.png)
+    ![](./media/v20.png)
 
 6.  Select **Access control (IAM)** from the left pane, select **Add -\>
     Add role assignment**.
@@ -435,20 +419,18 @@ an Azure OpenAI Service and deploy the text-embedding model in it.
 9.  Back in the **Add role assignment** screen, select **Managed
     identity**. Then select **+ Select members**. In the **Select
     managed identities** screen, select **Search
-    service** under **Managed identity** and select the resource that
+    service(Foundry IQ)** under **Managed identity** and select the resource that
     starts with **documentstore** service.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image40.png)
+    ![](./media/v21.png)
 
 10. Once selected, click on **Select**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image41.png)
+    ![](./media/v22.png)
 
-11. Select Review + assign in the next 2 screens.
+11. Select **Review + assign** in the next 2 screens.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image42.png)
+    ![](./media/v23.png)
 
 12. Wait for a **success** message on the role additions before
     proceeding with the next tasks.
@@ -462,29 +444,33 @@ an Azure OpenAI Service and deploy the text-embedding model in it.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image44.png)
+14. Close the **Create a project** window.
+15. **Turn off** New Foundry toggle button and the select **continue without feedback**.
+    ![](./media/v24.png)
+    ![](./media/v25.png)
+    
+16. Select your Azure Openai service resource
+    ![](./media/v26.png)
 
-14. Select **Deployments** from the left pane. Select **+ Deploy
+17. Select **Deployments** from the left pane. Select **+ Deploy
     model** -\> **Deploy base model**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image45.png)
-
-15. Search for +++text-embedding+++,
+    ![](./media/v27.png)
+    
+18. Search for +++text-embedding+++,
     select **text-embedding-3-large** and then select **Confirm**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image46.png)
-
-16. Select **Deploy** in the Deploy text-embedding-3-large.
+    ![](./media/v28.png)
+    
+19. Select **Deploy** in the Deploy text-embedding-3-large.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image47.png)
 
-17. The model gets deployed and the screen is loaded with the deployment
+19. The model gets deployed and the screen is loaded with the deployment
     details.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image48.png)
+    ![](./media/v29.png)
 
 ## Exercise 4: Create a vector index
 
