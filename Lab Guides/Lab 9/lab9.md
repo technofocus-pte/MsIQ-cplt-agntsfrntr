@@ -390,19 +390,19 @@ Teams or Copilot Chat.
 
     ![](./media/b23.png)
     
-6.  Select **Apply** in the Preview Changes dialog.
+5.  Select **Apply** in the Preview Changes dialog.
 
     ![](./media/b24.png)
 
-7.  Select **I Accept** in the License Acceptance dialog.
+6.  Select **I Accept** in the License Acceptance dialog.
 
     ![](./media/b25.png)
     
-9.  The package is now installed.
+7.  The package is now installed.
 
     ![](./media/b26.png)
     
-10. Select **Program.cs** and enter +++builder.Services.AddKernel();+++
+8. Select **Program.cs** and enter +++builder.Services.AddKernel();+++
     above the line, **var app = builder.Build()** (Line 31).
 
     ![A screenshot of a computer AI-generated content may be
@@ -411,19 +411,18 @@ Teams or Copilot Chat.
     This registers the Semantic Kernel, a core component that allows your
     agent to interact with generative AI models.
 
-11.  Right-click to **ZavaHRAgent** project and select **Add \>
+9.  Right-click to **ZavaHRAgent** project and select **Add \>
     Class**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image315.png)
+    ![A screenshot of a computer AI-generated content may be incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image315.png)
 
-12. Enter the class name as +++FileReference.cs+++ and
+10. Enter the class name as +++FileReference.cs+++ and
     hit **Enter** to create the class.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image44.png)
 
-13. This class defines the structure used when referencing specific
+11. This class defines the structure used when referencing specific
     documents in responses—useful when your agent cites content from
     uploaded files.
     
@@ -445,7 +444,7 @@ Teams or Copilot Chat.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%209/media/image316.png)
 
-14. Right-click to **ZavaHRAgent** project and select **Add \>
+12. Right-click to **ZavaHRAgent** project and select **Add \>
     Class** and define your class name
     as +++ConversationStateExtensions.cs+++. Replace existing the code
     with following:
