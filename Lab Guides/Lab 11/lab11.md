@@ -719,13 +719,13 @@ business requirements and then use it in Copilot Studio.
 
 With this feature, we can fine-tune the model in Microsoft Foundry and
 use it in Copilot Studio with ease. We can bring in the vast ecosystem
-of the models in the Azure AI Foundry easily into the Copilot Studio.
+of the models in the Microsoft Foundry easily into the Copilot Studio.
 
 ## Summary
 
 In this lab, you created a knowledge-driven AI support agent by integrating Azure AI Search, Azure OpenAI, and Microsoft Copilot Studio. You started by uploading and indexing product documents, then enabled vector-based search using an embedding model to support accurate information retrieval.
 
-You connected this knowledge base to a Copilot Studio agent, allowing it to answer customer queries with relevant, document-backed responses. Finally, you integrated a model from Azure AI Foundry and used it within a custom prompt to extend the agent's capabilities.
+You connected this knowledge base to a Copilot Studio agent, allowing it to answer customer queries with relevant, document-backed responses. Finally, you integrated a model from Microsoft Foundry and used it within a custom prompt to extend the agent's capabilities.
 
 This lab demonstrates how to build and connect the core components required for a RAG-based, enterprise-ready support solution.
 
