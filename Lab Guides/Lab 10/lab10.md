@@ -88,24 +88,28 @@ In this lab, you will:
 
 In this exercise, you will import a pre-existing Solution.
 
-1.  Open a browser and navigate to Copilot Studio using the url +++https://copilotstudio.microsoft.com+++ and login using your credentials if not done
-    already.
+1.  Open a browser and navigate to Copilot Studio using the url +++https://copilotstudio.microsoft.com+++ and login using the following credentials:
+    - Username - +++@lab.CloudPortalCredential(User1).Username+++
+    - TAP Token - +++@lab.CloudPortalCredential(User1).AccessToken+++
+    ![](./media/z1.png)
+    ![](./media/z2.png)
+    ![](./media/z3.png)
+    ![](./media/z4.png)
 
 2.  Select the **...** in the left navigation and select **Solutions.**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image1.png)
+    ![](./media/z5.png)
 
 3.  Select **Import solution**. Click on **Browse** and select
-    the **zip** file starting
-    with **Operative** form **C:\LabFiles\LabFiles** and
+    the **zip** file starting with **Operative** form **C:\LabFiles** and
     select **Open**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image2.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image3.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image4.png)
-
+    ![](./media/z6.png)
+    
 4.  Once selected, select **Next** and then select **Import**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image5.png)
@@ -127,13 +131,13 @@ In this exercise, you will import a pre-existing Solution.
 7.  Review the solution and ensure that the following components are
     imported.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image9.png)
+    ![](./media/z7.png)
 
 8.  Select the **Publish all customizations** button at the top of the
     page.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image10.png)
-
+    ![](./media/z8.png)
+    
 ## Exercise 2 - Import sample data  
 
 In this exercise, you will add sample data to some of the tables that
