@@ -549,23 +549,20 @@ Studio.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image58.png)
 
-1. Select **Agents** and then select **Create blank agent**.
+2. Select **Agents** and then select **Create blank agent**.
    ![](./media/v34.png)
 
-1. Enter +++Retail assistant+++ as your agent name and then click **Create** button to create new agent in Copilot Studio.
+3. Enter +++Retail assistant+++ as your agent name and then click **Create** button to create new agent in Copilot Studio.
    ![](./media/v35.png)
 
-1. Select **Edit** and enter `You are a Retail assistant agent for customers HR who will answer questions related to the store products` as your description. Click **Save** to save the changes.
+4. Select **Edit** and enter `You are a Retail assistant agent for customers HR who will answer questions related to the store products` as your description. Click **Save** to save the changes.
    ![](./media/v36.png)
     
-3.  Once the agent is created, in the Test pane, enter +++What is the warranty period for Washing machine ?+++ and click **Send**.`
-
+5.  Once the agent is created, in the Test pane, enter +++What is the warranty period for Washing machine ?+++ and click **Send**.`
     ![](./media/v37.png)
   
-5.  It gives a generalized reply as in the screenshot below.
-
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image62.png)
+6.  It gives a generalized reply as in the screenshot below.
+   ![](./media/v38.png)
 
 ## Exercise 6: Add the Azure AI Search as a knowledge source
 
