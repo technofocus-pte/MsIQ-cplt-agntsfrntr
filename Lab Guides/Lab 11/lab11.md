@@ -534,7 +534,7 @@ search. You will vectorize the uploaded data in this exercise.
 
     ![](./media/v33.png)
     
-**Exercise 5: Create a retail assistant agent**
+## Exercise 5: Create a retail assistant agent
 
 In this exercise, you will create a retail assistant agent in Copilot
 Studio.
@@ -572,8 +572,7 @@ in Copilot Studio.
 
 1.  From the **Overview** page of the agent, select **+ Add knowledge**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image63.png)
+    ![](./media/v39.png)
 
 2.  Select **Azure AI Search** from the list of knowledge sources
     available.
@@ -609,93 +608,79 @@ in Copilot Studio.
 7.  Now, let us test the agent with the same question we have tried
     before.
 
-8.  In the Test pane, enter +++What is the warranty period for Washing machine?+++ and click **Send.**
+8.  In the Test pane, enter +++What is the warranty period for Washing machine?+++ and click **Send**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image69.png)
-
+    ![](./media/v40.png)
+    
 9.  You can see that the response from the agent now is from the
     document uploaded in the AI Search service.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image70.png)
+    ![](./media/v41.png)
 
-## Exercise 7: Deploy a Model in Azure AI Foundry
+## Exercise 7: Deploy a Model in Microsoft Foundry
 
-In this exercise, you will deploy a model in the Azure AI Foundry to use
+In this exercise, you will deploy a model in the Microsoft Foundry to use
 it in the Copilot Studio (in the next exercise).
 
 1.  Open the Microsoft Foundry Azure OpenAI resource created earlier.
 
 2.  From the left pane, select **Deployments**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image71.png)
-
+    ![](./media/v46.png)
+    
 3.  Select the drop down next to the **+ Deploy model** and
     select **Deploy base model**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image72.png)
-
+    ![](./media/v42.png)
+    
 4.  Select **gpt-4o** and select **Confirm**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image73.png)
-
+    ![](./media/v43.png)
+    
 5.  In the Deploy gpt-4o dialog, enter the **Deployment name** as
     +++ModelforMCS+++, accept the other defaults and
     select **Deploy.**
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image74.png)
+    ![](./media/v44.png)
 
 6.  Copy the Target URI and key values to a notepad to be used during
     the connection creation from the Copilot Studio.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image75.png)
+    ![](./media/v45.png)
 
 Now that the model is deployed, you can use it in Copilot Studio's agent
 prompt.
 
-## Exercise 8: Create a prompt in the Copilot Studio and use the model created in Azure AI Foundry
+## Exercise 8: Create a prompt in the Copilot Studio and use the model created in Microsoft Foundry
 
 In this exercise, you will learn how to bring the deployed model from
-Azure AI Foundry in the Copilot Studio. Here, we are using a base model
+Microsoft Foundry in the Copilot Studio. Here, we are using a base model
 that is deployed. We can also create a fine tuned model as per the
 business requirements and then use it in Copilot Studio.
 
 1.  From the Copilot Studio agent, select **Tools** from the top menu
-    bar.
+    bar. Click **+ Add a tool**
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image76.png)
+    ![](./media/v47.png)
+    
+2.  Select **Prompt** since we are going to add a new prompt.
 
-2.  Select **+ New tool** to add a new tool to the agent
+    ![](./media/v48.png)
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image77.png)
-
-3.  Select Prompt since we are going to add a new prompt.
-
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image78.png)
-
-4.  In the Custom prompt screen, select the drop down next to
+3.  In the Custom prompt screen, select the drop down next to
     the **model** name.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image79.png)
-
-5.  Select + against **Azure AI Foundry Models** to add the model
+    ![](./media/v49.png)
+    
+4.  Select **+** against **Azure AI Foundry Models** to add the model
     deployed in Azure AI Foundry and select **Connect a new model**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image80.png)
-
+    ![](./media/v50.png)
+    
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image81.png)
 
-6.  Enter the below details and click on Connect.
+5.  Enter the below details and click on **Connect**.
 
     - Model deployment name - +++ModelforMCS+++
 
@@ -705,39 +690,32 @@ business requirements and then use it in Copilot Studio.
 
     - API Key - Enter the model API key saved earlier.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image82.png)
+    ![](./media/v51.png)
 
-    ![A screen shot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image83.png)
-
-7.  Once connected, select **Close**.
+6.  Once connected, select **Close**.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image84.png)
 
-8.  You can see that the model ModelforMCS is selected now
+7.  You can see that the model ModelforMCS is selected now
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image85.png)
+    ![](./media/v52.png)
 
-9.  Rename the prompt to +++WM Types+++. Enter +++What are the different types of Washing Machines?+++ and select **Test**.
+8.  Rename the prompt to +++WM Types+++. Enter +++What are the different types of Washing Machines?+++ and select **Test**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image86.png)
+    ![](./media/v53.png)
+    
+9. Scroll down and select **Save** to save the prompt.
 
-10. Select **Save** to save the prompt.
+    ![](./media/v54.png)
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image87.png)
-
-11. Select the **Add and configure** option to add the prompt to the
+10. Select the **Add and configure** option to add the prompt to the
     agent.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image88.png)
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image89.png)
+    ![](./media/v55.png)
 
 With this feature, we can fine-tune the model in Microsoft Foundry and
 use it in Copilot Studio with ease. We can bring in the vast ecosystem
