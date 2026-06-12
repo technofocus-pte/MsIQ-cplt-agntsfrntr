@@ -467,7 +467,7 @@ an Azure OpenAI Service and deploy the text-embedding model in it.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image47.png)
 
-19. The model gets deployed and the screen is loaded with the deployment
+20. The model gets deployed and the screen is loaded with the deployment
     details.
 
     ![](./media/v29.png)
@@ -480,18 +480,16 @@ search. You will vectorize the uploaded data in this exercise.
 1.  From the Azure portal, go to the AI Search service resource that
     starts with **documentstore**. Select **Import data**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image149.png)
+    ![](./media/v30.png)
 
 2.  Select the **Azure Blob Storage** option.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image50.png)
-
+    ![](./media/v31.png)
+    
 3.  Select the **RAG** option in the **What scenarios are you targeting?** screen.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image51.png)
-
+    ![](./media/v32.png)
+    
 4.  Enter the below details, accept the other values as default and
     click **Next**.
 
@@ -532,11 +530,10 @@ search. You will vectorize the uploaded data in this exercise.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image56.png)
 
-8.  Click on **Close** in the success dialog box.
+8. Click on **Close** in the success dialog box.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image157.png)
-
+    ![](./media/v33.png)
+    
 **Exercise 5: Create a retail assistant agent**
 
 In this exercise, you will create a retail assistant agent in Copilot
@@ -544,7 +541,7 @@ Studio.
 
 1.  Login to
     +++https://copilotstudio.microsoft.com+++/ using
-    your login credentials from the Resources tab.
+    your login credentials from the **Resources tab**.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image1.png)
@@ -552,24 +549,20 @@ Studio.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image58.png)
 
-1. Select **Agents**.
+1. Select **Agents** and then select **Create blank agent**.
+   ![](./media/v34.png)
 
-1. Select **Create blank agent**.
+1. Enter +++Retail assistant+++ as your agent name and then click **Create** button to create new agent in Copilot Studio.
+   ![](./media/v35.png)
 
-1. Enter +++Retail assistant+++ as your agent name.
+1. Select **Edit** and enter `You are a Retail assistant agent for customers HR who will answer questions related to the store products` as your description. Click **Save** to save the changes.
+   ![](./media/v36.png)
+    
+3.  Once the agent is created, in the Test pane, enter +++What is the warranty period for Washing machine ?+++ and click **Send**.`
 
-1. Select **Edit** and enter `You are a Retail assistant agent for customers HR who will answer questions related to the store products` as your description.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image59.png)
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image60.png)
-
-3.  Once the agent is created, in the Test pane, enter +++What is the warranty period for Washing machine ?+++ and click **Send**.
-
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image61.png)
-
-4.  It gives a generalized reply as in the screenshot below.
+    ![](./media/v37.png)
+  
+5.  It gives a generalized reply as in the screenshot below.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image62.png)
