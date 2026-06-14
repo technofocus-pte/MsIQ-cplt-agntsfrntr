@@ -143,11 +143,10 @@ In this exercise, you will import a pre-existing Solution.
 In this exercise, you will add sample data to some of the tables that
 you imported in the previous exercise.
 
-1.  From the solution that you imported in the last exercise, select
-    the **Hiring Hub** Model-Driven App by selecting the checkmark in
-    front of the row and select the **Play** button at the top.
+1.  From the solution that you imported in the last exercise, locate the **Hiring Hub Model-Driven App**. Select the **ellipsis (⋮)** menu next to
+    it and then select the **Play** button from the menu that appears.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image11.png)
+    ![](./media/a1.png)
 
 2.  Select **Job Roles** in the left navigation. Select
     the **More** icon (three dots below each other) in the command bar
@@ -160,14 +159,14 @@ you imported in the previous exercise.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image13.png)
 
 4.  Select the **Choose File** button, select the **job-roles.csv** file
-    from **C:\LabFiles\LabFiles** and then select **Open**.
+    from **C:\LabFiles** and then select **Open**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image14.png)
+    ![](./media/a2.png)
 
 5.  Select **Next.** Leave the next step as is and select **Review
     Mapping**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image15.png)
+    ![](./media/a3.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image16.png)
 
@@ -185,17 +184,19 @@ you imported in the previous exercise.
 8.  Now, you will import the **Evaluation Criteria sample data**
 
 9.  Select **Evaluation Criteria** in the left navigation.
+    ![](./media/a4.png)
 
-10. Select **Import from CSV** like you did earlier. Select the **Choose
+11. Select **Import from CSV** like you did earlier. Select the **Choose
     File** button, select
-    the **evaluation-criteria.csv** from **C:\LabFiles\LabFiles**.
+    the **evaluation-criteria.csv** from **C:\LabFiles**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image20.png)
+    ![](./media/a5.png)
 
-11. Select **Next**. Leave the next step as is and select **Review
+13. Select **Next**. Leave the next step as is and select **Review
     Mapping**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image21.png)
+    ![](./media/a6.png)
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image22.png)
 
@@ -205,22 +206,23 @@ you imported in the previous exercise.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image23.png)
 
-12. Now we have to do a bit more work for the mapping. Select
+14. Now we have to do a bit more work for the mapping. Select
     the **magnifying glass icon** next to the **Job Role** field.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image24.png)
 
-13. Make sure **Job Title** is selected here, and if not - add it and
+15. Make sure **Job Title** is selected here, and if not - add it and
     select **OK**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image25.png)
 
-14. Make sure the rest of the mapping is correct too and select **Finish
+16. Make sure the rest of the mapping is correct too and select **Finish
     Import** and then select **Done**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image26.png)
+    ![](./media/a7.png)
 
-15. This can take a little while, but you can hit the **Refresh** button
+18. This can take a little while, but you can hit the **Refresh** button
     to see if the import has succeeded.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image27.png)
