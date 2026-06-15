@@ -544,18 +544,18 @@ Now you'll connect the published flow to your Application Intake Agent.
     Open the **Application Intake Agent**, locate the **Tools** panel
     and select **+Add**.
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image72.png)
+    ![](./media/a29.png)
 
-3.  Select **Flow** filter and select the **Resume Upload** flow.
+2.  Select **Flow** filter and select the **Resume Upload** flow.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image73.png)
+    ![](./media/a30.png)
 
-4.  Select **Add and configure**.
+3.  Select **Add and configure**.
 
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image74.png)
 
-5.  Set the following parameters for the **description** and **when the
+4.  Set the following parameters for the **description** and **when the
     tool should be used**.
 
     **Description** - `Uploads a Resume when instructed. STRICT RULE: Only
@@ -565,7 +565,7 @@ Now you'll connect the published flow to your Application Intake Agent.
     **Additional details** - **When this tool may be used** - only when
     referenced by topics or agents
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image75.png)
+    ![](./media/a31.png)
 
     >[!Note] This description tells the agent when it should call this
     tool. Notice the use of "strict rule" in the description. This gives a
@@ -577,49 +577,50 @@ Now you'll connect the published flow to your Application Intake Agent.
     child agent, not the main agent. Setting tha value to "only when
     referenced by topics or agents" ensure this.
 
-6.  Scroll down to the inputs section and select **Add Input** to add
+5.  Scroll down to the inputs section and select **Add Input** to add
     the following inputs:
 
     Inputs → Add Input - **contentBytes**
 
-    Inputs → Add Input - name
+    Inputs → Add Input - **name**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image76.png)
+    ![](./media/a32.png)
 
-7.  Now we need to set the properties of the inputs. We'll start with
+6.  Now we need to set the properties of the inputs. We'll start with
     the **contentBytes** input which will store the actual resume file.
-    Enable **Custom**. In the **Value** property, select
+    Enable **Custom**. Now, in the **Value** property, select
     the **three dots (...)**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image77.png)
+    ![](./media/a33.png)
 
-8.  Select the **Formula** tab. Paste in the following formula which
+7.  Select the **Formula** tab. Paste in the following formula which
     extracts the file from the chat and click the **Insert** button.
 
     `First(System.Activity.Attachments).Content`
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image78.png)
+    ![](./media/a34.png)
+    ![](./media/a35.png)
 
-9.  Now we'll configure the **name** input which will store the name of
+8.  Now we'll configure the **name** input which will store the name of
     the resume file. This will be hard coded as well so select
     the **Custom** option.
 
-10. Select the **three dots (...)** in the **Value** column and paste in
+9. Select the **three dots (...)** in the **Value** column and paste in
     the following formula which extracts the file name from the chat and
     click the **Insert** button.
     
     `First(System.Activity.Attachments).Name`
   
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image79.png)
+    ![](./media/a36.png)
 
-11. Now we'll configure the **Message** input. We want to fill this one
+10. Now we'll configure the **Message** input. We want to fill this one
     dynamically with AI so we'll leave the **Fill with AI** as-is. Select
     the **Additional details** button, so we can fill out
     additional details for how this should be filled.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image80.png)
+    ![](./media/a37.png)
 
-12. Enter the following in the **Description** field for the input. Then
+11. Enter the following in the **Description** field for the input. Then
     select **Advanced**.
 
     ```
@@ -633,42 +634,42 @@ Now you'll connect the published flow to your Application Intake Agent.
     is a crucial step to ensure that your agent knows how to fill in the
     input correctly.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image81.png)
+    ![](./media/a38.png)
 
-13. Expand out the **Advanced** section to configure some additional
+12. Expand out the **Advanced** section to configure some additional
     properties for this input. In the **How many reprompts** section,
     select **Don't repeat**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image82.png)
+    ![](./media/a39.png)
 
     >[!Note]: This setting helps you customize your user experience so the agent
     doesn't ask the same question multiple times if it can't identify the
     data it needs.
 
-14. Scroll down to the **No valid entity found** section. Select
+13. Scroll down to the **No valid entity found** section. Select
     the **Set variable to value** option in the **Action if no entity
     found** dropdown. Type +++Resume upload+++ in the **Default entity
     value** input.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image83.png)
+    ![](./media/a40.png)
 
     >[!Note] This setting lets us hard code a backup value if the agent is unable to
     dynamically fill this message input.
 
-15. We'll fill the **UserEmail** input by selecting the **Custom** option and select the **three
+14. We'll fill the **UserEmail** input by selecting the **Custom** option and select the **three
     dots (...)** in the **Value** column.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image84.png)
+    ![](./media/a41.png)
 
-16. Select the **System** tab and search for **User**. Select
+15. Select the **System** tab and search for **User**. Select
     the **User.Email** variable to get the email of the person using the
     agent
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image85.png)
+    ![](./media/a42.png)
 
-17. Select **Save**
+16. Select **Save**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image86.png)
+    ![](./media/a43.png)
 
 ## Task 6 - Define agent instructions
 
@@ -678,8 +679,8 @@ Intake agent.
 1.  Navigate back to the **Application Intake Agent** by selecting
     the **Agents** tab and selecting the **Application Intake Agent**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image87.png)
-
+    ![](./media/a44.png)
+    
 2.  In the **Instructions** field, paste the following clear guidance
     for your child agent.
     
@@ -699,7 +700,7 @@ Intake agent.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image88.png)
 
-4. Where the instructions include a forward slash (/), select the text
+3. Where the instructions include a forward slash (/), select the text
     following the / and select the resolved name. Do this for,
 
     - System.Activity.Attachments (Variable)
@@ -715,11 +716,11 @@ Intake agent.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image90.png)
 
-5. The instructions should now look like this.
+4. The instructions should now look like this.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image91.png)
 
-6. Select **Save.**
+5. Select **Save.**
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image92.png)
 
@@ -730,45 +731,43 @@ child agent and following our instructions.
 
 1.  **Toggle** the test panel open by selecting **Test**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image93.png)
-
-2.  Select the Attachement icon, select the resume - AVERY EXAMPLE pdf
+    ![](./media/a45.png)
+    
+2.  Select the Attachement icon, select the resume - AVERY EXAMPLE.pdf
     from **C:\LabFiles** and click **Open**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image94.png)
+    ![](./media/a46.png)
 
 3.  Give the message +++Process this resume+++ and hit **send**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image95.png)
-
+    ![](./media/a47.png)
 4.  The agent should then give a message similar to **The resume for
-    Avery Example has been successfully uploaded. The resume number is
-    R1001.**
+    Avery Example has been successfully uploaded.**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image96.png)
+    ![](./media/a48.png)
 
 5.  In the **Activity map**, you should see the **Application Intake
     Agent** handling the resume upload.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image97.png)
+    ![](./media/a49.png)
 
 6.  If the app is not open already, navigate to
     +++make.powerapps.com+++. Ensure the your current username is selected as environment
     in the top right Environment Picker. Select **Apps** → Hiring Hub →
     ellipsis(...) menu → **Play**
     
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image98.png)
+    ![](./media/a50.png)
 
     >[!Note] If the play button is greyed out it means you have not
     published your solution. Select **Solutions** → **Publish all
     customizations**.
 
-8.  In the Power Apps - Hiring Hub app, navigate to **Resumes**, and
+7.  In the Power Apps - Hiring Hub app, navigate to **Resumes**, and
     check that the resume file is uploaded and the cover letter is set
     accordingly.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image99.png)
-
+    ![](./media/a51.png)
+    
 ## Exercise 5: Adding the Interview Prep connected agent
 
 Now let's create our connected agent for interview preparation and add
@@ -800,24 +799,23 @@ it to your existing Hiring Agent. This agent is know as Interview Prep Agent - a
 1.  From the Copilot Studio, select the **Agents** tab in the left
     navigation and select **+ Create blank agent**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image100.png)
+    ![](./media/a51.png)
 
-2. Enter agent name as +++Interview Agent+++ and expand **Agent settings(Optional)** option.
-3.  Select the **Solution** as **Operative** and select **Create**.
+2. Enter agent name as +++Interview Agent+++ and expand **Agent settings(Optional)** option. Then select the **Solution** as **Operative** and select **Create**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image101.png)
+    ![](./media/a52.png)
 
-4.  Select **Edit** against the Details.
+3.  Select **Edit** against the Details.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image102.png)
+    ![](./media/a53.png)
 
-5.  Provide the below details and select **Save**.
+4.  Provide the below details and select **Save**.
 
     - **Description**: +++Assists with the interview process.+++
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image103.png)
-
-6.  Select **Edit** against **Instructions**, enter the below
+    ![](./media/a54.png)
+    
+5.  Select **Edit** against **Instructions**, enter the below
     instruction and select **Save**.
     
     ```
@@ -851,9 +849,9 @@ it to your existing Hiring Agent. This agent is know as Interview Prep Agent - a
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image104.png)
 
-7. Ensure that **Web Search** is **Disabled.**
+6. Ensure that **Web Search** is **Disabled.**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image105.png)
+    ![](./media/a55.png)
 
 ### Task 2: Configure data access and publish
 
@@ -862,12 +860,11 @@ agent.
 
 1.  In the **Knowledge** section, select **+ Add knowledge.**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image106.png)
+    ![](./media/a56.png)
 
 2.  Select **Dataverse**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image107.png)
-
+    ![](./media/a57.png)
 3.  In the **Search box**, type +++ppa\_+++. This is the prefix for the
     tables you imported previously in earlier lab.
 
@@ -878,7 +875,7 @@ agent.
 
 5.  Select the **Settings** button in the upper right hand corner
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image109.png)
+    ![](./media/a58.png)
 
 6.  Ensure that the following settings are configured.
 
@@ -890,22 +887,22 @@ agent.
 
     - **Content moderation level:** Medium
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image110.png)
+    ![](./media/a59.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image111.png)
+    ![](./media/a60.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image112.png)
+    ![](./media/a61.png)
 
 7.  Select **Save** and select the **X** in the upper right hand corner
     to close out of the settings menu.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image113.png)
+    ![](./media/a62.png)
 
 8.  Select **Publish**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image114.png)
-
-9.  Select **Publish** in the confirmation dialog and wait for the
+    ![](./media/a63.png)
+    
+9. Select **Publish** in the confirmation dialog and wait for the
     publishing to complete.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image115.png)
@@ -961,7 +958,8 @@ agent to achieve multi agent orchestration.
     resume to at least one suitable job role even if not a perfect
     match.
     ```
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image121.png)
+    ![](./media/a64.png)
+    ![](./media/a65.png)
 
 4.  Notice how the Hiring Agent delegated the upload to the child agent,
     and then asked the Interview Agent to provide a summary and job role
