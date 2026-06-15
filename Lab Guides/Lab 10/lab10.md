@@ -193,7 +193,7 @@ you imported in the previous exercise.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image20.png)
     ![](./media/a5.png)
 
-13. Select **Next**. Leave the next step as is and select **Review
+12. Select **Next**. Leave the next step as is and select **Review
     Mapping**
 
     ![](./media/a6.png)
@@ -206,23 +206,23 @@ you imported in the previous exercise.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image23.png)
 
-14. Now we have to do a bit more work for the mapping. Select
+13. Now we have to do a bit more work for the mapping. Select
     the **magnifying glass icon** next to the **Job Role** field.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image24.png)
 
-15. Make sure **Job Title** is selected here, and if not - add it and
+14. Make sure **Job Title** is selected here, and if not - add it and
     select **OK**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image25.png)
 
-16. Make sure the rest of the mapping is correct too and select **Finish
+15. Make sure the rest of the mapping is correct too and select **Finish
     Import** and then select **Done**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image26.png)
     ![](./media/a7.png)
 
-18. This can take a little while, but you can hit the **Refresh** button
+16. This can take a little while, but you can hit the **Refresh** button
     to see if the import has succeeded.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image27.png)
@@ -233,22 +233,22 @@ Now you are done with the setup of the prerequisites, it's time for the
 actual work! Let's add our Hiring Agent first!
 
 1.  From the Copilot Studio, select **Agents** from the left pane.
-    Select the drop down next to the **+ Create blank agent**. Enter the name as +++Hiring Agent+++ then select **Agent settings (Optional)**. 
+    Select **+ Create blank agent**. Enter the name as +++Hiring Agent+++ then select **Agent settings (Optional)**. 
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image28.png)
+    ![](./media/a8.png)
+    ![](./media/a9.png)
 
 2.  In the Agent settings, select the Solution as **Operative** and then
-    select **Confirm and create**.
+    select **Create**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image29.png)
-
+    ![](./media/a10.png)
 3.  Select **Edit** against the Details of the created agent.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image30.png)
+    ![](./media/a11.png)
 
 4.  Enter the Description as +++Central orchestrator for all hiring activities+++ and select **Save**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image31.png)
+    ![](./media/a12.png)
 
 ## Exercise 4 - Adding the Application Intake Agent
 
@@ -280,31 +280,25 @@ The Application Intake Agent fits perfectly as a child agent because:
 
 ### Task 1 - Solution setup
 
-1.  Open a browser and navigate to Copilot Studio using the url saved in
-    Lab 2 +++https://copilotstudio.microsoft.com+++ and login using your credentials if not done
-    already.
+1. select the **ellipsis (...)** from the left hand navigation. Then select **Solutions**.
 
-2.  Inside Copilot Studio, select the ellipsis (...) below Tools in the
-    left hand navigation.
+    ![](./media/a13.png)
 
-3.  Select **Solutions**.
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image32.png)
-
-4.  Locate your **Operative** solution, select the **ellipsis
+2.  Locate your **Operative** solution, select the **ellipsis
     (...)** next to it, and choose **Set preferred solution**.
     Select **Apply** in the dialogue box that pops up. This will ensure
     that all your work will be added to this solution.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image33.png)
+    ![](./media/a14.png)
 
-5.  Select Apply in the Set your preferred solution dialog box.
+3.  Select **Apply** in the Set your preferred solution dialog box.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image34.png)
+    ![](./media/a15.png)
 
 ### Task 2 - Configure your Hiring Agent instructions
 
-1.  From the Copilot Studio Agents list, open the **Hiring Agent**.
+1.  Navigate back to the Copilot Studio and open the **Hiring Agent**.
 
 2.  Select **Edit** in the **Instructions** section of
     the **Overview** tab of the agent.
@@ -324,7 +318,7 @@ The Application Intake Agent fits perfectly as a child agent because:
 
 5.  Select the **Settings** button in the top right of the screen.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image37.png)
+    ![](./media/a16.png)
 
 6.  Review the page and ensure the following settings are applied and
     then select **Save**.
@@ -338,11 +332,11 @@ The Application Intake Agent fits perfectly as a child agent because:
 
     - Continue using retired models - **Off**
 
-    - Content Moderation - **Moderate**
+    - Content moderation level - **Moderate**
 
     - Collect user reactions to agent messages - **On**
 
-    - Use general knowledge - **Off**
+    - Allow ungrounded responses - **Off**
 
     - Use information from the Web - **Off**
 
@@ -350,19 +344,16 @@ The Application Intake Agent fits perfectly as a child agent because:
 
     - Code Interpreter - **Off**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image38.png)
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image39.png)
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image40.png)
-
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image41.png)
+    ![](./media/a17.png)
+    ![](./media/a18.png)
+    ![](./media/a19.png)
+    ![](./media/a20.png)
 
 7.  Once the changes are saved, click the **X** in the upper right hand
     corner to close out of the settings menu
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image42.png)
-
+    ![](./media/a21.png)
+    
 ### Task 3 - Add the Application Intake child agent
 
 In this task, you will add a child agent to the Hiring agent.
@@ -384,20 +375,20 @@ In this task, you will add a child agent to the Hiring agent.
 
 5.  Set the **Description** to be - `Processes incoming resumes and stores candidates in the system`
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image45.png)
-
+    ![](./media/a22.png)
+    
 6.  Expand **Advanced**, and set the Priority to be +++10000+++. This will
     ensure that later the Interview Agent will be used to answer general
     questions before this one. A condition could be set here as well
     such as ensuring that there is at least one attachment.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image46.png)
+    ![](./media/a23.png)
 
 7.  Ensure that the toggle **Web Search** is set to **Disabled**. This
     is because we only want to use information provided by the parent
     agent. Select **Save**
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image47.png)
+    ![](./media/a24.png)
 
 ### Task 4 - Configure Resume Upload agent flow
 
@@ -420,15 +411,16 @@ existing) without depending on user interaction.
 
 2.  Select **+ Add**.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image48.png)
+    ![](./media/a25.png)
+    
+3.  Select **Agent flow**.
+    ![](./media/a26.png)
 
-3.  Select **Add new Workflow**. 
-
-5.  Select the **When an agent calls the flow** node, and select **+ Add an input**
+4.  Select the **When an agent calls the flow** node, and select **+ Add an input**
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image52.png)
 
-6.  Add **inputs**. Select the appropriate input type as shown in the
+5.  Add **inputs**. Select the appropriate input type as shown in the
     table and be sure to add both the name and the description. It's
     important to include the description because it will help the agent
     know what to fill in the input.
@@ -441,16 +433,16 @@ existing) without depending on user interaction.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image53.png)
 
-7.  Select the **+ icon** below the when an agent calls the flow node
+6.  Select the **+ icon** below the when an agent calls the flow node
     and search for +++Dataverse add+++, then select the **Add a new
     row** action in the **Microsoft Dataverse** section.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image54.png)
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image55.png)
+    ![](./media/a27.png)
 
     >[!Note] You may be prompted to create a new connection to
-    Dataverse after you add the action. Enter any **name** for the
+    Dataverse after you add the action. Enter your current username:+++@lab.CloudPortalCredential(User1).Username+++ for the
     connection and click **Signin** and follow the prompts to create that
     connection.
 
@@ -464,21 +456,21 @@ existing) without depending on user interaction.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image58.png)
 
-8.  Name the node +++Create Resume+++, by selecting the 3 dot and
+7.  Name the node +++Create Resume+++, by selecting the 3 dot and
     select **Rename**.  
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image59.png)
 
-9. Set the **Table name** to **Resumes**, then select **Show all**, to
+8. Set the **Table name** to **Resumes**, then select **Show all**, to
     show all the parameters.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image60.png)
 
-10. Set the following **properties**:
+9. Set the following **properties**:
 
     | Property | How to Set | 	Details / Expression |
     |----------|----------|----------|
-    | Resume Title  | VDynamic data (thunderbolt icon)  | When an agent calls the flow → Resume name If you don't see the Resume name, make sure you have configured the Resume parameter above as a data type.  |
+    | Resume Title  | Dynamic data (thunderbolt icon)  | When an agent calls the flow → Resume name If you don't see the Resume name, make sure you have configured the Resume parameter above as a data type.  |
     | Cover letter  | Expression (fx icon)  | Expression (fx icon)	`if(greater(length(triggerBody()?['text']), 2000), substring(triggerBody()?['text'], 0, 2000), triggerBody()?['text'])` Click on Add after the expression is entered.  |
     | Source Email Address  | Dynamic data (thunderbolt icon)  | When an agent calls the flow → UserEmail  |
     | Upload Date  | 	Expression (fx icon)  | 	`utcNow()` Click on Add after the expression is entered.  |
@@ -489,17 +481,17 @@ existing) without depending on user interaction.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image63.png)
 
-11. Select the **+ icon** below the Create Resume node, search
+10. Select the **+ icon** below the Create Resume node, search
     for +++Dataverse upload+++ and select the **Upload a file or an
     image** action.
 
-    ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image64.png)
+    ![](./media/a28.png)
 
-12. Name the node to +++Upload Resume File+++.
+11. Name the node to +++Upload Resume File+++.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image65.png)
 
-13. Set the following **properties**:
+12. Set the following **properties**:
 
     | Property | How to Set | Details |
     |----------|----------|----------|
@@ -511,7 +503,7 @@ existing) without depending on user interaction.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image66.png)
 
-14. Select the **Respond to the agent node**, and then select **+ Add an
+13. Select the **Respond to the agent node**, and then select **+ Add an
     output**. Create an output with the properties defined in the table
     below.
 
@@ -526,11 +518,11 @@ existing) without depending on user interaction.
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image68.png)
 
-15. Select **Save draft** on the top right
+14. Select **Save draft** on the top right
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image69.png)
 
-16. Select the **Overview** tab, Select **Edit** on
+15. Select the **Overview** tab, Select **Edit** on
     the **Details** panel. Fill in the name and description as shown
     below and select **Save**
 
@@ -540,7 +532,7 @@ existing) without depending on user interaction.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image70.png)
 
-17. Select the **Designer** tab again and select **Publish**.
+16. Select the **Designer** tab again and select **Publish**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image71.png)
 
@@ -554,7 +546,7 @@ Now you'll connect the published flow to your Application Intake Agent.
     
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image72.png)
 
-3.  Select **Workflows** filter and select the **Resume Upload** flow.
+3.  Select **Flow** filter and select the **Resume Upload** flow.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image73.png)
 
@@ -596,8 +588,7 @@ Now you'll connect the published flow to your Application Intake Agent.
 
 7.  Now we need to set the properties of the inputs. We'll start with
     the **contentBytes** input which will store the actual resume file.
-    Select **Custom value** from the **Fill using** dropdown next to
-    the **contentBytes** input. In the **Value** property, select
+    Enable **Custom**. In the **Value** property, select
     the **three dots (...)**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image77.png)
@@ -611,7 +602,7 @@ Now you'll connect the published flow to your Application Intake Agent.
 
 9.  Now we'll configure the **name** input which will store the name of
     the resume file. This will be hard coded as well so select
-    the **Custom value** option in the **Fill using** column.
+    the **Custom** option.
 
 10. Select the **three dots (...)** in the **Value** column and paste in
     the following formula which extracts the file name from the chat and
@@ -622,8 +613,8 @@ Now you'll connect the published flow to your Application Intake Agent.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image79.png)
 
 11. Now we'll configure the **Message** input. We want to fill this one
-    dynamically with AI so we'll leave the fill using as-is. Select
-    the **Customize** button in the **Value** column so we can fill out
+    dynamically with AI so we'll leave the **Fill with AI** as-is. Select
+    the **Additional details** button, so we can fill out
     additional details for how this should be filled.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image80.png)
@@ -664,8 +655,7 @@ Now you'll connect the published flow to your Application Intake Agent.
     >[!Note] This setting lets us hard code a backup value if the agent is unable to
     dynamically fill this message input.
 
-15. We'll fill the **UserEmail** input by selecting the **Custom
-    value** option in the **Fill using** column and select the **three
+15. We'll fill the **UserEmail** input by selecting the **Custom** option and select the **three
     dots (...)** in the **Value** column.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image84.png)
@@ -685,7 +675,7 @@ Now you'll connect the published flow to your Application Intake Agent.
 In this task, you will define the agent instructions for the Application
 Intake agent.
 
-1.  Move back in to the **Application Intake Agent** by selecting
+1.  Navigate back to the **Application Intake Agent** by selecting
     the **Agents** tab and selecting the **Application Intake Agent**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image87.png)
@@ -743,7 +733,7 @@ child agent and following our instructions.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image93.png)
 
 2.  Select the Attachement icon, select the resume - AVERY EXAMPLE pdf
-    from **C:\LabFiles\LabFiles** and click **Open**.
+    from **C:\LabFiles** and click **Open**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image94.png)
 
@@ -763,7 +753,7 @@ child agent and following our instructions.
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image97.png)
 
 6.  If the app is not open already, navigate to
-    +++make.powerapps.com+++. Ensure the Dev One environment is selected
+    +++make.powerapps.com+++. Ensure the your current username is selected as environment
     in the top right Environment Picker. Select **Apps** → Hiring Hub →
     ellipsis(...) menu → **Play**
     
@@ -808,29 +798,26 @@ it to your existing Hiring Agent. This agent is know as Interview Prep Agent - a
 ### Task 1: Create the connected Interview Agent
 
 1.  From the Copilot Studio, select the **Agents** tab in the left
-    navigation and select the **drop down** next to **+ Create blank
-    agent**, and select **Advanced create**.
+    navigation and select **+ Create blank agent**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image100.png)
 
-2.  Select the **Solution** as **Operative** and select **Confirm and
-    create**.
+2. Enter agent name as +++Interview Agent+++ and expand **Agent settings(Optional)** option.
+3.  Select the **Solution** as **Operative** and select **Create**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image101.png)
 
-3.  Select **Edit** against the Details.
+4.  Select **Edit** against the Details.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image102.png)
 
-4.  Provide the below details and select **Save**.
-
-    - **Name**: +++Interview Agent+++
+5.  Provide the below details and select **Save**.
 
     - **Description**: +++Assists with the interview process.+++
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image103.png)
 
-5.  Select **Edit** against **Instructions**, enter the below
+6.  Select **Edit** against **Instructions**, enter the below
     instruction and select **Save**.
     
     ```
@@ -940,16 +927,16 @@ agent to achieve multi agent orchestration.
     >[!Note] If the Interview Agent is greyed out and not selectable then that means
     it did not Publish. Go back to the Interview Agent and publish it first.
 
-3.  Set the **Description** to be,
-
-4.  Assists with the interview process and provides information about
+3.  Set the **Description** to be:
+    ```
+    Assists with the interview process and provides information about
     Resumes, Candidates, Job Roles, and Evaluation Criteria.
-
+    ```
 5.  Notice that the Pass conversation history to this agent is checked.
     This allows the parent agent to provide full context to the
     connected agent.
 
-6.  Select Add and configure.
+6.  Select **Add and configure**.
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image118.png)
 
@@ -968,12 +955,12 @@ agent to achieve multi agent orchestration.
 2.  **Upload** one of the test resumes (AVERY EXAMPLE or TAYLOR
     TESTPERSON pdf), and enter the following description which tell the
     parent agent what it can delegate to the connected agent:
-
-3.  Upload this resume, then show me open job roles, each with a
+    ```
+    Upload this resume, then show me open job roles, each with a
     description of the evaluation criteria, then use this to match the
     resume to at least one suitable job role even if not a perfect
     match.
-
+    ```
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image121.png)
 
 4.  Notice how the Hiring Agent delegated the upload to the child agent,
