@@ -881,7 +881,7 @@ agent.
 
     - **Let other agents connect to and use this one:** On
 
-    - **Use general knowledge**: Off
+    - **Allow ungrounded responses**: Off
 
     - **File uploads**: Off
 
@@ -926,8 +926,7 @@ agent to achieve multi agent orchestration.
 
 3.  Set the **Description** to be:
     ```
-    Assists with the interview process and provides information about
-    Resumes, Candidates, Job Roles, and Evaluation Criteria.
+    Assists with the interview process and provides information about Resumes, Candidates, Job Roles, and Evaluation Criteria.
     ```
 5.  Notice that the Pass conversation history to this agent is checked.
     This allows the parent agent to provide full context to the
@@ -953,10 +952,7 @@ agent to achieve multi agent orchestration.
     TESTPERSON pdf), and enter the following description which tell the
     parent agent what it can delegate to the connected agent:
     ```
-    Upload this resume, then show me open job roles, each with a
-    description of the evaluation criteria, then use this to match the
-    resume to at least one suitable job role even if not a perfect
-    match.
+    Upload this resume, then show me open job roles, each with a description of the evaluation criteria, then use this to match the resume to at least one suitable job role even if not a perfect match.
     ```
     ![](./media/a64.png)
     ![](./media/a65.png)
