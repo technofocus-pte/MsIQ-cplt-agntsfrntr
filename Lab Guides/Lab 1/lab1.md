@@ -158,7 +158,7 @@ Copilot to automate email triage.
     Now your agent is ready to use.
     ![](./media/b6.png)
 
-## Exercise 2: Build Zava Email Triage Agent
+## Exercise 2: Build Zava Email Triage Workflow
 
 ### Task 1: Populate the Inbox with Sample Emails
 Populate the Outlook inbox with realistic unread sample emails so the Zava Email Triage Agent can analyze, categorize, and generate actionable insights from them during workflow execution.
@@ -264,13 +264,8 @@ After processing your prompt, you will see the run results:
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%201/media/image18.png)
 
-4.  If something looks wrong:
 
-    - Update the prompt
-
-    - Re-test
-
-5.  Check for the following test results for Zava Retail.
+4.  Check for the following test results for Zava Retail.
 
     - Are customer complaints in urgent?
 
