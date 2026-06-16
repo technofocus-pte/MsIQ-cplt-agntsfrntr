@@ -155,7 +155,8 @@ items in the notes.
 
 2.  Review the output:  
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image12.png)
-    >Note: Generated outputs are non-deterministic and may vary across users, sessions, and environments.
+    
+    > Note: Generated outputs are non-deterministic and may vary across users, sessions, and environments.
 
 ### Task 3: Generate a Calendar Invite
 
@@ -227,61 +228,61 @@ comprehensive version of the report with deeper analysis and visuals.
 1. In the Copilot prompt field, paste the following prompt and select
 the **Send** button.
 
-  ```
-  Expand the previous Relecloud acquisition report and include all
-  prior information, plus the following additional analysis:
-
-  1.  Financial Analysis Section:
-
-  - Valuation and deal structure, including valuation multiples and deal
-    structure implications
-
-  - Financial health and ratios, including liquidity, solvency,
-    profitability trends, gross-to-net retention by cohort, regional ARR
-    dynamics, and cash flow analysis
-
-  - Revenue and customer concentration, including revenue breakdown,
-    concentration risks by customer and sector, churn drivers, and
-    retention trends
-
-  - Include line or bar charts showing revenue, EBITDA, net income, gross
-    margin, and operating margin trends over time
-
-  2.  Operations Analysis Section:
-
-  - Cost structure and efficiency, including COGS, OpEx, efficiency
-    metrics, and scalability assessment
-
-  - Competitive positioning, including SWOT analysis and peer
-    benchmarking
-
-  - Include a SWOT Matrix visual summarizing strengths, weaknesses,
-    opportunities, and threats
-
-  - Include a Scalability Assessment Diagram illustrating DevSecOps
-    maturity, infrastructure readiness, and organizational scalability.
-
-  3.  Integration Planning Section:
-
-  - Synergy and integration modeling, including synergy realization
-    opportunities, integration risks, and post-merger integration
-    planning
-
-  - Leadership and organizational review, including management track
-    record and organizational structure assessment
-
-  - Include an Integration Timeline (Gantt Chart) showing phases and
-    milestones for post-merger integration
-
-  - Format the report as a detailed executive acquisition analysis
-    suitable for finance leadership decision-making
-  ```
-
-  ![](./media/m20.png)
+    ```
+    Expand the previous Relecloud acquisition report and include all
+    prior information, plus the following additional analysis:
+  
+    1.  Financial Analysis Section:
+  
+    - Valuation and deal structure, including valuation multiples and deal
+      structure implications
+  
+    - Financial health and ratios, including liquidity, solvency,
+      profitability trends, gross-to-net retention by cohort, regional ARR
+      dynamics, and cash flow analysis
+  
+    - Revenue and customer concentration, including revenue breakdown,
+      concentration risks by customer and sector, churn drivers, and
+      retention trends
+  
+    - Include line or bar charts showing revenue, EBITDA, net income, gross
+      margin, and operating margin trends over time
+  
+    2.  Operations Analysis Section:
+  
+    - Cost structure and efficiency, including COGS, OpEx, efficiency
+      metrics, and scalability assessment
+  
+    - Competitive positioning, including SWOT analysis and peer
+      benchmarking
+  
+    - Include a SWOT Matrix visual summarizing strengths, weaknesses,
+      opportunities, and threats
+  
+    - Include a Scalability Assessment Diagram illustrating DevSecOps
+      maturity, infrastructure readiness, and organizational scalability.
+  
+    3.  Integration Planning Section:
+  
+    - Synergy and integration modeling, including synergy realization
+      opportunities, integration risks, and post-merger integration
+      planning
+  
+    - Leadership and organizational review, including management track
+      record and organizational structure assessment
+  
+    - Include an Integration Timeline (Gantt Chart) showing phases and
+      milestones for post-merger integration
+  
+    - Format the report as a detailed executive acquisition analysis
+      suitable for finance leadership decision-making
+    ```
+  
+    ![](./media/m20.png)
 
 2. Review the output:
    
-![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image19.png)
+  ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%207/media/image19.png)
 
 ## Summary
 
