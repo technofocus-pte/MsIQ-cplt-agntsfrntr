@@ -78,7 +78,7 @@ intelligent and trustworthy.
     ![](./media/a8.png)
     ![](./media/a9.png)
 
-11. Under **Documents** Section, click **three dots(...)** and then select **Uploads -> Folder**.
+11. Under **Documents** Section, click **three dots(...)** and then select **Uploads -> Folder upload**.
     ![](./media/a10.png)
 12. Navigate to **C:\Labfiles\Lab6-Lab files** and select **HR Document** folder and then select **Open** to add this folder in the site.
     ![](./media/a11.png)
