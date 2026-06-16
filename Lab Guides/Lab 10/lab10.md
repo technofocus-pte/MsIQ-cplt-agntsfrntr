@@ -1477,10 +1477,10 @@ be used later in this lab.
 
     | Parameter | How to Set | Details |
     |----------|----------|----------|
-    | Post as  | Dropdown  | Select the Flow bot option  |
-    | Post in  | Dropdown  | Select the Channel option |
-    | Team  | Dropdown  | Select HR Team option  |
-    | Team  |Dropdown  | Select Applicants channel  |
+    | Post as  | Dropdown  | Select the **Flow bot** option  |
+    | Post in  | Dropdown  | Select the **Channel** option |
+    | Team  | Dropdown  | Select **HR Team** option  |
+    | Channel  |Dropdown  | Select **Applicants channel**  |
 
     ![](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2010/media/image193.png)
 
