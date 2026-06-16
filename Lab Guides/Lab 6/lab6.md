@@ -82,16 +82,20 @@ intelligent and trustworthy.
 
 11. Under **Documents** Section, click **three dots(...)** and then select **Uploads -> Folder upload**.
     ![](./media/a10.png)
+    
 12. Navigate to **C:\Labfiles\Lab6-Lab files** and select **HR Document** folder and then select **Open** to add this folder in the site.
     ![](./media/a11.png)
+    
 13. Select **Upload** to upload the folder in the site.
     ![](./media/a12.png)
+    
 14. Similarly add the remaining folders individaully in the site.
     - Product Specs Folder
     - Project Updates
     - Shift Handover notes
     - SOP library
-    ![](./media/a13.png)
+
+    ![](./media/q13.png)
 
 >[!Note] Before testing your Copilot Agent, ensure that all
 required source documents (such as project updates, SOP files, product
