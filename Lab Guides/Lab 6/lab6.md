@@ -73,7 +73,9 @@ intelligent and trustworthy.
 9. Paste the site name as +++**ZavaSite**+++ and then click **Create Site** button.
 
     ![](./media/a7.png)
-   > Note: If you encounter any error in **site address** please add 3-digit unique number at the end of ZavaSite to make the address unique.
+   
+   **Note:** If you encounter any error in **site address** please add 3-digit unique number at the end of ZavaSite to make the address unique.
+
 10. Select **Go to site** to open the newly created site.
     ![](./media/a8.png)
     ![](./media/a9.png)
