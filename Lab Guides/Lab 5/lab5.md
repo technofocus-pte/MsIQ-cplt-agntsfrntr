@@ -202,7 +202,6 @@ Patricia logs into Copilot to review Festive Campaign readiness.
     start using the agent.
 
     ![](./media/q11.png)
-    ![](./media/q12.png)
     
 ## Exercise 2: Access Frontline Operations Agent in Microsoft Teams
 
