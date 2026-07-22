@@ -188,7 +188,7 @@ Creating plans in the planner
 
     Now we are ready with the lab setup.
 
-# Exercise 1 – Explore Planner Agent
+## Exercise 1 – Explore Planner Agent
 
 As the Regional Operations Manager, Priya Nair needs a quick overview of
 the Peak Season Readiness Program before reviewing project progress.
