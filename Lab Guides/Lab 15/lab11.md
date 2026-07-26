@@ -1,4 +1,4 @@
-# Lab 11 - Modernize Customer Support at Zava Retail with an AI-Powered Product Knowledge Agent using Azure AI Search and Foundry Models
+# Lab 15 - Modernize Customer Support at Zava Retail with an AI-Powered Product Knowledge Agent using Azure AI Search and Foundry Models
 
 **Estimated duration** - 60 minutes
 
@@ -504,7 +504,8 @@ search. You will vectorize the uploaded data in this exercise.
 5.  In the Vectorize your text screen, the subscription is
     pre-populated. Enter the below details and click **Next**.
 
-    - Azure OpenAI resource - Select **openaiservice@Lab.LabInstance.ID**
+    - Kind - Select **Foundry resource(Microsoft Foundry/Azure OpenAI)**
+    - Microsoft Foundry service/project - Select **openaiservice@Lab.LabInstance.ID**
 
     - Model deployment - Select **text-embedding-3-large**
 
@@ -512,8 +513,7 @@ search. You will vectorize the uploaded data in this exercise.
 
     - Select the checkbox to acknowledge the cost alert of Azure OpenAI.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image53.png)
+    ![](./media/aa34.png)
 
 6.  Select Next in the **Vectorize and enrich your images** screen since
     we are not dealing with images here and select **Next** in
@@ -633,20 +633,14 @@ it in the Copilot Studio (in the next exercise).
 
     ![](./media/v42.png)
     
-4.  Select **gpt-4o** and select **Confirm**.
-
-    ![](./media/v43.png)
+4.  Select **phi-4** and select **Confirm**.
     
-5.  In the Deploy gpt-4o dialog, enter the **Deployment name** as
+5.  In the Deploy phi-4 dialog, enter the **Deployment name** as
     +++ModelforMCS+++, accept the other defaults and
     select **Deploy.**
 
-    ![](./media/v44.png)
-
 6.  Copy the Target URI and key values to a notepad to be used during
     the connection creation from the Copilot Studio.
-
-    ![](./media/v45.png)
 
 Now that the model is deployed, you can use it in Copilot Studio's agent
 prompt.
@@ -684,13 +678,11 @@ business requirements and then use it in Copilot Studio.
 
     - Model deployment name - +++ModelforMCS+++
 
-    - Base model name - +++gpt-4o+++
+    - Base model name - +++Phi-4+++
 
     - Azure model endpoint URL - Enter the target url saved earlier
 
     - API Key - Enter the model API key saved earlier.
-
-    ![](./media/v51.png)
 
 6.  Once connected, select **Close**.
 
