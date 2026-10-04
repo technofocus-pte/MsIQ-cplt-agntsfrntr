@@ -638,7 +638,7 @@ it in the Copilot Studio (in the next exercise).
     ![](./media/v42.png)
     
 4.  Enter **gpt-4.1** in the search bar and select **gpt-4.1** ->**Confirm**.
-    [](./media/dd3.png)
+    ![](./media/dd3.png)
     
 5.  In the Deploy gpt-4.1 dialog, enter the **Deployment name** as
     +++ModelforMCS+++, accept the other defaults and
@@ -666,7 +666,7 @@ business requirements and then use it in Copilot Studio.
     
 2.  Select **Prompt** since we are going to add a new prompt.
 
-    ![](./media/v48.png)
+    ![](./media/dd10.png)
 
 3.  In the Custom prompt screen, select the drop down next to
     the **model** name.
