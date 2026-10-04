@@ -76,7 +76,7 @@ Search, Azure OpenAI, and Microsoft Copilot Studio, while also
 integrating a custom model from Microsoft Foundry to align with
 enterprise-grade AI deployment practices.
 
-**Key Personas**
+## Key Personas
 
 **1. Sarah Mitchell - Customer Support Director**
 
@@ -131,7 +131,7 @@ enterprise-grade AI deployment practices.
 
 - Success metric: Get accurate answers instantly without waiting
 
-**Objective**
+## Objective
 
 In this lab, you will:
 
@@ -549,19 +549,23 @@ Studio.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](https://raw.githubusercontent.com/technofocus-pte/MsIQ-cplt-agntsfrntr/refs/heads/main/Lab%20Guides/Lab%2011/media/image58.png)
 
-2. Select **Agents** and then select **Create blank agent**.
+2. Select the three ellipsis(...) and select **Open classic experience**.
+   ![](./media/dd1.png)
+3. Select **Skip Feedback**.
+   ![](./media/dd2.png)
+4. Select **Agents** and then select **Create blank agent**.
    ![](./media/v34.png)
 
-3. Enter +++Retail assistant+++ as your agent name and then click **Create** button to create new agent in Copilot Studio.
+5. Enter +++Retail assistant+++ as your agent name and then click **Create** button to create new agent in Copilot Studio.
    ![](./media/v35.png)
 
-4. Select **Edit** and enter `You are a Retail assistant agent for customers HR who will answer questions related to the store products` as your description. Click **Save** to save the changes.
+6. Select **Edit** and enter `You are a Retail assistant agent for customers HR who will answer questions related to the store products` as your description. Click **Save** to save the changes.
    ![](./media/v36.png)
     
-5.  Once the agent is created, in the Test pane, enter +++What is the warranty period for Washing machine ?+++ and click **Send**.`
+7.  Once the agent is created, in the Test pane, enter +++What is the warranty period for Washing machine ?+++ and click **Send**.`
     ![](./media/v37.png)
   
-6.  It gives a generalized reply as in the screenshot below.
+8.  It gives a generalized reply as in the screenshot below.
    ![](./media/v38.png)
 
 ## Exercise 6: Add the Azure AI Search as a knowledge source
@@ -633,14 +637,17 @@ it in the Copilot Studio (in the next exercise).
 
     ![](./media/v42.png)
     
-4.  Select **phi-4** and select **Confirm**.
+4.  Enter **gpt-4.1** in the search bar and select **gpt-4.1** ->**Confirm**.
+    [](./media/dd3.png)
     
-5.  In the Deploy phi-4 dialog, enter the **Deployment name** as
+5.  In the Deploy gpt-4.1 dialog, enter the **Deployment name** as
     +++ModelforMCS+++, accept the other defaults and
     select **Deploy.**
+    ![](./media/dd4.png)
 
 6.  Copy the Target URI and key values to a notepad to be used during
     the connection creation from the Copilot Studio.
+    ![](./media/dd5.png)
 
 Now that the model is deployed, you can use it in Copilot Studio's agent
 prompt.
@@ -678,7 +685,7 @@ business requirements and then use it in Copilot Studio.
 
     - Model deployment name - +++ModelforMCS+++
 
-    - Base model name - +++Phi-4+++
+    - Base model name - +++gpt-4.1+++
 
     - Azure model endpoint URL - Enter the target url saved earlier
 
@@ -693,15 +700,22 @@ business requirements and then use it in Copilot Studio.
 
     ![](./media/v52.png)
 
-8.  Rename the prompt to +++WM Types+++. Enter +++What are the different types of Washing Machines?+++ and select **Test**.
+8.  Rename the prompt to +++WM Types+++.
+9.  Enter +++What are the different types of Washing Machines?+++ and select **Send**.
 
-    ![](./media/v53.png)
+    ![](./media/dd6.png)
     
-9. Scroll down and select **Save** to save the prompt.
+10. Select **Keep it**.
+    ![](./media/dd7.png)
+    
+11. Select **Test**.
+    ![](./media/dd8.png)
+    
+13. Scroll down and select **Save** to save the prompt.
 
-    ![](./media/v54.png)
+    ![](./media/dd9.png)
 
-10. Select the **Add and configure** option to add the prompt to the
+14. Select the **Add and configure** option to add the prompt to the
     agent.
 
     ![A screenshot of a computer AI-generated content may be
