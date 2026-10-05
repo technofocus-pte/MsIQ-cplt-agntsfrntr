@@ -66,7 +66,7 @@ In this lab, you will:
 4.  Install the newly published agent in Microsoft Teams and verify it
     responds correctly to real user prompts.
 
-5.  Block and unblock an existing agent (Frontline Operations Assistant)
+5.  Block and unblock an existing agent
     and understand the impact of each action.
 
 6.  Export the full agent inventory to CSV for offline reporting and
@@ -103,15 +103,29 @@ Priya Nair as the knowledge source.
     
     ![](./media/image3.png)
 
-4.  Select **Agent** to build a new agent.
+4. Select the **three ellipsis(...)** from the bottom left side and then select **Open Classic experience**.
+   ![](./media/mm1.png)
+   
+5. Select **Skip feedback**.
+   ![](./media/mm2.png)
+   
+6.  Select **Agent** to build a new agent.
 
-    ![](./media/image4.png)
+    ![](./media/mm3.png)
 
-5.  Enter the following details of the agent:
-
-    - **Name:** Holiday Returns Helper
-
-    - **Instructions:**
+7. Select **+Create blank agent**.
+    ![](./media/mm4.png)
+   
+8.  Enter the name of the agent as +++Holiday Returns Helper+++.
+    ![](./media/mm5.png)
+    
+9. Select **Edit**, enter the following description and then select **Save**:
+    ```
+    Assists Zava Retail store associates with questions about holiday returns, exchanges, and refunds using the company's holiday return policy
+    ```
+    ![](./media/mm6.png)
+  
+10. Scroll down and locate instruction field. Select **Edit**->Enter the following instructions->Select **Save**.
     ```
     You are Holiday Returns Helper for Zava Retail.
     Your role is to assist store associates with questions about holiday returns, exchanges, and refunds.
@@ -120,44 +134,55 @@ Priya Nair as the knowledge source.
     If the information is not available in the knowledge source, state that you couldn't find the answer rather than making assumptions.
     Do not answer unrelated questions.
     ```
-    ![](./media/image5.png)
+    ![](./media/mm7.png)
 
-6.  Select **knowledge** from the left navigation menu to add a
-    knowledge source from C:\Lab Files\Agent365Lab.
+12. Select **knowledge** from the Knowledge section to add a
+    knowledge source.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image6.png)
+    ![](./media/mm8.png)
 
-7.  Select **Click to upload** the document.
+11. Select **Select to browser** to upload documentfrom C:\Lab Files\Agent365Lab.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image7.png)
+    ![](./media/mm9.png)
 
-8.  Click **Add to agent.**
+12. Click **Add to agent.**
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image8.png)
+    ![](./media/mm10.png)
 
-9.  Remove the **search all website** option.
+13. Select **Publish(Twice)** to publish the agent.
+    
+     ![](./media/mm11.png)
+    
+    ![](./media/mm12.png)
+    
+14. Select **Channels** from the above navigation menu.
+    
+    ![](./media/mm13.png)
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image9.png)
+15. Select **Microsoft 365 and Microsoft Teams**.
+    
+    ![](./media/image14.png)
 
-10. Click the publish drop-down menu. Make sure Teams + Microsoft 365
-    are selected. Turn on Microsoft 365. Click **Save and publish**.
+16. Then select **Add channel**.
+    
+    ![](./media/image15.png)
+    
+17. Select **Availability options**.
+    
+    ![](./media/mm16.png)
+    
+18. On the Microsoft 365 and Microsoft Teams page, select **Show to everyone in my org**.
+    
+    ![](./media/mm17.png)
+    
+19. Select **Submit to org catalog**. And on the Give everyone access to this agent? confirmation dialog, select **Yes**.
+    ![](./media/mm18.png)
+    
+20. Close the window and select **Publish(twice)** to publish the agent.
 
-    ![](./media/image10.png)
+    ![](./media/mm19.png)
 
-11. Select Publish to publish the agent.
-
-    ![](./media/image11.png)
-
-12. Select the **preview** tab to test the agent.
-
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image12.png)
-
-13. Enter the following prompt in the prompt field. Select the **Send**
+21. Enter the following prompt in the prompt field to the test the agent. Select the **Send**
     button.
 
     ```
@@ -167,13 +192,13 @@ Priya Nair as the knowledge source.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image13.png)
 
-14. The agent should explain the return window using the uploaded
+22. The agent should explain the return window using the uploaded
     policy.
     
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image14.png)
 
-15. Enter the following prompt and select the **Send** button.
+23. Enter the following prompt and select the **Send** button.
 
     ```
     Can a customer exchange an item instead of requesting a refund?
@@ -182,7 +207,7 @@ Priya Nair as the knowledge source.
     ![A screenshot of a computer AI-generated content may be
     incorrect.](./media/image15.png)
 
-16. The exchange policy should match the knowledge document.
+24. The exchange policy should match the knowledge document.
 
     ![A screenshot of a computer screen AI-generated content may be
     incorrect.](./media/image16.png)
@@ -353,43 +378,33 @@ questions and confirm that it provides accurate and relevant responses.
     ![A screenshot of a computer
     AI-generated content may be incorrect.](./media/image38.png)
 
-## Exercise 4: Block and Unblock the Frontline Operations Assistant
+## Exercise 4: Block and Unblock the Holiday Returns Helper
 
-Practice the emergency control every AI admin needs: immediately
-stopping an agent tenant-wide, and safely restoring it once a concern
-has been resolved. Riley Osei from Compliance & Risk has asked you to
-pause Sam Torres's Frontline Operations Assistant while a policy-wording
-issue is reviewed.
+Practice the emergency governance control used to temporarily stop an agent across the organization. During a compliance review, Riley Osei from Compliance & Risk has identified a concern with the Holiday Returns Helper's return-policy responses and asks Maya Chen to temporarily pause the agent while the wording is reviewed.
 
 ### Task 1: Block an Agent
 
-Use the Registry to halt the Frontline Operations Assistant for all
-users and record why it was blocked, per Riley Osei's request.
+Use the Agent Registry to temporarily stop the Holiday Returns Helper from being accessed by users across the organization
 
 1.  On the **All agents** page, select the **Registry** tab, then search
-    for and select Frontline Operations Assistant in the agent list.
+    for and select Holiday Returns Helper in the agent list.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image39.png)
+    ![](./media/mm20.png)
 
 2.  On the details panel, select **Block**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image40.png)
+    ![](./media/mm21.png)
 
 3.  On the **Block agent** pane, review the message confirming that
     blocking will prevent all users in the organisation from accessing
-    the agent. Check the box next to **Block agent**. Also select the
-    reason for block: Not approved for use. Select **Save**.
+    the agent. Check the box next to **Block agent**. Select **Confirm**.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image41.png)
+    ![](./media/mm22.png)
 
 4.  Confirm that Frontline Operations Assistant now displays
     a **Blocked** status.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image42.png)
+    ![](./media/mm23.png)
 
 ### Task 2: Unblock an Agent
 
@@ -399,28 +414,24 @@ longer needed.
 
 1.  Select the block agent.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image43.png)
+    ![](./media/mm23.png)
 
 2.  On the **Unblock agent** pane, select the **Unblock
     agent** checkbox. 
     
-    ![A screenshot of a computer AI-generated content
-    may be incorrect.](./media/image44.png)
+    ![](./media/mm24.png)
 
-3.  Select the unblock agent checkbox. Select **Save**. Close the
+3.  Select the unblock agent checkbox. Select **Confirm**. Close the
     details panel.
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image45.png)
+    ![](./media/mm25.png)
 
-    ![A screenshot of a computer AI-generated content may be
-    incorrect.](./media/image46.png)
+    ![](./media/mm26.png)
 
 4.  In the agent list, confirm that Frontline Operations Assistant now
     displays an **Active** status.
 
-    ![](./media/image47.png)
+    ![](./media/mm27.png)
 
 ## Exercise 5: Export the Agent Inventory
 
@@ -452,7 +463,7 @@ the admin center.
     publisher, creator, creation date, host products, and availability
     status.
 
-    ![](./media/image50.png)
+    ![](./media/mm28.png)
 
 6.  Close the CSV file.
 
