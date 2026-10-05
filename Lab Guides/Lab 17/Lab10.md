@@ -161,11 +161,11 @@ Priya Nair as the knowledge source.
 
 15. Select **Microsoft 365 and Microsoft Teams**.
     
-    ![](./media/image14.png)
+    ![](./media/mm14.png)
 
 16. Then select **Add channel**.
     
-    ![](./media/image15.png)
+    ![](./media/mm15.png)
     
 17. Select **Availability options**.
     
